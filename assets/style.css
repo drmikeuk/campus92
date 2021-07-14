@@ -1,0 +1,147 @@
+/* my styles */
+.footer       {background: #white; padding: 3em 0 2em;   margin-top: 0em}
+.footer p     {color: darkgrey}
+h2            {padding-top: 0.5rem; padding-bottom: 2rem; font-weight: 300}
+
+/* grid -- my css to mimick their responsive js */
+.nuitilegrid {width:584px; margin: 0 auto;}
+
+@media (min-width: 876px) {
+  .nuitilegrid {width:876px}
+}
+@media (min-width: 1168px) {
+  .nuitilegrid {width:1168px}
+}
+
+.pt_homepage  {background-color: #EFF1F4; padding-bottom: 3em}
+
+
+/* campus styles */
+
+/* grid */
+.nuilpcont {
+    overflow: hidden;
+    text-align: center; width: 100%;
+
+}
+
+/* tile */
+.nuitilegrid .ps_grid-row {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin: 21px;
+    color: #666;}
+
+.nuitile .nuilp {
+    border: 1px solid #CED4DA; }
+
+.nuitile .nuilp {
+    position: absolute;
+    left: 0em;
+    right: 0em;
+    top: 0em;
+    bottom: 0em;
+    overflow: hidden;
+    white-space: normal;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    background: #fff;
+    border-radius: 0.35em; }
+
+.nuitile            { float: left; }
+.rsz_h1             { height: 197px; }
+.rsz_w1             { width: 250px; }
+.rsz_w2             { width: 542px; }
+
+
+/* label */
+.nuitile .ps_groupleth {
+    /*font-family: Helvetica;  */     /* font */
+    font-size: 1em;
+    font-weight: bold;
+    text-align: left;
+    padding: 0.4em 0em;
+    text-align: center; }
+
+.nuitile .ps_groupleth > .ps-label {
+    white-space: nowrap;
+    color: #1e5ca4;             /* blue */
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold; }
+
+
+/* icon */
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.nuitile .ps_box-grouplet  {
+    overflow: hidden;
+    position: absolute;
+    top: 1.8em;
+    bottom: 0.4em;
+    left: 0.4em;
+    right: 0.4em;
+}
+
+.nuitile .ps_box-grouplet img.ps_process,
+.pst_rc-general .ps_box-grouplet img.ps_process {
+    max-height: 90%;
+    max-width: 90%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 2.5em;
+    margin: auto;
+}
+
+
+
+
+
+
+
+/*
+ * Font Awesome Free 5.8.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ Need to include /vendor/fontawesome-5.8.1.min.css too
+ */
+@font-face {
+ font-family: 'Font Awesome 5 Free';
+ font-style: normal;
+ font-weight: 400;
+ font-display: auto;
+ src: url("../vendor/fa-regular-400.eot");
+ src: url("../vendor/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../vendor/fa-regular-400.woff2") format("woff2"), url("../vendor/fa-regular-400.woff") format("woff"), url("../vendor/fa-regular-400.ttf") format("truetype"), url("../vendor/fa-regular-400.svg#fontawesome") format("svg"); }
+.far {
+ font-family: 'Font Awesome 5 Free';
+ font-weight: 400; }
+
+@font-face {
+ font-family: 'Font Awesome 5 Free';
+ font-style: normal;
+ font-weight: 900;
+ font-display: auto;
+ src: url("../vendor/fa-solid-900.eot");
+ src: url("../vendor/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../vendor/fa-solid-900.woff2") format("woff2"), url("../vendor/fa-solid-900.woff") format("woff"), url("../vendor/fa-solid-900.ttf") format("truetype"), url("../vendor/fa-solid-900.svg#fontawesome") format("svg"); }
+.fa,
+.fas {
+ font-family: 'Font Awesome 5 Free';
+ font-weight: 900; }
+
+@font-face {
+ font-family: 'Font Awesome 5 Brands';
+ font-style: normal;
+ font-weight: normal;
+ font-display: auto;
+ src: url("../vendor/fa-brands-400.eot");
+ src: url("../vendor/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../vendor/fa-brands-400.woff2") format("woff2"), url("../vendor/fa-brands-400.woff") format("woff"), url("../vendor/fa-brands-400.ttf") format("truetype"), url("../vendor/fa-brands-400.svg#fontawesome") format("svg"); }
+.fab {
+ font-family: 'Font Awesome 5 Brands'; }

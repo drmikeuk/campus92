@@ -1,0 +1,20 @@
+- title: Academic Records
+  icon: PS_TEAM_LEARNING_L_FL_1.svg
+  width: rsz_w1
+
+- title: Financial Aid
+  icon: PS_TUITION_REIMBURSEMENT_L_FL_1.svg
+  width: rsz_w1
+
+- title: Manage classes
+  icon: PS_SCHEDULE_L_FL_1.svg
+  width: rsz_w1
+
+- title: Profile
+  icon: PS_PERSONAL_DETAILS_L_FL_1.svg
+  width: rsz_w1
+
+- title: Another Tile
+  icon: PS_TEAM_LEARNING_L_FL_1.svg
+  width: rsz_w2
+  class: blue

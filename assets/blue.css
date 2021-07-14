@@ -1,0 +1,13 @@
+/* white on uon blue  */
+
+/* tile */
+.nuitile .nuilp                    { background: #007ca7  /* uon blue2 */}
+
+/* icon */
+.nuilp i                           { font-size: 70px; color: white}
+
+/* label */
+.nuitile .ps_groupleth > .ps-label { color: white; font-weight: 300; font-size: 120%}
+
+
+.blue .nuilp                      { /* background: #D6EAF8 */}
