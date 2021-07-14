@@ -7,6 +7,10 @@
   <link rel="stylesheet" href="{{ "/assets/style.css" | prepend: site.baseurl }}" media="screen" type="text/css">
   <!-- add in  icons -->
 
-  {% if page.css %}<link rel="stylesheet" href="{{ page.css | prepend: "/assets/" | prepend: site.baseurl }}" media="screen" type="text/css">{% endif %}
+  {% if page.css %}
+  {% for file in page.css %}
+  <link rel="stylesheet" href="{{ file | prepend: "/assets/" | prepend: site.baseurl }}" media="screen" type="text/css">
+  {% endfor %}
+  {% endif %}
 
 </head>

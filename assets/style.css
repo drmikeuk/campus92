@@ -16,13 +16,13 @@ h2            {padding-top: 0.5rem; padding-bottom: 2rem; font-weight: 300}
 .pt_homepage  {background-color: #EFF1F4; padding-bottom: 3em}
 
 
+
 /* campus styles */
 
 /* grid */
 .nuilpcont {
     overflow: hidden;
     text-align: center; width: 100%;
-
 }
 
 /* tile */
@@ -61,7 +61,6 @@ h2            {padding-top: 0.5rem; padding-bottom: 2rem; font-weight: 300}
     /*font-family: Helvetica;  */     /* font */
     font-size: 1em;
     font-weight: bold;
-    text-align: left;
     padding: 0.4em 0em;
     text-align: center; }
 
@@ -73,6 +72,9 @@ h2            {padding-top: 0.5rem; padding-bottom: 2rem; font-weight: 300}
     overflow: hidden;
     text-overflow: ellipsis;
     font-weight: bold; }
+
+/* left align when message */
+.message .ps_grid-cell .ps_box-group .ps_groupleth {text-align: left; padding: 0.4em 1.5em;}
 
 
 /* icon */
@@ -102,6 +104,10 @@ img {
     margin: auto;
 }
 
+
+/* left align when message so pad right */
+.message .ps_box-grouplet   {text-align: left!important; padding: 0.4em 1.5em;}
+.message i                  {float: left; padding-right: 40px}
 
 
 

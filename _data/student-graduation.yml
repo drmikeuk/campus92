@@ -2,7 +2,7 @@
   icon: fa-edit
   width: rsz_w2
   class: message
-  text: Registration for graduation is now open. Please register here.
+  text: Registration for graduation is now open.<br/>Please register here.
 
 - title: Tasks
   icon: fa-exclamation-circle
@@ -55,4 +55,5 @@
 - title: Support
   icon: fa-question-circle
   width: rsz_w2
-  class: blue
+  class: message
+  text: Some message about further support from Student Services etc

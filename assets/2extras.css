@@ -1,0 +1,24 @@
+
+/* label - move to bottom left */
+.nuitile .ps_groupleth {
+    /*font-family: Helvetica;  */     /* font */
+    position: absolute;
+    bottom: 0.4em;
+    left: 1.2em;
+    font-size: 20px;
+  }
+
+.nuitile .ps_groupleth > .ps-label {white-space: normal; text-align: left;}
+
+
+/* icon - shrink & move to top left */
+.nuilp i                           { font-size: 50px; }
+
+.nuitile .ps_box-grouplet  {
+    overflow: hidden;
+    position: absolute;
+    top: 0.8em;
+    left: 0.8em;
+    right: 0.8em;
+    text-align: left;
+}

@@ -2,7 +2,7 @@
   icon: fa-user-graduate
   width: rsz_w2
   class: message
-  text: Module enrolment is now open. Please enrole here.
+  text: Module enrolment is now open.<br/>Please enrole here.
 
 - title: Tasks
   icon: fa-exclamation-circle
@@ -51,4 +51,5 @@
 - title: Support
   icon: fa-question-circle
   width: rsz_w2
-  class: blue
+  class: message
+  text: Some message about further support from Student Services etc

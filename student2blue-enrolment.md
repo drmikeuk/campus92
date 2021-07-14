@@ -1,12 +1,12 @@
 ---
 layout: dashboard
-title: "Student (blue): Enrolment period"
+title: "Student v2 (blue): Enrolment period"
 navtitle: "Enrolment"
-nav: "stublue"
+nav: "stu2blue"
 sortTitle: "c"
 css:
   - blue.css
-  - two.css
+  - 2extras.css
 ---
 
 {% assign tiles = site.data.student-enrolment  %}

@@ -5,6 +5,7 @@
 
 /* icon */
 .nuilp i                           { font-size: 70px; color: white}
+.nuilp                             { color: white}
 
 /* label */
 .nuitile .ps_groupleth > .ps-label { color: white; font-weight: 300; font-size: 120%}

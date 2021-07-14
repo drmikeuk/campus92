@@ -1,11 +1,9 @@
-- title: Registration
-  icon: fa-edit
-  width: rsz_w2
-  class: message
-  text: Online registration is now open.<br/>Please register here.
-
 - title: Tasks
   icon: fa-exclamation-circle
+  width: rsz_w1
+
+- title: Research
+  icon: fa-university
   width: rsz_w1
 
 - title: Modules (courses)
@@ -16,7 +14,7 @@
   icon: fa-clipboard-check
   width: rsz_w1
 
-- title: My tutors
+- title: My supervisors
   icon: fa-users
   width: rsz_w1
 
@@ -32,8 +30,8 @@
   icon: fa-folder-open
   width: rsz_w1
 
-- title: Placements
-  icon: fa-plane
+- title: Help Centre
+  icon: fa-question-circle
   width: rsz_w1
 
 - title: Profile
