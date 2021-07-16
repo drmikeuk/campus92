@@ -73,8 +73,6 @@ h2            {padding-top: 0.5rem; padding-bottom: 2rem; font-weight: 300}
     text-overflow: ellipsis;
     font-weight: bold; }
 
-/* left align when message */
-.message .ps_grid-cell .ps_box-group .ps_groupleth {text-align: left; padding: 0.4em 1.5em;}
 
 
 /* icon */
@@ -105,7 +103,14 @@ img {
 }
 
 
-/* left align when message so pad right */
+
+/* my extras
+   =========  */
+
+/* label: left align when message */
+.message .ps_grid-cell .ps_box-group .ps_groupleth {text-align: left; padding: 0.4em 1.5em;}
+
+/* icon: left align when message so pad right */
 .message .ps_box-grouplet   {text-align: left!important; padding: 0.4em 1.5em;}
 .message i                  {float: left; padding-right: 40px}
 

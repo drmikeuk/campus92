@@ -1,0 +1,39 @@
+- title: Registration
+  icon: fa-info-circle
+  width: rsz_w2
+  class: message
+  text: Please log back in using your student credentials to complete online registration. Details of how to activate your username and password have been sent to your home email address.
+
+- title: Tasks
+  icon: fa-exclamation-circle
+  width: rsz_w1
+
+- title: Apply
+  icon: fa-clipboard-list
+  width: rsz_w1
+
+- title: My Application
+  icon: fa-file-alt
+  width: rsz_w1
+
+- title: Finance
+  icon: fa-money-bill-alt
+  width: rsz_w1
+
+- title: Documents
+  icon: fa-folder-open
+  width: rsz_w1
+
+- title: Visa and CAS
+  icon: fa-passport
+  width: rsz_w1
+
+- title: Profile
+  icon: fa-user
+  width: rsz_w1
+
+- title: Guidance and Support
+  icon: fa-question-circle
+  width: rsz_w2
+  class: message
+  text: Some messages about further support from Student Services etc

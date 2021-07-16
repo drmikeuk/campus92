@@ -22,3 +22,34 @@
     right: 0.8em;
     text-align: left;
 }
+
+
+/* MESSAGE TILES */
+/* label - move to top */
+.message .nuilp .ps_groupleth {
+    /*font-family: Helvetica;  */     /* font */
+    position: absolute;
+    top: 0.8em;
+    left: 110px;
+    left: 0;
+    font-size: 20px;
+  }
+
+/* icon and text - move down */
+.message .nuilp .ps_box-grouplet  {
+    overflow: hidden;
+    position: absolute;
+    top: 2em;
+    left: 60px;
+    left: 0.2em;
+    right: 0.8em;
+    text-align: left;
+}
+
+/* icon - move to top */
+.message .nuilp i {
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+  }

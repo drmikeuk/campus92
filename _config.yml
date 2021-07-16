@@ -1,6 +1,6 @@
 # Site settings
 title: "Campus92"
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/campus92" # the subpath of your site, e.g. /blog
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 port: 			  4124
 
