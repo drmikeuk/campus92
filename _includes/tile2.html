@@ -19,7 +19,7 @@
           <div class="ps_box-group psc_layout psc_tile_content  psc_tile_content-center psc_tile-box-img">
             <div class="ps_box-grouplet">
 
-              <i class="fas {{ tile.icon }}"></i>
+              <img src="{{ tile.image | prepend: '/images/' | prepend: site.baseurl}}" class="ps_process uon" alt="" title="">
 
               {{ tile.text }}
 

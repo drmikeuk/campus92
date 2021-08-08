@@ -1,33 +1,40 @@
 - title: Tasks
   icon: fa-exclamation-circle
+  materialicon: checklist
   width: rsz_w1
 
 - title: Apply
   icon: fa-clipboard-list
+  materialicon: assignment
   width: rsz_w1
 
-- title: My Application
+- title: My application
   icon: fa-file-alt
+  materialicon: description
   width: rsz_w1
 
 - title: Finance
   icon: fa-money-bill-alt
+  materialicon: money
   width: rsz_w1
 
 - title: Documents
   icon: fa-folder-open
+  materialicon: folder
   width: rsz_w1
 
 - title: Visa and CAS
   icon: fa-passport
+  materialicon: language
   width: rsz_w1
 
 - title: Profile
   icon: fa-user
+  materialicon: account_box
   width: rsz_w1
 
-- title: Guidance and Support
+- title: Guidance and enquiries
   icon: fa-question-circle
   width: rsz_w2
   class: message
-  text: Some messages about further support from Student Services etc
+  text: "Information about the application process and next steps for <u>Undergraduate</u> and <u>Postgraduate</u> applicants.<br/><u>To make an enquiry please use this form.</u>"

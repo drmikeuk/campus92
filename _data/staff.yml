@@ -1,0 +1,41 @@
+- title: My students
+  icon: fa-users
+  materialicon: people
+  width: rsz_w1
+
+- title: Search for students
+  icon: fa-search
+  materialicon: search
+  width: rsz_w1
+
+- title: Research student management
+  icon: fa-university
+  materialicon: account_balance
+  width: rsz_w1
+
+- title: Module marks
+  icon: fa-list
+  materialicon: list
+  width: rsz_w1
+
+- title: Query library
+  icon: fa-table
+  maybematerialicon: accessibility_new
+  materialicon: table_view
+  width: rsz_w1
+
+- title: Plan and course specification
+  icon: fa-file-alt
+  materialicon: description
+  width: rsz_w1
+
+- title: UCAS tutor confirmation
+  icon: fa-clipboard-check
+  materialicon: assignment_turned_in
+  width: rsz_w1
+
+- title: Help using Campus Solutions
+  icon: fa-question-circle
+  width: rsz_w2
+  class: message
+  text: Introduction and video tutorials...

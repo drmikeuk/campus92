@@ -2,7 +2,7 @@
   icon: fa-exclamation-triangle
   width: rsz_w2
   class: message
-  text: "Due to the UCAS embargo information on your application is unavailable until 9am on Thursday 13th August.<br/>In the meantime if you have a query please contact the admissions team in the <u>UK</u>, <u>China</u> or <u>Malaysia</u>."
+  text: "Information on your application is unavailable whilst we process results. Please check back after 9am on Thursday 13th August.<br/>In the meantime if you have a query please contact the admissions team in the <u>UK</u>, <u>China</u> or <u>Malaysia</u>."
 
 - title: Tasks
   icon: fa-exclamation-circle
@@ -33,7 +33,6 @@
   icon: fa-user
   materialicon: account_box
   width: rsz_w1
-
 
 - title: Guidance and enquiries
   icon: fa-question-circle

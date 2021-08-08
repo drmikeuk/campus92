@@ -1,0 +1,149 @@
+- title: Tasks
+  icon: fa-exclamation-circle
+  materialicon: info
+  width: rsz_w1
+
+- title: Research
+  icon: fa-university
+  materialicon: account_balance
+  width: rsz_w1
+
+- title: Modules (courses)
+  icon: fa-user-graduate
+  materialicon: school
+  width: rsz_w1
+
+- title: Student milestones
+  icon: fa-clipboard-check
+  materialicon: assignment_turned_in
+  width: rsz_w1
+
+- title: My tutors
+  icon: fa-users
+  materialicon: people
+  width: rsz_w1
+
+- title: Support arrangements
+  icon: fa-universal-access
+  maybematerialicon: accessibility_new
+  materialicon: support
+  width: rsz_w1
+
+- title: Finance
+  icon: fa-money-bill-alt
+  materialicon: money
+  width: rsz_w1
+
+- title: Documents
+  icon: fa-folder-open
+  materialicon: folder
+  width: rsz_w1
+
+- title: Help Centre
+  icon: fa-question-circle
+  materialicon: help_outline
+  width: rsz_w1
+
+- title: Placements
+  icon: fa-plane
+  materialicon: flight
+  width: rsz_w1
+
+- title: Profile
+  icon: fa-user
+  materialicon: account_circle
+  width: rsz_w1
+
+- title: Apply
+  icon: fa-clipboard-list
+  materialicon: assignment
+  width: rsz_w1
+
+- title: My Application
+  icon: fa-file-alt
+  materialicon: description
+  width: rsz_w1
+
+- title: Visa and CAS
+  icon: fa-passport
+  materialicon: language
+  width: rsz_w1
+
+- title: Support
+  icon: fa-question-circle
+  width: rsz_w2
+  class: message
+  text: Our Student Service Centres offer support, guidance, and signposting to other specialist services to help you make the most of your time at The University of Nottingham.
+
+- title: Registration
+  icon: fa-edit
+  width: rsz_w2
+  class: message
+  text: Online registration is now open.<br/>Please register here.
+
+- title: Modules (courses) enrolment
+  icon: fa-user-graduate
+  width: rsz_w2
+  class: message
+  text: Module enrolment is now open.<br/>Please enroll here.
+
+- title: Graduation
+  icon: fa-edit
+  width: rsz_w2
+  class: message
+  text: Registration for graduation is now open.<br/>Please register here.
+
+- title: Please note
+  icon: fa-exclamation-triangle
+  width: rsz_w2
+  class: message
+  text: "Information on your application is unavailable whilst we process results. Please check back after 9am on Thursday 13th August.<br/>In the meantime if you have a query please contact the admissions team in the <u>UK</u>, <u>China</u> or <u>Malaysia</u>."
+
+- title: Registration
+  icon: fa-info-circle
+  width: rsz_w2
+  class: message
+  text: Please log back in using your student credentials to complete online registration. Details of how to activate your username and password have been sent to your home email address.
+
+
+- title: My students
+  icon: fa-users
+  materialicon: info
+  width: rsz_w1
+
+- title: Search for students
+  icon: fa-search
+  materialicon: school
+  width: rsz_w1
+
+- title: Research student management
+  icon: fa-university
+  materialicon: assignment_turned_in
+  width: rsz_w1
+
+- title: Module marks
+  icon: fa-list
+  materialicon: people
+  width: rsz_w1
+
+- title: Query library
+  icon: fa-table
+  maybematerialicon: accessibility_new
+  materialicon: support
+  width: rsz_w1
+
+- title: Plan and course specification
+  icon: fa-file-alt
+  materialicon: money
+  width: rsz_w1
+
+- title: UCAS tutor confirmation
+  icon: fa-clipboard-check
+  materialicon: folder
+  width: rsz_w1
+
+- title: Help using campus solutions
+  icon: fa-question-circle
+  width: rsz_w2
+  class: message
+  text: Introduction and video tutorials...

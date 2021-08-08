@@ -12,9 +12,10 @@
 
           <li class="nav-item"><a class="nav-link" href="{{ "/vanilla.html" | prepend: site.baseurl }}">Vanilla</a></li>
 
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Student (blue)
+              Stu blue
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               {% assign pages = (site.pages | where: "nav","stublue" | sort: "sortTitle" ) %}
@@ -24,9 +25,10 @@
             </div>
           </li>
 
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Student (white)
+              Stu white
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               {% assign pages = (site.pages | where: "nav","stuwhite" | sort: "sortTitle" ) %}
@@ -36,9 +38,10 @@
             </div>
           </li>
 
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Student v2 (blue)
+              Stu v2 blue
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               {% assign pages = (site.pages | where: "nav","stu2blue" | sort: "sortTitle" ) %}
@@ -48,9 +51,10 @@
             </div>
           </li>
 
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Applicant v2 (blue)
+              App v2 blue
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               {% assign pages = (site.pages | where: "nav","app2blue" | sort: "sortTitle" ) %}
@@ -60,6 +64,60 @@
             </div>
           </li>
 
+          <li class="nav-item"><a class="nav-link" href="{{ "/staff2blue.html" | prepend: site.baseurl }}">Staff</a></li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Stu v3 blue
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              {% assign pages = (site.pages | where: "nav","stu3blue" | sort: "sortTitle" ) %}
+              {% for page in pages %}
+              <a class="dropdown-item" href="{{ page.url | prepend: site.baseurl }}">{{ page.navtitle }}</a>
+              {% endfor %}
+            </div>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Stu v4 blue
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              {% assign pages = (site.pages | where: "nav","stu4blue" | sort: "sortTitle" ) %}
+              {% for page in pages %}
+              <a class="dropdown-item" href="{{ page.url | prepend: site.baseurl }}">{{ page.navtitle }}</a>
+              {% endfor %}
+            </div>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Stu v5 blue
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              {% assign pages = (site.pages | where: "nav","stu5blue" | sort: "sortTitle" ) %}
+              {% for page in pages %}
+              <a class="dropdown-item" href="{{ page.url | prepend: site.baseurl }}">{{ page.navtitle }}</a>
+              {% endfor %}
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              App v5 blue
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              {% assign pages = (site.pages | where: "nav","app5blue" | sort: "sortTitle" ) %}
+              {% for page in pages %}
+              <a class="dropdown-item" href="{{ page.url | prepend: site.baseurl }}">{{ page.navtitle }}</a>
+              {% endfor %}
+            </div>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="{{ "/staff5blue.html" | prepend: site.baseurl }}">Staff v5</a></li>
 
         </ul>
       </div>

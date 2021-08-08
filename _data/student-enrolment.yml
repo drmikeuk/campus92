@@ -2,54 +2,78 @@
   icon: fa-user-graduate
   width: rsz_w2
   class: message
-  text: Module enrolment is now open.<br/>Please enrole here.
+  text: Module enrolment is now open.<br/>Please enroll here.
 
 - title: Tasks
   icon: fa-exclamation-circle
+  materialicon: checklist
+  image: Information-point_large_white_RGB-SafeZone.png
   width: rsz_w1
+
 
 - title: Student milestones
   icon: fa-clipboard-check
+  materialicon: assignment_turned_in
+  image: Study_white_RGB-SafeZone.png
   width: rsz_w1
 
 - title: My tutors
   icon: fa-users
+  materialicon: people
+  image: Group-WHITE-RGB-SafeZone.png
   width: rsz_w1
 
 - title: Support arrangements
   icon: fa-universal-access
+  maybematerialicon: accessibility_new settings_accessibility
+  materialicon: settings_accessibility
+  image: Study_white_RGB-SafeZone.png
   width: rsz_w1
 
 - title: Finance
   icon: fa-money-bill-alt
+  materialicon: money
+  image: Finance_white_RGB-SafeZone.png
   width: rsz_w1
 
 - title: Documents
   icon: fa-folder-open
+  materialicon: folder
+  image: Study_white_RGB-SafeZone.png
   width: rsz_w1
 
 - title: Placements
   icon: fa-plane
+  materialicon: flight
+  image: Study_white_RGB-SafeZone.png
   width: rsz_w1
 
 - title: Profile
   icon: fa-user
+  materialicon: account_box
+  image: Study_white_RGB-SafeZone.png
   width: rsz_w1
 
 - title: Apply
   icon: fa-clipboard-list
+  materialicon: assignment
+  image: Pencil_white_RGB-SafeZone.png
   width: rsz_w1
 
-- title: My Application
+- title: My application
   icon: fa-file-alt
+  materialicon: description
+  image: Referencing-White-RGB-SafeZone.png
   width: rsz_w1
 
 - title: Visa and CAS
   icon: fa-passport
+  materialicon: language
+  image: World_white_RGB-SafeZone.png
   width: rsz_w1
 
 - title: Support
   icon: fa-question-circle
   width: rsz_w2
   class: message
-  text: Some message about further support from Student Services etc
+  text: Our Student Service Centres offer further help, guidance, and signposting to other specialist services to help you make the most of your time at the University of Nottingham.
