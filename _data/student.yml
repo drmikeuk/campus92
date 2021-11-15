@@ -43,7 +43,9 @@
 
 - title: Placements
   icon: fa-plane
-  materialicon: flight
+  materialiconXX: flight
+  tmp: location_city map directions  badge
+  materialicon: work
   image: Study_white_RGB-SafeZone.png
   width: rsz_w1
 

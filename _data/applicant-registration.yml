@@ -29,6 +29,11 @@
   materialicon: folder
   width: rsz_w1
 
+- title: Help centre
+  icon: fa-question-circle
+  materialicon: help_center
+  width: rsz_w1
+  
 - title: Visa and CAS
   icon: fa-passport
   materialicon: language
@@ -43,4 +48,4 @@
   icon: fa-question-circle
   width: rsz_w2
   class: message
-  text: "Information about the application process and next steps for <u>Undergraduate</u> and <u>Postgraduate</u> applicants.<br/><u>To make an enquiry please use this form.</u>"
+  text: "Information about the application process and next steps for <u>undergraduate</u> and <u>postgraduate</u> applicants.<br/><u>To make an enquiry please use this form.</u>"

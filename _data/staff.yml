@@ -29,9 +29,24 @@
   materialicon: description
   width: rsz_w1
 
-- title: UCAS tutor confirmation
+- title: UCAS admissions tutor
+  icon: fa-clipboard-list
+  materialicon: assignment
+  width: rsz_w1
+
+- title: UCAS tutor confirmation DSB
   icon: fa-clipboard-check
   materialicon: assignment_turned_in
+  width: rsz_w1
+
+- title: ITS admissions tutor
+  icon: fa-clipboard-list
+  materialicon: assignment
+  width: rsz_w1
+
+- title: Direct admissions tutor
+  icon: fa-clipboard-list
+  materialicon: assignment
   width: rsz_w1
 
 - title: Help using Campus Solutions
