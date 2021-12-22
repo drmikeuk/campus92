@@ -3,6 +3,7 @@ layout: registration
 title: "Introduction"
 nav: "no"
 sortTitle: "z"
+next: regPersonal.html
 ---
 
 ## Please register

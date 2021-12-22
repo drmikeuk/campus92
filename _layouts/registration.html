@@ -1,16 +1,50 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
 <style>
-	h2 {font-size: 2.5rem; padding-bottom: 0}
-	h3 {font-weight: 300; padding-top: 0.5rem}
+	.hub 		{background: black; color: white; padding: 7px 0px; text-align: center; font-size: 20px}
+	.bar    {background-color: #f8f8f8; padding: 0.3em 0.4em; text-align: left; border-bottom: 1px solid #ced4da; margin-bottom: 1em}
+	.actions {text-align: right}
+	.actions a {min-width: 7em; margin-right: 1em}
+	h2 			{font-size: 2.5rem; padding-bottom: 0}
+	h3 			{font-weight: 300; padding-top: 0.5rem}
 </style>
+<body>
 
-<div class="container">
-	<div class="row">
-    <!-- CONTENT -->
-    <div class="col-lg-8 col-md-9 col-lg-offset-1 col-md-offset-1">
-    {{ content }}
-    </div>
+	<!-- TOP NOTTINGHAM HUB BAR -->
+
+	<div class="hub">
+		Online Registration
 	</div>
-</div>
+
+	<!-- NAV BAR -->
+	<div class="bar">
+		<div class="container">
+			<div class="row">
+				<div class="col">Robin Hood</div>
+				<div class="col actions">
+					{% if page.previous %}
+					<a class="btn btn-outline-primary" href="{{page.previous}}"><i class="fas fa-chevron-left"></i> Previous</a>
+					{% endif %}
+					{% if page.next %}
+					<a class="btn btn-outline-primary" href="{{page.next}}">Next <i class="fas fa-chevron-right"></i></a>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- MAIN -->
+	<div class="container">
+		<div class="row">
+	    <!-- CONTENT -->
+	    <div class="col-lg-8 col-md-9 col-lg-offset-1 col-md-offset-1">
+	    {{ content }}
+	    </div>
+		</div>
+	</div>
+
+
+</body>
+</html>

@@ -3,6 +3,8 @@ layout: registration
 title: "Personal details"
 nav: "no"
 sortTitle: "z"
+previous: regIntro.html
+next: regDemographics.html
 ---
 <style>
 label      {font-weight: bold; margin-top: 0.8em}
@@ -122,6 +124,6 @@ Provider maintained property
 -->
 
 <div id="buttons">
-  <button class="btn btn-outline-secondary">Cancel</button>
-  <button class="btn btn-primary" type="submit">Save and continue</button>
+  <a class="btn btn-outline-secondary" href="{{page.previous}}">Cancel</a>
+  <a class="btn btn-primary" type="submit" href="{{page.next}}">Save and continue</a>
 </div>
