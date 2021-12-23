@@ -10,30 +10,48 @@ previous: regPersonal.html
 
 If any of the following information is incorrect please [contact Student Services](https://www.nottingham.ac.uk/studentservices/).
 
-<dl class="row">
-  <dt class="col-sm-3">ID</dt>
-  <dd class="col-sm-9">20260661</dd>
 
-  <dt class="col-sm-3">Gender</dt>
-  <dd class="col-sm-9">Female</dd>
+<table class="table table-sm notFullWidth">
+  <tbody>
+    <tr>
+      <th scope="row">Student ID</th>
+      <td>20260661</td>
+    </tr>
+    <tr>
+      <th scope="row">Gender</th>
+      <td>Female</td>
+    </tr>
+    <tr>
+      <th scope="row">Date of birth</th>
+      <td>25/02/1996</td>
+    </tr>
+    <tr>
+      <th scope="row">Country of birth</th>
+      <td>Cambodia</td>
+    </tr>    
+  </tbody>
+</table>
 
-  <dt class="col-sm-3">Date of Birth</dt>
-  <dd class="col-sm-9">25/02/1996</dd>
 
-  <dt class="col-sm-3">Country Of Birth</dt>
-  <dd class="col-sm-9">Cambodia</dd>  
-</dl>
+<h3>Subheading</h3>
 
-<dl class="row">
-  <dt class="col-sm-6">National Identification Number</dt>
-  <dd class="col-sm-6">NINO: AA999999A</dd>
-
-  <dt class="col-sm-6">Ethnicity</dt>
-  <dd class="col-sm-6">Chinese</dd>
-
-  <dt class="col-sm-6">Citizenship</dt>
-  <dd class="col-sm-6">Cambodia</dd>
-
-  <dt class="col-sm-6">Visa or Permit Data</dt>
-  <dd class="col-sm-6">Lorum ipsum what goes here?</dd>  
-</dl>
+<table class="table table-sm notFullWidth">
+  <tbody>
+    <tr>
+      <th scope="row">National Identification Number</th>
+      <td>NINO: AA999999A</td>
+    </tr>
+    <tr>
+      <th scope="row">Ethnicity</th>
+      <td>Chinese</td>
+    </tr>
+    <tr>
+      <th scope="row">Citizenship</th>
+      <td>Cambodia</td>
+    </tr>
+    <tr>
+      <th scope="row">Visa or Permit Data</th>
+      <td>Lorum ipsum what goes here????</td>
+    </tr>    
+  </tbody>
+</table>
