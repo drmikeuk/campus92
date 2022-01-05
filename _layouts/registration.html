@@ -10,6 +10,43 @@
 	h3 			{font-weight: 300; padding-top: 0.5rem}
 	.notFullWidth {width: auto}
 	.table-sm td, .table-sm th { padding: 0.4rem; border-top: 1px solid #efefef;}
+
+/* css progress circles https://codepen.io/bookcasey/pen/cEntL */
+	.circlesContainer {position: relative; z-index: 1}
+
+	.circles {padding-left: 0; font-size: 1em; margin: 0.4em 0}
+	.circles li {
+	  width: 2em;
+	  height: 2em;
+	  text-align: center;
+	  line-height: 2em;
+	  border-radius: 1em;
+	  background: dodgerblue;
+	  margin: 0 0.5em;          /* reduce spacing to 0.5em*/
+	  display: inline-block;
+	  color: white;
+	  position: relative;
+	}
+
+	.circles li::before {
+	  content: '';
+	  position: absolute;
+	  top: .9em;
+	  left: -3em;
+	  width: 3em;
+	  height: .2em;
+	  background: dodgerblue;
+	  z-index: -1;
+	}
+
+	.circles li:first-child::before { display: none; }
+	.circles li:first-child         { margin-left: 0; }
+	.circles .active 								{ background: dodgerblue; }
+	.circles .active ~ li           { background: lightblue; }
+	.circles .active ~ li::before   { background: lightblue; }
+
+
+
 </style>
 <body>
 
@@ -23,8 +60,21 @@
 	<div class="bar">
 		<div class="container">
 			<div class="row">
-				<div class="col">Robin Hood</div>
-				<div class="col actions">
+				<div class="col-md-8 circlesContainer">
+					<!-- Robin Hood -->
+
+					<ul class="circles">
+					{% for i in (1..13) %}
+					{% if i == page.this %}
+						<li class="active">{{ i }}</li>
+					{% else %}
+						<li>{{ i }}</li>
+					{% endif %}
+					{% endfor %}
+					</ul>
+
+				</div>
+				<div class="col-md-4 actions">
 					{% if page.previous %}
 					<a class="btn btn-outline-primary" href="{{page.previous}}"><i class="fas fa-chevron-left"></i> Previous</a>
 					{% endif %}
