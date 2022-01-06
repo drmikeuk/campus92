@@ -3,15 +3,10 @@ layout: registration
 title: "Personal details"
 nav: "no"
 sortTitle: "z"
-previous: regIntro.html
-next: regDemographics.html
-this: 2
+previous: regDemographics.html
+next: regAddresses.html
+this: 3
 ---
-<style>
-label      {font-weight: bold; margin-top: 0.8em}
-#buttons   {margin-top: 2em}
-.btn-outline-secondary {margin-right: 1em}
-</style>
 
 ## Personal details
 

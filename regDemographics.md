@@ -3,8 +3,9 @@ layout: registration
 title: "Demographics"
 nav: "no"
 sortTitle: "z"
-previous: regPersonal.html
-this: 3
+previous: regIntro.html
+next: regPersonal.html
+this: 2
 ---
 
 ## Demographics
@@ -56,3 +57,7 @@ If any of the following information is incorrect please [contact Student Service
     </tr>    
   </tbody>
 </table>
+
+<div id="buttons">
+  <a class="btn btn-primary" type="submit" href="{{page.next}}">Continue</a>
+</div>
