@@ -13,31 +13,18 @@ this: 4
 Please check the details below and ensure we have both a term time and home address.
 
 
-<h3>Term time address</h3>
-
-<a class="btn btn-outline-primary" href="#" style="margin-bottom:1.5em"><i class="fas fa-plus-square"></i> Add term time address</a>
-
-
-<h3>Home address</h3>
-<p>ie some definition that doesn't focus just on parents...</p>
-
 <table class="table table-striped notFullWidth">
   <thead>
     <tr>
-      <th scope="col">Address </th>
-      <th scope="col">From</th>
+      <th scope="col">Type </th>
+      <th scope="col">Address</th>
       <th scope="col"></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>123 Some Road,<br/>Edgbaston,<br/>Birmingham. BH7 2DD.</td>
-      <td>Current</td>
-      <td><a class="btn btn-outline-primary" href="#"><i class="fas fa-edit"></i> Edit</a></td>
-    </tr>
-    <tr>
-      <td>56 New Road,<br/>Stratford,<br/>London. ST1 6GG.</td>
-      <td>01/07/2022</td>
+      <th scope="row">Term</th>
+      <td>Room 123,<br/>Florence Boot Hall,<br/>University Park,<br/>Nottingham. NG7 2RD.</td>
       <td><a class="btn btn-outline-primary" href="#"><i class="fas fa-edit"></i> Edit</a></td>
     </tr>
   </tbody>
