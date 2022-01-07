@@ -63,7 +63,7 @@ Please check the details below and complete any additional fields.
 </select>
 
 
-<label for="ethnicity">Your Ethnicity</label>
+<label for="ethnicity">Your ethnicity</label>
 <select name="ethnicity" id="ethnicity" class="custom-select">
   <option value=""></option>
   <option value="Arab">Arab</option>
@@ -107,7 +107,6 @@ Please check the details below and complete any additional fields.
   <option value="Other">Other</option>
 </select>
 
-
 <!--
 Not in attendance at the provider
 Not known
@@ -118,6 +117,39 @@ Parental/guardian home
 Private-sector halls
 Provider maintained property
 -->
+
+<h3>Disability</h3>
+
+<p>The University is strongly committed to equality of opportunity in its provision for all of its students. We offer a range of support services for students who have a disability, dyslexia or long term medical condition. If you indicate a disability or long term medical condition, we will send you information about our services.</p>
+
+<label for="disability">Do you have a disability, learning difficulty or long term medical condition?</label>
+<select name="disability" id="disability" class="custom-select">
+  <option value=""></option>
+  <option value="A long standing illness or health condition such as cancer, HIV, diabetes, chronic heart disease, or epilepsy">A long standing illness or health condition such as cancer, HIV, diabetes, chronic heart disease, or epilepsy</option>
+  <option value="A mental health condition, such as depression, schizophrenia or anxiety disorder">A mental health condition, such as depression, schizophrenia or anxiety disorder</option>
+  <option value="A physical impairment or mobility issues, such as difficulty using arms or using a wheelchair or crutches">A physical impairment or mobility issues, such as difficulty using arms or using a wheelchair or crutches</option>
+  <option value="A social/communication impairment such as Asperger's syndrome/other autistic spectrum disorder">A social/communication impairment such as Asperger's syndrome/other autistic spectrum disorder</option>
+  <option value="A specific learning difficulty such as dyslexia, dyspraxia or AD(H)D">A specific learning difficulty such as dyslexia, dyspraxia or AD(H)D</option>
+  <option value="Blind or a serious visual impairment uncorrected by glasses">Blind or a serious visual impairment uncorrected by glasses</option>
+  <option value="Deaf or a serious hearing impairment">Deaf or a serious hearing impairment</option>
+  <option value="A disability, impairment or medical condition that is not listed above">A disability, impairment or medical condition that is not listed above</option>
+  <option value="Two or more impairments and/or disabling medical conditions">Two or more impairments and/or disabling medical conditions</option>
+  <option value="" disabled>&nbsp;</option>
+  <option value="No known disability">No known disability</option>
+  <option value="Prefer not to say">I'd rather not say</option>
+</select>
+
+
+<label for="allowance">Do you receive Disabled  Student's Allowance</label>
+<select name="allowance" id="allowance" class="custom-select">
+  <option value=""></option>
+  <option value="">Yes</option>
+  <option value="">No</option>
+    <option value="" disabled>&nbsp;</option>
+  <option value="">I'd rather not say</option>
+</select>
+
+
 
 <div id="buttons">
   <a class="btn btn-outline-secondary" href="{{page.previous}}">Cancel</a>
