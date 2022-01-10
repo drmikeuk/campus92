@@ -3,8 +3,9 @@ layout: registration
 title: "Financial information"
 nav: "no"
 sortTitle: "z"
-previous: regAddresses.html
-this: 10
+previous: regImmigration.html
+next: regRegulations.html
+this: 9
 ---
 
 ## Financial information

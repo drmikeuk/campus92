@@ -29,6 +29,9 @@
 	.table-striped th,
 	.table-striped td       { padding: 0.75rem 1.5rem; border-bottom: 2px solid rgba(0,0,0,.1);}
 
+  .form-check-label  {margin-top: 0;}
+
+  li {padding-bottom: 0.5rem}
 
 /* css progress circles https://codepen.io/bookcasey/pen/cEntL */
 	.circlesContainer {position: relative; z-index: 1}
@@ -83,7 +86,7 @@
 					<!-- Robin Hood -->
 
 					<ul class="circles">
-					{% for i in (1..12) %}
+					{% for i in (1..11) %}
 					{% if i == page.this %}
 						<li class="active">{{ i }}</li>
 					{% else %}

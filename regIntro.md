@@ -18,10 +18,12 @@ Please register at the start of each academic year to confirm your status at the
 - Click '**Save**' at the **bottom** of the page
 - Click '**Next**' at the **top** right of the page
 
+<!--
 ### To check your progress
 
 - Click the ‘Online Registration’ header at the top of the page
 - Completed screens have a tick in a green circle
+-->
 
 ### Help
 
