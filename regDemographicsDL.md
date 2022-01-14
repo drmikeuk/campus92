@@ -1,6 +1,6 @@
 ---
 layout: registration
-title: "Demographics"
+title: "(Demographics DL example)"
 nav: "no"
 sortTitle: "z"
 previous: regPersonal.html

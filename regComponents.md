@@ -1,11 +1,8 @@
 ---
 layout: registration
-title: "Registration components"
+title: "(Example components)"
 nav: "no"
 sortTitle: "z"
-previous: regPersonal.html
-next: regFinance.html
-this: 4
 ---
 
 ## Page title

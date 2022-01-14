@@ -32,7 +32,7 @@ When you accepted our offer you agreed, as part of the Student Contract, to obey
 <form>
 <div class="form-group form-check">
   <input type="checkbox" class="form-check-input" id="accept">
-  <label class="form-check-label" for="accept">Accept UoN Regulations</label>
+  <label class="form-check-label" for="accept"><b>Accept UoN Regulations</b></label>
 </div>
 </form>
 
