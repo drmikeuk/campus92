@@ -1,14 +1,14 @@
 ---
 layout: registration
-title: "Disability (v2)"
+title: "Disability"
 nav: "no"
 sortTitle: "z"
-previous: regDemographics.html
+previous: regPersonal.html
 next: regAddresses.html
-this: 3
+this: 4
 ---
 
-## Disability (v2 checkboxes)
+## Disability
 
 Please check the details below and complete any additional fields.
 

@@ -9,11 +9,11 @@
 	.actions a {min-width: 7em; margin-right: 1em}
 
 	label      {font-weight: bold; margin-top: 0.8em}
-	#buttons   {margin-top: 2.5em}
+#buttons   {margin-top: 2.5em; /*border-top: 1px solid #ccc; padding-top: 1.5em*/}
 	.btn-outline-secondary {margin-right: 1em}
 
 	h2 			{font-size: 2.5rem; padding-bottom: 0}
-	h3 			{font-weight: 300; padding-top: 0.5rem}
+	h3 			{font-weight: 300; padding-top: 1rem}
 	h4      {font-weight: 300; padding-top: 0.5rem}
 	.notFullWidth {width: auto}
 	.table-sm td, .table-sm th { padding: 0.4rem; border-top: 1px solid #efefef;}
@@ -28,6 +28,8 @@
 	.table-striped thead th { padding: 0.5rem 1.5rem; border-bottom: none}  /* tighter & darker */
 	.table-striped th,
 	.table-striped td       { padding: 0.75rem 1.5rem; border-bottom: 2px solid rgba(0,0,0,.1);}
+
+  .table-sm td, .table-sm th {  border-bottom: 1px solid #efefef; }
 
   .form-check-label  {margin-top: 0;}
 
@@ -88,7 +90,7 @@
 					<!-- Robin Hood -->
 
 					<ul class="circles">
-					{% for i in (1..11) %}
+					{% for i in (1..12) %}
 					{% if i == page.this %}
 						<li class="active">{{ i }}</li>
 					{% else %}
@@ -115,7 +117,11 @@
 	<div class="container">
 		<div class="row">
 	    <!-- CONTENT -->
-	    <div class="col-lg-8 col-md-9 col-lg-offset-1 col-md-offset-1">
+      {% if page.fullWidth %}
+      <div class="col-lg-12 ">
+      {% else %}
+      <div class="col-lg-9 col-md-12 col-lg-offset-1 ">
+      {% endif %}
 	    {{ content }}
 	    </div>
 		</div>

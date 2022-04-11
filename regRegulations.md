@@ -5,7 +5,7 @@ nav: "no"
 sortTitle: "z"
 previous: regFinance.html
 next: regSubmit.html
-this: 10
+this: 11
 ---
 
 ## Academic regulations

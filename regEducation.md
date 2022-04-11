@@ -5,12 +5,12 @@ nav: "no"
 sortTitle: "z"
 previous: regEmergencyContact.html
 next: regImmigration.html
-this: 7
+this: 8
 ---
 
 ## Education details
 
-Please provide details of your previous eduction.
+Please check the details below and complete any additional fields.
 
 ### Previous Education
 
@@ -24,7 +24,7 @@ Please provide details of your previous eduction.
 
 ### Your Highest Qualification
 
-_Typically entrants to undergraduate courses will have **level 3** qualifications as their highest current qualification_
+<!-- _Typically entrants to undergraduate courses will have **level 3** qualifications as their highest current qualification_ -->
 
 <label for="category">Category</label>
 <select name="category" id="category" class="custom-select">

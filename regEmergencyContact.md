@@ -5,7 +5,8 @@ nav: "no"
 sortTitle: "z"
 previous: regContact.html
 next: regEducation.html
-this: 6
+this: 7
+fullWidth: yes
 ---
 
 ## Emergency contact details
@@ -18,7 +19,8 @@ Please check the details below and ensure ....
     <tr>
       <th scope="col">Contact</th>
       <th scope="col">Phone</th>
-      <th scope="col">Preferred</th>
+      <th scope="col">Primary contact</th>
+      <th scope="col">Relationship</th>
       <th scope="col"></th>
     </tr>
   </thead>
@@ -27,6 +29,7 @@ Please check the details below and ensure ....
       <td>John Smith</td>
       <td>+44 788 456 1234</td>
       <td><i class="far fa-check-circle"></i></td>
+      <td>Father</td>
       <td><a class="btn btn-outline-primary" href="#"><i class="fas fa-edit"></i> Edit</a></td>
     </tr>
   </tbody>

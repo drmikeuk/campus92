@@ -5,7 +5,7 @@ nav: "no"
 sortTitle: "z"
 previous: regPersonal.html
 next: regContact.html
-this: 4
+this: 5
 ---
 
 ## Addresses
@@ -19,7 +19,7 @@ Please check the details below and ensure we have both a term time and home addr
 
 
 <h3>Home address</h3>
-<p>ie some definition that doesn't focus just on parents...</p>
+<p>ie your address outside of term time (some definition that doesn't focus just on parents...)</p>
 
 <table class="table table-striped notFullWidth">
   <thead>

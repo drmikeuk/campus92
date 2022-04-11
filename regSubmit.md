@@ -4,15 +4,14 @@ title: "Submit"
 nav: "no"
 sortTitle: "z"
 previous: regRegulations.html
-this: 11
+this: 12
 ---
 
 ## Submit
 
-Instructions...
+If you wish to review your data before submitting please use the **Previous** and **Next** buttons.
 
-General statement / data to review??
-
+Then click **Submit and finish** below to complete online registration.
 
 <div id="buttons">
   <a class="btn btn-outline-secondary" href="{{page.previous}}">Back</a>

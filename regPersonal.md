@@ -4,7 +4,7 @@ title: "Personal details"
 nav: "no"
 sortTitle: "z"
 previous: regDemographics.html
-next: regAddresses.html
+next: regDisabilities.html
 this: 3
 ---
 
@@ -118,6 +118,7 @@ Private-sector halls
 Provider maintained property
 -->
 
+<!--
 <h3>Disability</h3>
 
 <p>The University is strongly committed to equality of opportunity in its provision for all of its students. We offer a range of support services for students who have a disability, dyslexia or long term medical condition. If you indicate a disability or long term medical condition, we will send you information about our services.</p>
@@ -148,7 +149,7 @@ Provider maintained property
     <option value="" disabled>&nbsp;</option>
   <option value="">I'd rather not say</option>
 </select>
-
+-->
 
 
 <div id="buttons">
