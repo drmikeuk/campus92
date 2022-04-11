@@ -13,87 +13,77 @@ this: 3
 Please check the details below and complete any additional fields.
 
 
-<label for="religion">Your religion</label>
+<label for="religion">What is your religion?</label>
 <select name="religion" id="religion" class="custom-select">
   <option value=""></option>
+  <option value="No religion">No religion</option>
   <option value="Buddhist">Buddhist</option>
   <option value="Christian">Christian</option>
-  <option value="Christian - Church of Ireland">Christian - Church of Ireland</option>
-  <option value="Christian - Church of Scotland">Christian - Church of Scotland</option>
-  <option value="Christian - Methodist Church in Ireland">Christian - Methodist Church in Ireland</option>
-  <option value="Christian - Other denomination">Christian - Other denomination</option>
-  <option value="Christian - Presbyterian Church in Ireland">Christian - Presbyterian Church in Ireland</option>
-  <option value="Christian - Roman Catholic">Christian - Roman Catholic</option>
   <option value="Hindu">Hindu</option>
   <option value="Jewish">Jewish</option>
   <option value="Muslim">Muslim</option>
+  <option value="Pagan">Pagan</option>
   <option value="Sikh">Sikh</option>
-  <option value="Spiritual">Spiritual</option>
-  <option value="" disabled>&nbsp;</option>
   <option value="Any other religion or belief">Any other religion or belief</option>
-  <option value="No religion">No religion</option>
-  <option value="Not known">Not known</option>
-  <option value="I'd rather not say">I'd rather not say</option>
+      <option value="" disabled>&nbsp;</option>
+  <option value="Prefer not to say">Prefer not to say</option>
 </select>
 
 
 
 
 
-<label for="sexual">Your sexual orientation</label>
+<label for="sexual">Which of the following best describes your sexual orientation?</label>
 <select name="sexual" id="sexual" class="custom-select">
   <option value=""></option>
-  <option value="">Bisexual</option>
-  <option value="">Gay man</option>
-  <option value="">Gay woman/lesbian</option>
-  <option value="">Heterosexual</option>
-  <option value="">Other</option>
-    <option value="" disabled>&nbsp;</option>
-  <option value="">I'd rather not say</option>
+  <option value="Bisexual">Bisexual</option>
+  <option value="Gay or lesbian">Gay or lesbian</option>
+  <option value="Heterosexual or straight">Heterosexual or straight</option>
+  <option value="Other sexual orientation">Other sexual orientation</option>
+    <!-- <option value="" disabled>&nbsp;</option> -->
+  <option value="Prefer not to say">Prefer not to say</option>
 </select>
 
 
-<label for="gender">Is your gender identity the same as the gender assigned to you at birth?</label>
+<label for="gender">Is the gender you identify with the same as your sex registered at birth?</label>
 <select name="gender" id="gender" class="custom-select">
   <option value=""></option>
   <option value="">Yes</option>
   <option value="">No</option>
-    <option value="" disabled>&nbsp;</option>
-  <option value="">I'd rather not say</option>
+    <!-- <option value="" disabled>&nbsp;</option> -->
+  <option value="Prefer not to say">Prefer not to say</option>
 </select>
 
 
-<label for="ethnicity">Your ethnicity</label>
+<label for="ethnicity">What is your ethnicity or ethnic group?</label>
 <select name="ethnicity" id="ethnicity" class="custom-select">
   <option value=""></option>
   <option value="Arab">Arab</option>
-  <option value="Asian or Asian British - Bangladeshi">Asian or Asian British - Bangladeshi</option>
-  <option value="Asian or Asian British - Indian">Asian or Asian British - Indian</option>
-  <option value="Asian or Asian British - Pakistani">Asian or Asian British - Pakistani</option>
-  <option value="Black or Black British - African">Black or Black British - African</option>
-  <option value="Black or Black British - Caribbean">Black or Black British - Caribbean</option>
-  <option value="Chinese">Chinese</option>
-  <option value="Gypsy or Traveller">Gypsy or Traveller</option>
-  <option value="Irish Traveller">Irish Traveller</option>
-  <option value="Mixed - White and Asian">Mixed - White and Asian</option>
-  <option value="Mixed - White and Black African">Mixed - White and Black African</option>
-  <option value="Mixed - White and Black Caribbean">Mixed - White and Black Caribbean</option>
-  <option value="Not known">Not known</option>
-  <option value="Other Asian background">Other Asian background</option>
-  <option value="Other Black background">Other Black background</option>
-  <option value="Other White background">Other White background</option>
-  <option value="Other ethnic background">Other ethnic background</option>
-  <option value="Other mixed background">Other mixed background</option>
-  <option value="White">White</option>
-  <option value="White - English, Welsh, Scottish, Northern Irish, British">White - English, Welsh, Scottish, Northern Irish, British</option>
+  <option value="Asian - Bangladeshi or Bangladeshi British">Asian - Bangladeshi or Bangladeshi British</option>
+  <option value="Asian - Chinese or Chinese British">Asian - Chinese or Chinese British</option>
+  <option value="Asian - Indian or Indian British">Asian - Indian or Indian British</option>
+  <option value="Asian - Pakistani or Pakistani British">Asian - Pakistani or Pakistani British</option>
+  <option value="Any other Asian background">Any other Asian background</option>
+  <option value="Black - African or African British">Black - African or African British</option>
+  <option value="Black - Caribbean or Caribbean British">Black - Caribbean or Caribbean British</option>
+  <option value="Any other Black background">Any other Black background</option>
+  <option value="Mixed or multiple ethnic groups - White or White British and Asian or Asian British">Mixed or multiple ethnic groups - White or White British and Asian or Asian British</option>
+  <option value="Mixed or multiple ethnic groups - White or White British and Black African or Black African British">Mixed or multiple ethnic groups - White or White British and Black African or Black African British</option>
+  <option value="Mixed or multiple ethnic groups - White or White British and Black Caribbean or Black Caribbean British">Mixed or multiple ethnic groups - White or White British and Black Caribbean or Black Caribbean British</option>
+  <option value="Any other Mixed or Multiple ethnic background">Any other Mixed or Multiple ethnic background</option>
+  <option value="White - English">White - English</option>
+  <option value="White - Gypsy or Irish Traveller">White - Gypsy or Irish Traveller</option>
   <option value="White - Irish">White - Irish</option>
-  <option value="White - Scottish">White - Scottish</option>
-    <option value="" disabled>&nbsp;</option>
-  <option value="">I'd rather not say</option>
+  <option value="White - Roma">White - Roma</option>
+  <option value="Any other White background">Any other White background</option>
+  <option value="Any other ethnic background">Any other ethnic background</option>
+  <option value="Not known">Not known</option>
+    <!-- <option value="" disabled>&nbsp;</option> -->
+  <option value="Prefer not to say">Prefer not to say</option>
 </select>
 
 
-<label for="ethnicity">Your term-time accommodation</label>
+<label for="ethnicity">What is your term-time accommodation?</label>
 <select name="accommodation" id="accommodation" class="custom-select">
   <option value=""></option>
   <option value="Halls - private sector">Halls - private sector</option>
@@ -101,7 +91,7 @@ Please check the details below and complete any additional fields.
   <option value="Own residence">Own residence</option>
   <option value="Parental/guardian home">Parental/guardian home</option>
   <option value="Rented accommodation">Rented accommodation</option>
-    <option value="" disabled>&nbsp;</option>
+    <!-- <option value="" disabled>&nbsp;</option> -->
   <option value="Not in attendance">Not in attendance</option>
   <option value="Not known">Not known</option>
   <option value="Other">Other</option>
