@@ -10,7 +10,7 @@ this: 3
 
 ## Personal details
 
-Please check the details below and complete any additional fields.
+Please check the details below and update or add any new data.
 
 
 <label for="religion">What is your religion?</label>
@@ -86,9 +86,9 @@ Please check the details below and complete any additional fields.
 <label for="ethnicity">What is your term-time accommodation?</label>
 <select name="accommodation" id="accommodation" class="custom-select">
   <option value=""></option>
-  <option value="Halls - private sector">Halls - private sector</option>
-  <option value="Halls - university maintained">Halls - university maintained</option>
-  <option value="Own residence">Own residence</option>
+  <option value="Halls - private sector">Halls of residence - third party</option>
+  <option value="Halls - university maintained">Halls of residence - university maintained</option>
+  <option value="Own residence">Own home</option>
   <option value="Parental/guardian home">Parental/guardian home</option>
   <option value="Rented accommodation">Rented accommodation</option>
     <!-- <option value="" disabled>&nbsp;</option> -->

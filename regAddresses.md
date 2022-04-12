@@ -17,9 +17,14 @@ Please check the details below and ensure we have both a term time and home addr
 
 <a class="btn btn-outline-primary" href="#" style="margin-bottom:1.5em"><i class="fas fa-plus-square"></i> Add term time address</a>
 
+-- add tick box
+
+If you don't yet know your term time address, please tick this box and you can add it later.
+
+return to the Nottingham Hub after you have completed online registration and use the **Profile** tile to add your address.
 
 <h3>Home address</h3>
-<p>ie your address outside of term time (some definition that doesn't focus just on parents...)</p>
+<p>ie your address outside of term time</p>
 
 <table class="table table-striped notFullWidth">
   <thead>

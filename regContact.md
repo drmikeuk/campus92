@@ -27,7 +27,7 @@ Please check the details below and ensure we have both a personal email address 
     <tr>
       <td>abxcc1@nottingham.ac.uk</td>
       <td>Campus</td>
-      <td><a class="btn btn-outline-primary" href="#"><i class="fas fa-edit"></i> Edit</a></td>
+      <td></td>
     </tr>
     <tr>
       <td>me@outlook.com</td>

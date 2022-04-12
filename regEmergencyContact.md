@@ -11,7 +11,7 @@ fullWidth: yes
 
 ## Emergency contact details
 
-Please check the details below and ensure ....
+Please check we have up to date emergency contact details for you.
 
 
 <table class="table table-striped notFullWidth">

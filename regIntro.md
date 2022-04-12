@@ -14,9 +14,9 @@ Please register at the start of each academic year to confirm your status at the
 ### On each page
 
 - Check all information is correct
-- Complete any additional fields
-- Click **Save** at the **bottom** of the page
-- Click **Next** at the **top** right of the page
+- Update and add any new data
+- Click **Save and continue** at the **bottom** of the page
+- Then click **Next** at the **top** right of the page
 
 <!--
 ### To check your progress

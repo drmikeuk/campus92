@@ -63,7 +63,7 @@ If any of the following information is incorrect please [contact Student Service
     </tr>
 
     <tr>
-      <th scope="row">Course</th>
+      <th scope="row">Course (programme)</th>
       <td>Architectural Environment Engineering with Industrial Placement Year BEng</td>
     </tr>
   </tbody>
