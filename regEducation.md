@@ -26,6 +26,8 @@ Please check the details below and complete any additional fields.
 
 <!-- _Typically entrants to undergraduate courses will have **level 3** qualifications as their highest current qualification_ -->
 
+Provide some guidance??? Link out to another page / table ???
+
 <label for="category">Category</label>
 <select name="category" id="category" class="custom-select">
   <option value="" selected="selected">&nbsp; </option>
