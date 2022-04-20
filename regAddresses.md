@@ -10,18 +10,19 @@ this: 5
 
 ## Addresses
 
-Please check the details below and ensure we have both a term time and home address.
+Please check the details below and ensure we have both a term time and home (outside of term time) address.
 
 
 <h3>Term time address</h3>
 
-<a class="btn btn-outline-primary" href="#" style="margin-bottom:1.5em"><i class="fas fa-plus-square"></i> Add term time address</a>
+<a class="btn btn-outline-primary" href="#" ><i class="fas fa-plus-square"></i> Add term time address</a>
 
--- add tick box
+<div class="form-group form-check">
+  <input type="checkbox" class="form-check-input" id="noTTAddress">
+  <label class="form-check-label" for="noTTAddress">I don't yet know my term time address and will provide it later</label>
+</div>
 
-If you don't yet know your term time address, please tick this box and you can add it later.
-
-return to the Nottingham Hub after you have completed online registration and use the **Profile** tile to add your address.
+<!-- return to the Nottingham Hub after you have completed online registration and use the **Profile** tile to add your address -->
 
 <h3>Home address</h3>
 <p>ie your address outside of term time</p>
