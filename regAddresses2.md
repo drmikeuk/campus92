@@ -17,15 +17,17 @@ Please check the details below and ensure we have both a term time and home (out
 
 <a class="btn btn-outline-primary" href="#" ><i class="fas fa-plus-square"></i> Add term time address</a>
 
+<!--
 <div class="form-group form-check">
   <input type="checkbox" class="form-check-input" id="noTTAddress">
   <label class="form-check-label" for="noTTAddress">I don't yet know my term time address and will provide it later</label>
 </div>
+-->
 
 <!-- return to the Nottingham Hub after you have completed online registration and use the **Profile** tile to add your address -->
 
 <h3>Home address</h3>
-<p>ie your address outside of term time</p>
+<!-- <p>ie your address outside of term time</p> -->
 
 <table class="table table-striped notFullWidth">
   <thead>
@@ -65,11 +67,9 @@ Please check the details below and ensure we have both a term time and home (out
 -->
 
 <!-- Button trigger modal -->
-
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
   Continue
 </button>
-
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -83,11 +83,14 @@ Please check the details below and ensure we have both a term time and home (out
       </div>
       <div class="modal-body">
 
-<p>Please provide a term time address or, if you are unable to provide an address now, select the option to provide it later.</p>
+<p>It is important that you provide your term-time address so we can keep you informed and supported throughout your studies. If you are living locally and eligible for a council tax exemption, this will also ensure that we inform your local authority.</p>
+
+<p>If you are unable to provide an address now, you may continue with online registration, but you will be contacted to provide this information later. You can also update your address in NottinghamHub at any point.</p>
 
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Add later</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Add now</button>
       </div>
     </div>
   </div>

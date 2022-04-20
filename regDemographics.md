@@ -33,13 +33,15 @@ If any of the following information is incorrect please [contact Student Service
         <td>Cambodia</td>
       </tr>
       <tr>
-        <th scope="row">Ethnicity</th>
-        <td>Chinese</td>
+        <th scope="row">Nationality<!-- was Citizenship --></th>
+        <td>Cambodian</td>
       </tr>
+      <!-- drop as is on next screen
       <tr>
-        <th scope="row">Citizenship</th>
-        <td>Cambodia</td>
+        <th scope="row">Ethnicity</th>
+        <td>Mixed or multiple ethnic groups - White or White British and Asian or Asian British</td>
       </tr>
+      -->
 
       <!-- if CN or MY campus -->
       <tr>
@@ -57,10 +59,13 @@ If any of the following information is incorrect please [contact Student Service
 
 <table class="table table-sm notFullWidth">
   <tbody>
+
+<!-- Ruth: remove this
     <tr>
       <th scope="row">Visa or Permit Data</th>
       <td>Lorum ipsum what goes here????</td>
     </tr>
+-->
 
     <tr>
       <th scope="row">Course (programme)</th>
