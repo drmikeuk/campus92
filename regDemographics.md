@@ -36,7 +36,7 @@ If any of the following information is incorrect please [contact Student Service
         <th scope="row">Nationality<!-- was Citizenship --></th>
         <td>Cambodian</td>
       </tr>
-      <!-- drop as is on next screen
+      <!-- drop as is on next screen; Joe is happy
       <tr>
         <th scope="row">Ethnicity</th>
         <td>Mixed or multiple ethnic groups - White or White British and Asian or Asian British</td>

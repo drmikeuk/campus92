@@ -83,9 +83,16 @@ Please check the details below and ensure we have both a term time and home (out
       </div>
       <div class="modal-body">
 
+<p>Please provide a term time address, even if it is the same as your home address.</p>
+
+<p>If you are living locally and eligible for a council tax exemption, this will also ensure that we inform your local authority.</p>
+
+<p>If you are unable to provide an address now, then select the option to provide it later.</p>
+
+<!--
 <p>It is important that you provide your term-time address so we can keep you informed and supported throughout your studies. If you are living locally and eligible for a council tax exemption, this will also ensure that we inform your local authority.</p>
 
-<p>If you are unable to provide an address now, you may continue with online registration, but you will be contacted to provide this information later. You can also update your address in NottinghamHub at any point.</p>
+<p>If you are unable to provide an address now, you may continue with online registration, but you will be contacted to provide this information later. You can also update your address in NottinghamHub at any point.</p> -->
 
       </div>
       <div class="modal-footer">

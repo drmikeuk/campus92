@@ -25,7 +25,7 @@ Please check the details below and ensure we have both a term time and home (out
 <!-- return to the Nottingham Hub after you have completed online registration and use the **Profile** tile to add your address -->
 
 <h3>Home address</h3>
-<p>ie your address outside of term time</p>
+<!-- <p>ie your address outside of term time</p> -->
 
 <table class="table table-striped notFullWidth">
   <thead>
@@ -83,7 +83,11 @@ Please check the details below and ensure we have both a term time and home (out
       </div>
       <div class="modal-body">
 
-<p>Please provide a term time address or, if you are unable to provide an address now, select the option to provide it later.</p>
+<p>Please provide a term time address, even if it is the same as your home address.</p>
+
+<p>If you are living locally and eligible for a council tax exemption, this will also ensure that we inform your local authority.</p>
+
+<p>If you are unable to provide an address now, then select the option to provide it later.</p>
 
       </div>
       <div class="modal-footer">
