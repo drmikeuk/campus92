@@ -15,6 +15,10 @@ Please check the details below and ensure we have both a term time and home (out
 
 <h3>Term time address</h3>
 
+<p>Please provide a term time address, even if it is the same as your home address.</p>
+
+<p>If your term time address is local and you're eligible for a council tax exemption, this will enable us to inform your local authority.</p>
+
 <a class="btn btn-outline-primary" href="#" ><i class="fas fa-plus-square"></i> Add term time address</a>
 
 <div class="form-group form-check">
@@ -84,8 +88,6 @@ Please check the details below and ensure we have both a term time and home (out
       <div class="modal-body">
 
 <p>Please provide a term time address, even if it is the same as your home address.</p>
-
-<p>If your term time address is local and you're eligible for a council tax exemption, this will enable us to inform your local authority.</p>
 
 <p>If you are unable to provide an address now, then select the option to provide it later.</p>
 
