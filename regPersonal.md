@@ -83,7 +83,7 @@ Please check the details below and update or add any new data.
 </select>
 
 
-<label for="ethnicity">What is your term-time accommodation?</label>
+<label for="ethnicity">Which of the following best describes your term-time accommodation?</label>
 <select name="accommodation" id="accommodation" class="custom-select">
   <option value=""></option>
   <option value="Halls - private sector">Halls of residence - third party</option>

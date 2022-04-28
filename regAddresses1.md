@@ -10,23 +10,14 @@ this: 5
 
 ## Addresses
 
-Please check the details below and ensure we have both a term time and a home (outside of term time) address, even if they are the same.
-
-If your term time address is local and you're eligible for a council tax exemption, this will enable us to inform your local authority.
-
-<!-- v1
 Please check the details below and ensure we have both a term time and home (outside of term time) address.
 
-Please provide a term time address, even if it is the same as your home address.
--->
 
 <h3>Term time address</h3>
 
-<!-- CANT HAVE TEXT HERE
 <p>Please provide a term time address, even if it is the same as your home address.</p>
 
 <p>If your term time address is local and you're eligible for a council tax exemption, this will enable us to inform your local authority.</p>
--->
 
 <a class="btn btn-outline-primary" href="#" ><i class="fas fa-plus-square"></i> Add term time address</a>
 
