@@ -33,7 +33,7 @@ If any of the following information is incorrect please [contact Student Service
         <td>Cambodia</td>
       </tr>
       <tr>
-        <th scope="row">National of<!-- was Citizenship country; Don't really have Nationality--></th>
+        <th scope="row">Nationality / National of<!-- was Citizenship country; Don't really have Nationality--></th>
         <td>Cambodia</td>
       </tr>
       <!-- drop as is on next screen; Joe is happy
