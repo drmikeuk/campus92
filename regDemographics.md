@@ -10,7 +10,7 @@ this: 2
 
 ## Demographics
 
-If any of the following information is incorrect please [contact Student Services](https://www.nottingham.ac.uk/studentservices/).
+If any of the following information is incorrect please [contact Student Services](https://www.nottingham.ac.uk/studentservices/help/index.aspx).
 
 <div class="clearfix">
   <table class="table table-sm notFullWidth floatLeft">
@@ -33,8 +33,8 @@ If any of the following information is incorrect please [contact Student Service
         <td>Cambodia</td>
       </tr>
       <tr>
-        <th scope="row">Nationality<!-- was Citizenship --></th>
-        <td>Cambodian</td>
+        <th scope="row">National of<!-- was Citizenship country; Don't really have Nationality--></th>
+        <td>Cambodia</td>
       </tr>
       <!-- drop as is on next screen; Joe is happy
       <tr>
