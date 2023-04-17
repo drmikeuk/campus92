@@ -1,6 +1,6 @@
 ---
 layout: registration
-title: "Addresses"
+title: "(Addresses v1)"
 nav: "no"
 sortTitle: "z"
 previous: regPersonal.html

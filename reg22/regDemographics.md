@@ -52,7 +52,7 @@ If any of the following information is incorrect please [contact Student Service
     </tbody>
   </table>
 
-  <img src="images/photo.jpg" class="photo floatLeft" alt="student photo"/>
+  <img src="{{ '/images/photo.jpg' | prepend: site.baseurl }}" class="photo floatLeft" alt="student photo"/>
 </div>
 
 
