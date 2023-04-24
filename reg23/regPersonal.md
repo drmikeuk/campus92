@@ -107,14 +107,14 @@ Parental/guardian home
 Private-sector halls
 Provider maintained property
 
-Halls of residence - third party
-Halls of residence - university maintained
-Not in attendance
+Halls of residence - third party              -- maps to 'Private-sector halls'
+Halls of residence - university maintained    -- maps to 'Provider maintained property'
+Not in attendance                             -- maps to 'Not in attendance at the provider'
 Not known
 Other
 Own home
 Parental/guardian home
-Rented accommodation
+Rented accommodation                          -- maps to 'Other rented accommodation'
 
 
 -->

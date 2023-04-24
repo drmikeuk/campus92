@@ -7,9 +7,9 @@ previous: regRegulations.html
 this: 12
 ---
 
-## Completed
+## Online Registration complete
 
-You have successfully completed Online Registration
+Thank you for completing Online Registration.
 
 <div id="buttons">
   <a class="btn btn-outline-secondary" href="regIntro.html">Home</a>
