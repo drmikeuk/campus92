@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include headReg23.html %}
+{% comment %} standard head with link to extra css {% endcomment %}
+<body>
+
+<div id="frame">
+  <div id="mobile" class="mobile">
+    {% include headerReg23.html %}
+    	<!-- MAIN -->
+    	<div class="container">
+    		<div class="row">
+    	    <!-- CONTENT always full width like CS -->
+          <div class="col-lg-12 ">
+    	    {{ content }}
+    	    </div>
+    		</div>
+    	</div>
+  </div>
+
+  <div id="laptop" class="laptop">
+    {% include headerReg23.html %}
+    	<!-- MAIN -->
+    	<div class="container">
+    		<div class="row">
+    	    <!-- CONTENT -->
+          {% if page.fullWidth %}
+          <div class="col-lg-12 ">
+          {% else %}
+          <div class="col-lg-11 col-md-11 ">
+          {% endif %}
+    	    {{ content }}
+    	    </div>
+    		</div>
+    	</div>
+  </div>
+</div>
+
+
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="{{ "/vendor/jquery-3.3.1.slim.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/vendor/popper.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/vendor/bootstrap-4.3.1.min.js " | prepend: site.baseurl }}"></script>
+
+</body>
+</html>

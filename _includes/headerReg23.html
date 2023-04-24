@@ -1,0 +1,30 @@
+	<!-- TOP NOTTINGHAM HUB BAR -->
+	<div class="hub">
+		Online Registration
+	</div>
+
+	<!-- NAV BAR -->
+	<div class="bar">
+		<div class="container">
+			<div class="row">
+				<div class="col circlesContainer">
+{{ page.title }}
+					<!-- Just title; no PROGRESS / NAV -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col actions">
+          <!-- PREV / NEXT ACTION BUTTONS - ->
+
+ grab from yaml instead so easier to reorg pages? -->
+
+					{% if page.previous %}
+					<a class="btn btn-outline-primary" href="{{page.previous}}"><i class="fas fa-chevron-left"></i> Previous</a>
+					{% endif %}
+					{% if page.next %}
+					<a class="btn btn-primary" href="{{page.next}}">Next <i class="fas fa-chevron-right"></i></a>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</div>

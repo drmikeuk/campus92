@@ -1,0 +1,98 @@
+body {margin-bottom: 2em; background-color: white}
+
+.hub 		{background: black; color: white; padding: 7px 0px; text-align: center; font-size: 20px}
+.bar    {background-color: #f8f8f8; padding: 0.3em 0.4em; text-align: left; border-bottom: 1px solid #ced4da; margin-bottom: 1em}
+.actions {text-align: right}
+.actions a {min-width: 7em; margin-left: 1em}
+
+label      {font-weight: bold; margin-top: 0.8em}
+#buttons   {margin-top: 2.5em; /*border-top: 1px solid #ccc; padding-top: 1.5em*/}
+.btn-outline-secondary {margin-right: 1em}
+
+h2 			{font-size: 2.5rem; padding-bottom: 0}
+h3 			{font-weight: 300; padding-top: 1rem}
+h4      {font-weight: 300; padding-top: 0.5rem}
+.notFullWidth {width: auto}
+.table-sm td, .table-sm th { padding: 0.4rem; border-top: 1px solid #efefef;}
+
+.secondary td   {padding: 0.4rem}
+.secondary th   {padding: 0.4rem; text-align: right}
+
+.photo 					{max-height: 9rem; padding-left: 4em}
+.floatLeft      {float:left; }
+
+.table-striped thead tr { background-color: rgba(0,0,0,.1)}
+.table-striped thead th { padding: 0.5rem 1.5rem; border-bottom: none}  /* tighter & darker */
+.table-striped th,
+.table-striped td       { padding: 0.75rem 1.5rem; border-bottom: 2px solid rgba(0,0,0,.1);}
+
+.table-sm td, .table-sm th {  border-bottom: 1px solid #efefef; }
+
+
+.tableCS th    {background-color: rgba(0,0,0,0.05)}
+.tableCS       {margin-bottom: 0;}
+.tableCSborder {border: 1px solid #dee2e6; /* to put border round outside only */}
+
+
+.form-check-label  {margin-top: 0;}
+
+.form-check-label {font-weight: normal; /* disability options */}
+
+li {padding-bottom: 0.5rem}
+
+/* css progress circles https://codepen.io/bookcasey/pen/cEntL */
+.circlesContainer {position: relative; z-index: 1; color: black;}
+
+.circles {padding-left: 0; font-size: 1em; margin: 0.4em 0}
+.circles li {
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 1em;
+  background: dodgerblue;
+  margin: 0 0.5em;          /* reduce spacing to 0.5em*/
+  display: inline-block;
+  color: white;
+  position: relative;
+}
+
+.circles li::before {
+  content: '';
+  position: absolute;
+  top: .9em;
+  left: -3em;
+  width: 3em;
+  height: .2em;
+  background: dodgerblue;
+  z-index: -1;
+}
+
+.circles li:first-child::before { display: none; }
+.circles li:first-child         { margin-left: 0; }
+.circles .active 								{ background: dodgerblue; }
+.circles .active ~ li           { background: lightblue; }
+.circles .active ~ li::before   { background: lightblue; }
+
+
+
+
+/* default: show "mobile"
+   superwide: show in styled frame & laptop too */
+#mobile {background-color: white;}
+#laptop {display: none}
+
+/* extra fudge for just mobile / just laptop when duplicate content not responsive */
+#mobile .justLaptop {display: none}
+#laptop .justMobile {display: none}
+
+
+@media screen and (min-width: 1830px) {
+  body {background-color: #efefef;}
+  #frame {display: flex; justify-content: center; align-items: center; min-height: 100vh;}
+  #mobile {width: 414px; height: 736px; box-shadow:3px 3px #ccc; background-color: white; margin-right: 100px; overflow: scroll;}
+  #mobile .actions a {min-width: 6em}
+  #mobile h2 {font-size: 2rem}
+
+  #laptop {display: block; width: 1366px; height: 768px; box-shadow: 3px 3px #ccc; background-color: white; overflow: scroll}
+}

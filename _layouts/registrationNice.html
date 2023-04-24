@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<style>
+  body {margin-bottom: 2em}
+	.hub 		{background: black; color: white; padding: 7px 0px; text-align: center; font-size: 20px}
+	.bar    {background-color: #f8f8f8; padding: 0.3em 0.4em; text-align: left; border-bottom: 1px solid #ced4da; margin-bottom: 1em}
+	.actions {text-align: right}
+	.actions a {min-width: 7em; margin-right: 1em}
+
+	label      {font-weight: bold; margin-top: 0.8em}
+#buttons   {margin-top: 2.5em; /*border-top: 1px solid #ccc; padding-top: 1.5em*/}
+	.btn-outline-secondary {margin-right: 1em}
+
+	h2 			{font-size: 2.5rem; padding-bottom: 0}
+	h3 			{font-weight: 300; padding-top: 1rem}
+	h4      {font-weight: 300; padding-top: 0.5rem}
+	.notFullWidth {width: auto}
+	.table-sm td, .table-sm th { padding: 0.4rem; border-top: 1px solid #efefef;}
+
+	.secondary td   {padding: 0.4rem}
+	.secondary th   {padding: 0.4rem; text-align: right}
+
+	.photo 					{max-height: 9rem; padding-left: 4em}
+	.floatLeft      {float:left; }
+
+	.table-striped thead tr { background-color: rgba(0,0,0,.1)}
+	.table-striped thead th { padding: 0.5rem 1.5rem; border-bottom: none}  /* tighter & darker */
+	.table-striped th,
+	.table-striped td       { padding: 0.75rem 1.5rem; border-bottom: 2px solid rgba(0,0,0,.1);}
+
+  .table-sm td, .table-sm th {  border-bottom: 1px solid #efefef; }
+
+  .form-check-label  {margin-top: 0;}
+
+.form-check-label {font-weight: normal; /* disability options */}
+
+  li {padding-bottom: 0.5rem}
+
+/* css progress circles https://codepen.io/bookcasey/pen/cEntL */
+	.circlesContainer {position: relative; z-index: 1}
+
+	.circles {padding-left: 0; font-size: 1em; margin: 0.4em 0}
+	.circles li {
+	  width: 2em;
+	  height: 2em;
+	  text-align: center;
+	  line-height: 2em;
+	  border-radius: 1em;
+	  background: dodgerblue;
+	  margin: 0 0.5em;          /* reduce spacing to 0.5em*/
+	  display: inline-block;
+	  color: white;
+	  position: relative;
+	}
+
+	.circles li::before {
+	  content: '';
+	  position: absolute;
+	  top: .9em;
+	  left: -3em;
+	  width: 3em;
+	  height: .2em;
+	  background: dodgerblue;
+	  z-index: -1;
+	}
+
+	.circles li:first-child::before { display: none; }
+	.circles li:first-child         { margin-left: 0; }
+	.circles .active 								{ background: dodgerblue; }
+	.circles .active ~ li           { background: lightblue; }
+	.circles .active ~ li::before   { background: lightblue; }
+
+
+
+</style>
+<body>
+
+	<!-- TOP NOTTINGHAM HUB BAR -->
+
+	<div class="hub">
+		Online Registration (nicer)
+	</div>
+
+	<!-- NAV BAR -->
+	<div class="bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 circlesContainer">
+
+<!-- CS has {{ page.title }} -->
+
+					<!-- PROGRESS / NAV -->
+Nice Make work & responsive...
+					<ul class="circles">
+					{% for i in (1..12) %}
+					{% if i == page.this %}
+						<li class="active">{{ i }}</li>
+					{% else %}
+						<li>{{ i }}</li>
+					{% endif %}
+					{% endfor %}
+					</ul>
+
+
+				</div>
+				<div class="col-md-4 actions">
+          <!-- PREV / NEXT ACTION BUTTONS - ->
+
+ grab from yaml instead so easier to reorg pages? -->
+
+
+
+					{% if page.previous %}
+					<a class="btn btn-outline-primary" href="{{page.previous}}"><i class="fas fa-chevron-left"></i> Previous</a>
+					{% endif %}
+					{% if page.next %}
+					<a class="btn btn-outline-primary" href="{{page.next}}">Next <i class="fas fa-chevron-right"></i></a>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- MAIN -->
+	<div class="container">
+		<div class="row">
+	    <!-- CONTENT -->
+      {% if page.fullWidth %}
+      <div class="col-lg-12 ">
+      {% else %}
+      <div class="col-lg-9 col-md-12 col-lg-offset-1 ">
+      {% endif %}
+	    {{ content }}
+	    </div>
+		</div>
+	</div>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="{{ "/vendor/jquery-3.3.1.slim.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/vendor/popper.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/vendor/bootstrap-4.3.1.min.js " | prepend: site.baseurl }}"></script>
+
+</body>
+</html>
