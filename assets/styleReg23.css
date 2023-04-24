@@ -87,6 +87,8 @@ li {padding-bottom: 0.5rem}
 #laptop .justMobile {display: none}
 
 
+
+
 @media screen and (min-width: 1830px) {
   body {background-color: #efefef;}
   #frame {display: flex; justify-content: center; align-items: center; min-height: 100vh;}
@@ -94,5 +96,10 @@ li {padding-bottom: 0.5rem}
   #mobile .actions a {min-width: 6em}
   #mobile h2 {font-size: 2rem}
 
+
+
   #laptop {display: block; width: 1366px; height: 768px; box-shadow: 3px 3px #ccc; background-color: white; overflow: scroll}
 }
+
+
+  #buttonsXXX {position: fixed; bottom:0; width: 100%; text-align: center; padding-top: 6px}
