@@ -35,7 +35,7 @@ Part-time students do not enter the UK under the student route and do not comple
 
 ### Advice and guidance
 
-The University has a team of Immigration Advisers who can provide further guidance or onwards referral on a range of UK immigration matters.  You can contact the team by visiting: [www.nottingham.ac.uk/internationalstudents/advisers] (www.nottingham.ac.uk/internationalstudents/advisers)
+The University has a team of Immigration Advisers who can provide further guidance or onwards referral on a range of UK immigration matters.  You can contact the team by visiting: [www.nottingham.ac.uk/internationalstudents/advisers](www.nottingham.ac.uk/internationalstudents/advisers)
 
 **By completing online registration you confirm that you have understood and agree to the above information.**
 
