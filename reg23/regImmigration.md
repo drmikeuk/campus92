@@ -10,13 +10,22 @@ this: 9
 
 ## Immigration requirements
 
-International students studying in the UK whilst holding a visa or residence permit are required to observe the Immigration Rules and act in accordance with these rules.
+International students studying in the UK while under immigration control are required to observe the UK Immigration Rules and act in accordance with these rules.
 
+### Student visa holders
 [Please take time to review and understand your responsibilities as detailed here.](https://www.nottingham.ac.uk/studywithus/international-applicants/visa-help/student-route/responsibilities.aspx)
 
-Failure to comply can lead to suspension or withdrawal from your course, and may affect your immigration status.
+Failure to comply may amount to a breach of Immigration Regulations and can lead to suspension and/or withdrawal from your course.
 
-During your studies, the University may need to contact the Home Office about your immigration status to ensure that you are able to enter or remain in the UK legally.
+[Limitations on immigration sponsorship](http://www.nottingham.ac.uk/go/limitations) at the University of Nottingham are detailed here.
+
+### Those holding alternative (non-student) immigration status
+
+Full time students from outside the UK/Ireland studying under non-student immigration status in the UK are required to provide the University with evidence of their right to study permission (immigration status documents) when commencing their studies and anytime thereafter should their status change or be updated.
+
+### Part-time students
+
+International part-time students do not enter the UK under the student route and are not required to complete in-person registration with the University.  If you are a part-time student you must present your passport and visa at Cherry Tree Lodge each time you re-enter the UK to continue with your studies.
 
 
 ### Advice and guidance
