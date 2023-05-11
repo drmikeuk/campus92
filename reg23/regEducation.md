@@ -72,7 +72,7 @@ Complete or update the details below.
 
 ### Your Parents' education
 
-<label for="parents">Do any of your parents (including adoptive parents, step-parents or guardians) have any higher education qualifications, such as a degree, diploma or certificate of higher education?</label>
+<label for="parents">Do any of your parents or guardians have any higher education qualifications, such as a degree, diploma or certificate of higher education?</label>
 <select name="parents" id="parents" class="custom-select">
   <option value=""></option>
   <option value="">Don't know</option>

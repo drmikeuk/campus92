@@ -83,21 +83,21 @@ Complete or update the details below.
 </select>
 
 
-<label for="ethnicity">Which of the following best describes your term-time accommodation?</label>
+<label for="accommodation">Which of the following best describes your term-time accommodation?</label>
 <select name="accommodation" id="accommodation" class="custom-select">
   <option value=""></option>
   <option value="Halls - private sector">Halls of residence - third party</option>
   <option value="Halls - university maintained">Halls of residence - university maintained</option>
-  <option value="Own residence">Own home</option>
+  <option value="Rented accommodation">Rented student accommodation</option>
+      <!-- <option value="" disabled>&nbsp;</option> -->
+  <option value="Own residence">Permanent residence - owned or rented</option>
   <option value="Parental/guardian home">Parental/guardian home</option>
-  <option value="Rented accommodation">Rented accommodation</option>
-    <!-- <option value="" disabled>&nbsp;</option> -->
-  <option value="Not in attendance">Not in attendance</option>
   <option value="Not known">Not known</option>
   <option value="Other">Other</option>
 </select>
 
 <!--
+WAS:
 Not in attendance at the provider
 Not known
 Other
@@ -107,16 +107,19 @@ Parental/guardian home
 Private-sector halls
 Provider maintained property
 
+NOW:
 Halls of residence - third party              -- maps to 'Private-sector halls'
 Halls of residence - university maintained    -- maps to 'Provider maintained property'
-Not in attendance                             -- maps to 'Not in attendance at the provider'
+Rented student accommodation                  -- maps to 'Other rented accommodation'
+Parental/guardian home
+---
 Not known
 Other
-Own home
-Parental/guardian home
-Rented accommodation                          -- maps to 'Other rented accommodation'
 
 
+
+DROPPED AS NO LONGER IN USE
+Not in attendance                             -- maps to 'Not in attendance at the provider'
 -->
 
 <div id="buttons">
