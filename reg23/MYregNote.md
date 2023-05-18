@@ -13,7 +13,7 @@ this: 1
 ### Registration process
 
 - Offer holders must complete **online** and in **person** (apart from students on offshore programme) registration within the published deadline.
-- You will only be considered as a **registered student** at The University of Nottingham Malaysia once you have completed the registration process.
+- You will only be considered as a **registered student** once you have completed the registration process.
 - Further information regarding the registration process will send to your university email and personal email. Please check your mailboxes regularly.
 
 
