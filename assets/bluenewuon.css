@@ -1,0 +1,22 @@
+/* white on uon blue  */
+
+/* tile */
+.nuitile .nuilp                    { background: #10263B  /* new uon dark blue */}
+
+
+.rsz_w2                            { background: #009bbd  /* uon blue1 */}
+
+/* icon */
+.nuilp i                           { font-size: 70px; color: white} /* FA icons */
+.nuilp .material-icons-outlined,
+.nuilp .material-icons-sharp       { font-size: 60px; color: white} /* MD icons */
+.nuilp                             { color: white}
+
+/* label */
+.nuitile .ps_groupleth > .ps-label { color: white; font-weight: 300; font-size: 120%}
+
+
+.blue .nuilp                      { /* background: #D6EAF8 */}
+
+
+.uon                              {width: 30%; position: absolute; top: 0; left: 0; right: auto!important; bottom: auto!important;}
