@@ -8,7 +8,7 @@ nav: "no"
 
 <p class="strapline">ACADEMIC YEAR <b>2022</b></p>
 
-Title: **BA Hons Law**
+<!-- Title: **BA Hons Law** -->
 
 Academic Plan Code: **U6ULAWBA**
 
@@ -24,7 +24,7 @@ Mode of delivery: **Full-time. In Person.**
 
 Duration: **3 years**
 
-<span class="note">polish layout of the above...</span>
+<span class="note">polish layout of the above... (inc poss 2 schools)</span>
 
 ----
 
@@ -53,6 +53,8 @@ Relevant QAA subject benchmark(s): **Law**
 - develop transferable skills such as the ability to communicate effectively and to work independently and co-operatively
 - become reflective life-long learners with an appreciation of the role and value of law in society
 - acquire a knowledge and understanding of the traditional foundation subjects of English law which include the core subjects specified by the Bar Standards Board and Solicitors Regulation Authority for the academic stage of legal training
+
+<span class="note">NB Bullets not current numbers</span>
 
 
 ## Programme description
@@ -129,6 +131,15 @@ General Information: <span class="note">don't display if empty?</span>
 
 
 
+
+
+| xxx    | xxx   |
+{:.table .table-sm .notFullWidth}
+
+
+
+
+
 ## Assessment
 
 The plan specification content should be read in the context of the relevant University Study Regulations. Please refer to this information on:
@@ -186,6 +197,11 @@ Students who fail to meet this requirement in Part II modules (Law of the Europe
 <span class="note">don't display heading if no content?</span>
 
 ## Learning outcomes
+
+### Overview
+<span class="note">don't display heading if no content?</span>
+
+### Assessment summary
 
 Legal knowledge is assessed through a combination of unseen written examinations; essays; and dissertations (optional).
 
