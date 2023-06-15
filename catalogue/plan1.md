@@ -16,7 +16,7 @@ UCAS Code: **M100**
 
 ----
 
-School(s) responsible for management of the academic programme: **Law (100%)**
+School(s) responsible for management of the academic programme: **Law (70%)**, **Philosophy (30%)**
 
 Type of Academic Plan: **Single Subject**
 
