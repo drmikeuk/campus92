@@ -118,25 +118,157 @@ General Information: <span class="note">don't display if empty?</span>
 
 ---
 
+
 ## Programme structure
 
-<span class="note">tables (copy HTML?)...</span>
+### U6ULAWBA - Qualifying Year
 
-...
+#### Compulsory
 
-...
+_**Students must take all modules in this group**_
 
-...
-
-
-
-
-
-
-| xxx    | xxx   |
+|Code|Title|Credits|Compensatable|Taught|
+|----|-----|-------|-------------|------|
+|LAWW1005|Introduction to Law and Legal Theory (BA)|20|N|Full Year UK|
+|LAWW1013|Law of Contract|30|N|Full Year UK|
+|LAWW1014|Public Law|30|N|Full Year UK|
 {:.table .table-sm .notFullWidth}
 
+Credit Total: **80**
 
+#### Additional course choice
+
+Additional course choice should be minimum of 40 and a maximum of 40 credits from this group. Additional course choice - 40 credits of non-law courses to be taken.A candidate who has completed the first year of the BA Law may switch to the LLB. Such a candidate must take Foundations of Tort and all law options in their second and final years.
+
+
+### U6ULAWBA - Part I
+
+#### Compulsory
+
+_**Students must take all modules in this group**_
+
+|Code|Title|Credits|Compensatable|Taught|
+|----|-----|-------|-------------|------|
+|LAWW2013|Land Law|30|N|Full Year UK|
+|LAWW2014|Criminal Law|30|N|Full Year UK|
+|LAWW2017|Foundations of Tort|30|N|Full Year UK|
+{:.table .table-sm .notFullWidth}
+
+Credit Total: **90**
+
+#### U6ULAWBA - PI - Restricted - Group 1
+
+_Students must take a minimum of 0 and a maximum of 20 credits from this group_
+
+|Code|Title|Credits|Compensatable|Taught|
+|----|-----|-------|-------------|------|
+|LAWW3088|Family Law|20|Y|Autumn UK|
+|LAWW2018|Legal Research Project A (for second year students)|10|Y|Autumn UK|
+|LAWW3089|UK Human Rights Law|20|Y|Autumn UK|
+|LAWW3093|Advanced Tort|20|Y|Autumn UK|
+|LAWW3097|Employment Law|20|Y|Autumn UK|
+|LAWW3100|Foundations of Public International Law|20|Y|Autumn UK|
+|LAWW3103|Legal Issues in Health Care|20|Y|Autumn UK|
+|LAWW2022|Online Regulation and E-Commerce (Internet Law A)|20||Autumn UK|
+|LAWW3138|Privacy and Data Protection Law|20||Autumn UK|
+|LAWW2021|The Creation of the Common Law: Power, Society, and Legal Change in England c. 1000–1250|20|Y|Autumn UK|
+|LAWW3086|Maritime Law|20|Y|Full&nbsp;Year&nbsp;UK|
+|LAWW3091|International Wildlife Law|20|Y|Full Year UK|
+|LAWW3099|Foundations of International Criminal Law|20|Y|Full Year UK|
+|LAWW3129|UK Constitutional Identity|20|Y|Full Year UK|
+|LAWW2020|Legal Research Project B (for second year students)|10|Y|Spring UK|
+|LAWW3098|European Convention on Human Rights|20|Y|Spring UK|
+|LAWW3117|Military Justice|20|Y|Spring UK|
+|LAWW3125|Principles of Personal Property|20|Y|Spring UK|
+|LAWW3127|The Law of Unjust Enrichment|20|Y|Spring UK|
+|LAWW3130|Introduction to Law and Economics|20|Y|Spring UK|
+|LAWW3131|Child Law|20|Y|Spring UK|
+|LAWW3134|Criminal Justice: Practice and Procedure|20|Y|Spring UK|
+|LAWW3136|International Law and the Global Economy|20|Y|Spring UK|
+|LAWW2023|Student Law Office|20|Y|Spring UK|
+{:.table .table-sm .notFullWidth}
+
+#### Additional course choice
+
+Additional course choice should be minimum of 0 and a maximum of 30 credits from this group. Students must take, in addition to the core courses, at least 70 credits of other law courses in total over the second and final year in order to complete the 280 credits of law courses which are required under the University of Nottingham Qualifications Framework.
+
+Up to 30 credits may be taken outside the School during the second year.
+
+To complete the necessary 120 credits students may take a Legal Research Project (10 credits), involving a research essay linked to work completed in one of the School's other courses.
+
+It shall be at the discretion of the Head of the School of Law to determine whether an optional course shall be provided in any yearStudents following the Q-Step pathway must take Intermediate Quantitative Methods for Social Sciences and Legal Research Project (Q-Step Pathway)
+
+
+### U6ULAWBA - Part II
+
+#### Compulsory
+
+_**Students must take all modules in this group.**_
+
+|Code|Title|Credits|Compensatable|Taught|
+|----|-----|-------|-------------|------|
+|LAWW3111|Law of the European Union|20|Y|Full Year UK|
+|LAWW3114|Law of Trusts|20|Y|Full Year UK|
+{:.table .table-sm .notFullWidth}
+
+Credit Total: **40**
+
+#### U6ULAWBA - PII - Restricted - Group 1
+
+_Students must take a minimum of 20 and a maximum of 80 credits from this group_
+
+|Code|Title|Credits|Compensatable|Taught|
+|----|-----|-------|-------------|------|
+|LAWW3088|Family Law|20|Y|Autumn UK|
+|LAWW3089|UK Human Rights Law|20|Y|Autumn UK|
+|LAWW3090|Foundations of Criminal Evidence|20|Y|Autumn UK|
+|LAWW3093|Advanced Tort|20|Y|Autumn UK|
+|LAWW3097|Employment Law|20|Y|Autumn UK|
+|LAWW3100|Foundations of Public International Law|20|Y|Autumn UK|
+|LAWW3103|Legal Issues in Health Care|20|Y|Autumn UK|
+|LAWW3105|Intellectual Property|20|Y|Autumn UK|
+|LAWW3109|Issues in Company Law|20|Y|Autumn UK|
+|LAWW2022|Online Regulation and E-Commerce (Internet Law A)|20|Y|Autumn UK|
+|LAWW3138|Privacy and Data Protection Law|20|Y|Autumn UK|
+|LAWW2021|The Creation of the Common Law: Power, Society, and Legal Change in England c. 1000–1250|20|Y|Autumn UK|
+|LAWW3017|Dissertation|40|Y|Full Year UK|
+|LAWW3086|Maritime Law|20|Y|Full Year UK|
+|LAWW3091|International Wildlife Law|20|Y|Full Year UK|
+|LAWW3099|Foundations of International Criminal Law|20|Y|Full&nbsp;Year&nbsp;UK|
+|LAWW3108|International Human Rights (Law)|20|Y|Full Year UK|
+|LAWW3124|Principles of Corporate Insolvency Law|20|Y|Full Year UK|
+|LAWW3129|UK Constitutional Identity|20|Y|Full Year UK|
+|LAWW3137|Law in Practice|20|Y|Full Year UK|
+|LAWW3080|Advanced Criminal Evidence|20|Y|Spring UK|
+|LAWW3087|Mental Health Law & Policy|20|Y|Spring UK|
+|LAWW3098|European Convention on Human Rights|20|Y|Spring UK|
+|LAWW3104|Industrial Property|20|Y|Spring UK|
+|LAWW3117|Military Justice|20|Y|Spring UK|
+|LAWW3125|Principles of Personal Property|20|Y|Spring UK|
+|LAWW3127|The Law of Unjust Enrichment|20|Y|Spring UK|
+|LAWW3130|Introduction to Law and Economics|20|Y|Spring UK|
+|LAWW3131|Child Law|20|Y|Spring UK|
+|LAWW3135|Cybercrime, Cybersecurity and Surveillance (Internet Law B)|20|Y|Spring UK|
+|LAWW3134|Criminal Justice: Practice and Procedure|20|Y|Spring UK|
+|LAWW3136|International Law and the Global Economy|20|Y|Spring UK|
+{:.table .table-sm .notFullWidth}
+
+#### U6ULAWBA - PII - Restricted - Group 3
+
+_Students may take a minimum of 0 and a maximum of 20 credits from this group_
+
+|Code|Title|Credits|Compensatable|Taught|
+|----|-----|-------|-------------|------|
+|LAWW3085|Independent Study C|20|Y|Full Year UK|
+{:.table .table-sm .notFullWidth}
+
+#### Additional course choice
+
+Additional course choice should be minimum of 0 and a maximum of 40 credits from this group. Students must take, in addition to the core courses, at least 70 credits of other law courses in total over the second and final years in order to complete the 280 credits of law courses which are required under the University of Nottingham Qualifications Framework.
+
+Up to 40 credits may be taken outside the School during the final year. Credits taken outside the school during final year must be at Level 2 or above.
+
+It shall be at the discretion of the Head of the School of Law to determine whether an optional course shall be provided in any year.Students following the Q-Step pathway must take Advanced Quantitative Methods for Social Sciences.
 
 
 
