@@ -24,7 +24,7 @@ Mode of delivery: **Full-time. In Person.**
 
 Duration: **3 years**
 
-<span class="note">polish layout of the above... (inc poss 2 schools)</span>
+<span class="note">polish layout of the above... </span>
 
 ----
 
@@ -53,8 +53,6 @@ Relevant QAA subject benchmark(s): **Law**
 - develop transferable skills such as the ability to communicate effectively and to work independently and co-operatively
 - become reflective life-long learners with an appreciation of the role and value of law in society
 - acquire a knowledge and understanding of the traditional foundation subjects of English law which include the core subjects specified by the Bar Standards Board and Solicitors Regulation Authority for the academic stage of legal training
-
-<span class="note">NB Bullets not current numbers</span>
 
 
 ## Programme description
@@ -98,9 +96,7 @@ We run a legal skills programme that caters for all students throughout the acad
 
 
 
-## Admission requirements
-
----
+## Admission requirements (v1)
 
 Programme requirements: **AAA**
 
@@ -108,15 +104,50 @@ Including: **Five GCSEs at grade 4 (C) or above, which must include English**
 
 Excluding: **General studies, critical thinking, citizenship, global perspectives and research, and thinking skills**
 
-Other requirements: <span class="note">don't display if empty?</span>
+Other requirements: <span class="note">don't display if empty</span>
 
 IELTS Requirements: **6.5 w/ no less than 6.5 in ea.**
 
-General Information: <span class="note">don't display if empty?</span>
+General Information: <span class="note">don't display if empty</span>
 
-<span class="note">polish layout of the above...</span>
 
----
+
+
+## Admission requirements (v2)
+
+Programme requirements
+: AAA
+
+Including
+: Five GCSEs at grade 4 (C) or above, which must include English
+
+Excluding
+: General studies, critical thinking, citizenship, global perspectives and research, and thinking skills
+
+Other requirements
+: <span class="note">don't display if empty</span>
+
+IELTS Requirements
+: 6.5 w/ no less than 6.5 in ea.
+
+General Information
+: <span class="note">don't display if empty</span>
+
+
+
+## Admission requirements (v3)
+
+|Programme requirements|AAA|
+|Including|Five GCSEs at grade 4 (C) or above, which must include English|
+|Excluding|General studies, critical thinking, citizenship, global perspectives and research, and thinking skills|
+|Other requirements|<span class="note">don't display if empty</span>|
+|IELTS Requirements|6.5 w/ no less than 6.5 in ea.|
+|General Information|<span class="note">don't display if empty</span>|
+{:.table .table-sm .notFullWidth}
+
+
+
+
 
 
 ## Programme structure
@@ -127,14 +158,37 @@ General Information: <span class="note">don't display if empty?</span>
 
 _**Students must take all modules in this group**_
 
+<div class="table-responsive" markdown=1>
 |Code|Title|Credits|Compensatable|Taught|
 |----|-----|-------|-------------|------|
 |LAWW1005|Introduction to Law and Legal Theory (BA)|20|N|Full Year UK|
 |LAWW1013|Law of Contract|30|N|Full Year UK|
 |LAWW1014|Public Law|30|N|Full Year UK|
 {:.table .table-sm .notFullWidth}
+</div>
 
 Credit Total: **80**
+
+
+
+
+<span class="note">TEST TABLE (option for mobile):</span>
+
+<div class="table-responsive" markdown=1>
+
+|Title / Code|Cr|Taught|
+|------------|-------|------|
+|**Introduction to Law and Legal Theory (BA)**<br/>LAWW1005 _(Non compensatable)_|20|FY UK|
+|**Law of Contract**<br/>LAWW1013 _(Non compensatable)_|30|FY UK|
+|**Public Law**<br/>LAWW1014 _(Non compensatable)_|30|FY UK|
+{:.table .table-sm .notFullWidth}
+
+</div>
+
+
+
+
+
 
 #### Additional course choice
 
@@ -147,12 +201,14 @@ Additional course choice should be minimum of 40 and a maximum of 40 credits fro
 
 _**Students must take all modules in this group**_
 
+<div class="table-responsive" markdown=1>
 |Code|Title|Credits|Compensatable|Taught|
 |----|-----|-------|-------------|------|
 |LAWW2013|Land Law|30|N|Full Year UK|
 |LAWW2014|Criminal Law|30|N|Full Year UK|
 |LAWW2017|Foundations of Tort|30|N|Full Year UK|
 {:.table .table-sm .notFullWidth}
+</div>
 
 Credit Total: **90**
 
@@ -160,6 +216,7 @@ Credit Total: **90**
 
 _Students must take a minimum of 0 and a maximum of 20 credits from this group_
 
+<div class="table-responsive" markdown=1>
 |Code|Title|Credits|Compensatable|Taught|
 |----|-----|-------|-------------|------|
 |LAWW3088|Family Law|20|Y|Autumn UK|
@@ -187,6 +244,7 @@ _Students must take a minimum of 0 and a maximum of 20 credits from this group_
 |LAWW3136|International Law and the Global Economy|20|Y|Spring UK|
 |LAWW2023|Student Law Office|20|Y|Spring UK|
 {:.table .table-sm .notFullWidth}
+</div>
 
 #### Additional course choice
 
@@ -205,11 +263,13 @@ It shall be at the discretion of the Head of the School of Law to determine whet
 
 _**Students must take all modules in this group.**_
 
+<div class="table-responsive" markdown=1>
 |Code|Title|Credits|Compensatable|Taught|
 |----|-----|-------|-------------|------|
 |LAWW3111|Law of the European Union|20|Y|Full Year UK|
 |LAWW3114|Law of Trusts|20|Y|Full Year UK|
 {:.table .table-sm .notFullWidth}
+</div>
 
 Credit Total: **40**
 
@@ -217,6 +277,7 @@ Credit Total: **40**
 
 _Students must take a minimum of 20 and a maximum of 80 credits from this group_
 
+<div class="table-responsive" markdown=1>
 |Code|Title|Credits|Compensatable|Taught|
 |----|-----|-------|-------------|------|
 |LAWW3088|Family Law|20|Y|Autumn UK|
@@ -252,15 +313,18 @@ _Students must take a minimum of 20 and a maximum of 80 credits from this group_
 |LAWW3134|Criminal Justice: Practice and Procedure|20|Y|Spring UK|
 |LAWW3136|International Law and the Global Economy|20|Y|Spring UK|
 {:.table .table-sm .notFullWidth}
+</div>
 
 #### U6ULAWBA - PII - Restricted - Group 3
 
 _Students may take a minimum of 0 and a maximum of 20 credits from this group_
 
+<div class="table-responsive" markdown=1>
 |Code|Title|Credits|Compensatable|Taught|
 |----|-----|-------|-------------|------|
 |LAWW3085|Independent Study C|20|Y|Full Year UK|
 {:.table .table-sm .notFullWidth}
+</div>
 
 #### Additional course choice
 
@@ -326,12 +390,12 @@ Students who fail to meet this requirement in Part II modules (Law of the Europe
 
 ## Additional regulations
 
-<span class="note">don't display heading if no content?</span>
+<span class="note">don't display heading if no content</span>
 
 ## Learning outcomes
 
 ### Overview
-<span class="note">don't display heading if no content?</span>
+<span class="note">don't display heading if no content</span>
 
 ### Assessment summary
 
@@ -367,7 +431,6 @@ Graduates should be able to demonstrate knowledge and understanding of:
 - knowledge and understanding of current developments in the law modules studied
 - knowledge of the principles and techniques of legal research.
 
-<span class="note">NB bulleted or numbered list? NOT the A1...A7 etc!</span>
 
 ### Intellectual skills
 
