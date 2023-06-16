@@ -95,7 +95,7 @@ The Legal Skills Team help undergraduate law students with their academic legal 
 We run a legal skills programme that caters for all students throughout the academic year and offer a variety of seminars and workshops for different year groups to address and respond to the specific needs of each.
 
 
-
+<!--
 ## Admission requirements (v1)
 
 Programme requirements: **AAA**
@@ -132,10 +132,10 @@ IELTS Requirements
 
 General Information
 : <span class="note">don't display if empty</span>
+-->
 
 
-
-## Admission requirements (v3)
+## Admission requirements
 
 |Programme requirements|AAA|
 |Including|Five GCSEs at grade 4 (C) or above, which must include English|
@@ -144,8 +144,6 @@ General Information
 |IELTS Requirements|6.5 w/ no less than 6.5 in ea.|
 |General Information|<span class="note">don't display if empty</span>|
 {:.table .table-sm .notFullWidth}
-
-
 
 
 
