@@ -14,6 +14,8 @@ Academic Plan Code: **U6ULAWBA**
 
 UCAS Code: **M100**
 
+Programme Code: **U1234**
+
 ----
 
 School(s) responsible for management of the academic programme: **Law (70%)**, **Philosophy (30%)**
@@ -24,7 +26,7 @@ Mode of delivery: **Full-time. In Person.**
 
 Duration: **3 years**
 
-<span class="note">polish layout of the above... </span>
+<span class="note">polish layout of the above ^^ </span>
 
 ----
 
