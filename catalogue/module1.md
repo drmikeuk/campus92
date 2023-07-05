@@ -50,6 +50,8 @@ This course aims to prepare students to prescribe safely and knowledgeably from 
 
 ## Pre-requisites
 
+_modules that a student must have already successfully completed before they can enrol on this module_
+
 <div class="table-responsive" markdown=1>
 |Code|Title|
 |----|-----|
@@ -61,7 +63,10 @@ This course aims to prepare students to prescribe safely and knowledgeably from 
 
 <span class="note">Make whole row clickable? </span>
 
+
 ## Co-requisites
+
+_modules that a student must be taking in the same academic year as this module to enable them to enrol on this module_
 
 <div class="table-responsive" markdown=1>
 |Code|Title|
@@ -75,7 +80,7 @@ This course aims to prepare students to prescribe safely and knowledgeably from 
 
 ## Anti-requisites
 
-<span class="note">Do we want line to explain?? </span>
+_modules that a student must not have taken or be taking before enrolling on this module_
 
 <div class="table-responsive" markdown=1>
 |Code|Title|
