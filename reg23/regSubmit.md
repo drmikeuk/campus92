@@ -3,8 +3,8 @@ layout: registration23
 title: "Completed"
 nav: "no"
 sortTitle: "z"
-previous: regRegulations.html
-this: 12
+previous: regVoter.html
+this: 13
 ---
 
 ## Online Registration complete

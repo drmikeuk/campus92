@@ -4,7 +4,7 @@ title: "Academic regulations"
 nav: "no"
 sortTitle: "z"
 previous: regFinance.html
-next: regSubmit.html
+next: regVoter.html
 this: 11
 ---
 
