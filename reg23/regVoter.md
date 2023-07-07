@@ -23,11 +23,3 @@ The Electoral Registration Officer will use this data for the purpose of voter r
   <a class="btn btn-outline-primary" type="submit" href="{{page.next}}">Decline</a>
   <a class="btn btn-primary" type="submit" href="{{page.next}}">Confirm</a>
 </div>
-
-----
-
-<br><br>
-
-**Ignore this old words...**
-
-By confirming, you understand that the following information will be passed to the Electoral Registration Officer at the Council local to your term-time address. The data the University of Nottingham will share will be limited to your surname/family name, first name(s), date of birth, nationality, term-time address including postcode, and your University email address.
