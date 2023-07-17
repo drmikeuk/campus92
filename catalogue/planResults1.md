@@ -5,17 +5,7 @@ nav: "no"
 ---
 
 # Programmes: UK
-<!-- <p class="strapline">ACADEMIC YEAR <b>2022-23</b></p> -->
-
-<form style="padding-bottom: 18px">
-<select id="AcademicYear" class="form-control notFullWidth strapline">
-  {% assign years = site.data.years %}
-  {% for year in years %}
-  <option>{{ year.AcademicYearLong }}</option>
-  {% endfor %}
-</select>
-</form>
-
+<p class="strapline">ACADEMIC YEAR <b>2022-23</b></p>
 
 <table class="table table-sm notXFullWidth table-hover">
   <thead class="thead-dark">
