@@ -7,8 +7,8 @@ nav: "no"
 # Programmes: UK
 <p class="strapline">ACADEMIC YEAR <b>2022-23</b></p>
 
-
-<table class="table table-sm notFullWidth table-hover">
+FILTER?
+<table class="table table-sm notXFullWidth table-hover">
   <thead class="thead-dark">
     <tr>
       <th scope="col">UCAS</th>
@@ -24,13 +24,10 @@ nav: "no"
     <tr>
       <td>{{ plan.ucasCode }}</td>
       <td>{{ plan.planCode }}</td>
-      <td>{{ plan.Title }}</td>
+      <td><a href="plan1.html" class="stretched-linkX">{{ plan.Title }}</a></td>
       <td>{{ plan.yearEntry }}</td>
-      <td><i class="fas fa-chevron-circle-right"></i></td>
+      <td class="right"><i class="fas fa-chevron-circle-right"></i></td>
     </tr>
     {% endfor %}
   </tbody>
 </table>
-
-
-link to plan1.html
