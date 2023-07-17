@@ -30,10 +30,10 @@ nav: "no"
   <tbody>
     {% assign plans = site.data.plans %}
     {% for plan in plans %}
-    <tr>
+    <tr style="position: relative">
       <td>{{ plan.ucasCode }}</td>
       <td>{{ plan.planCode }}</td>
-      <td><a href="plan1.html" class="stretched-linkX">{{ plan.Title }}</a></td>
+      <td><a href="plan1.html" class="stretched-link">{{ plan.Title }}</a></td>
       <td>{{ plan.yearEntry }}</td>
       <td class="right"><i class="fas fa-chevron-circle-right"></i></td>
     </tr>
