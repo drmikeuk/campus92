@@ -2,6 +2,11 @@
 layout: cat
 title: "Programmes: Search"
 nav: "no"
+customcss:
+  - /vendor/datatables.min.css
+customjs:
+  - /vendor/datatables.min.js
+  - /assets/plan.js
 ---
 
 # Programmes: UK
@@ -17,7 +22,7 @@ nav: "no"
 </form>
 
 
-<table class="table table-sm notXFullWidth table-hover">
+<table id="DataTable" class="table table-sm notXFullWidth table-hover">
   <thead class="thead-dark">
     <tr>
       <th scope="col">UCAS</th>
