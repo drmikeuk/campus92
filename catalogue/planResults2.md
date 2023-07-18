@@ -28,7 +28,7 @@ customjs:
       <th scope="col">UCAS</th>
       <th scope="col">Code</th>
       <th scope="col">Title</th>
-      <th scope="col">First entry</th>
+      <th scope="col" style="white-space: nowrap;">First entry</th>
       <th scope="col"> </th>
     </tr>
   </thead>
