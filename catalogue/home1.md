@@ -28,27 +28,6 @@ nav: "no"
 </div>
 
 
-<div class="row" style="padding-top: 2em">
-
-  {% assign cards = site.data.programmeCards %}
-  {% for card in cards %}
-  <div class="col-md-4">
-    <div class="card" >
-      <img class="card-img-top" src="/campus92/images/{{ card.image }}" alt="Campus photo">
-      <div class="card-body">
-        <h5 class="card-title">Programme catalogue</h5>
-        <p class="card-text">{{ card.title }} campus
-        <a href="planSearch.html" class="stretched-link"><i class="fas fa-chevron-circle-right"></i></a></p>
-
-      </div>
-    </div>
-  </div>
-  {% endfor %}
-
-</div>
-
-
-
 
 <h2 style="padding-top: 30px">Modules</h2>
 
