@@ -61,7 +61,7 @@ _modules that a student must have already successfully completed before they can
 {:.table .table-sm .notFullWidth}
 </div>
 
-<span class="note">Make whole row clickable? </span>
+<span class="note">Make whole row clickable </span>
 
 
 ## Co-requisites

@@ -4,6 +4,8 @@ title: "Curriculum catalogue"
 nav: "no"
 ---
 
+<div class="breadcrumbs">Curriculum catalogue</div>
+
 <h1 class="padTitle">Curriculum catalogue</h1>
 
 <div class="row">

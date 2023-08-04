@@ -20,19 +20,25 @@ nav: "no"
     </div>
   </div>
 
-  <div class="form-group row">
+<!-- <p>Search by keyword <b>or</b> programme <b>or</b> UCAS code:</p> -->
+
+  <div class="form-group row noPad">
     <label for="Title" class="col-sm-2 col-form-labelXX">Title</label>
     <div class="col-sm-10">
       <input type="text" class="form-control" id="Title" placeholder="Title keywords...">
     </div>
   </div>
 
-  <div class="form-group row">
+<div><i>or</i></div>
+
+  <div class="form-group row noPad">
     <label for="Programme code" class="col-sm-2 col-form-labelXX">Programme code</label>
     <div class="col-sm-10">
       <input type="text" class="form-control" id="Programme code" >
     </div>
   </div>
+
+<div><i>or</i></div>
 
   <div class="form-group row">
     <label for="UCAS code" class="col-sm-2 col-form-labelXX">UCAS code</label>

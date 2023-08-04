@@ -158,12 +158,12 @@ General Information
 
 _**Students must take all modules in this group**_
 
-<div class="table-responsive" markdown=1>
+<div class="table-responsive table-hover" markdown=1>
 |Code|Title|Credits|Compensatable|Taught|
 |----|-----|-------|-------------|------|
-|LAWW1005|Introduction to Law and Legal Theory (BA)|20|N|Full Year UK|
-|LAWW1013|Law of Contract|30|N|Full Year UK|
-|LAWW1014|Public Law|30|N|Full Year UK|
+|LAWW1005|[Introduction to Law and Legal Theory (BA)](module1.html)|20|N|Full Year UK|
+|LAWW1013|[Law of Contract](module1.html)|30|N|Full Year UK|
+|LAWW1014|[Public Law](module1.html)|30|N|Full Year UK|
 {:.table .table-sm .notFullWidth}
 </div>
 
@@ -174,13 +174,13 @@ Credit Total: **80**
 
 <span class="note">TEST TABLE (option for mobile):</span>
 
-<div class="table-responsive" markdown=1>
+<div class="table-responsive table-hover" markdown=1>
 
 |Title / Code|Cr|Taught|
 |------------|-------|------|
-|**Introduction to Law and Legal Theory (BA)**<br/>LAWW1005 _(Non compensatable)_|20|FY UK|
-|**Law of Contract**<br/>LAWW1013 _(Non compensatable)_|30|FY UK|
-|**Public Law**<br/>LAWW1014 _(Non compensatable)_|30|FY UK|
+|**[Introduction to Law and Legal Theory (BA)](module1.html)**<br/>LAWW1005 _(Non compensatable)_|20|FY UK|
+|**[Law of Contract](module1.html)**<br/>LAWW1013 _(Non compensatable)_|30|FY UK|
+|**[Public Law](module1.html)**<br/>LAWW1014 _(Non compensatable)_|30|FY UK|
 {:.table .table-sm .notFullWidth}
 
 </div>
@@ -201,12 +201,12 @@ Additional course choice should be minimum of 40 and a maximum of 40 credits fro
 
 _**Students must take all modules in this group**_
 
-<div class="table-responsive" markdown=1>
+<div class="table-responsive table-hover" markdown=1>
 |Code|Title|Credits|Compensatable|Taught|
 |----|-----|-------|-------------|------|
-|LAWW2013|Land Law|30|N|Full Year UK|
-|LAWW2014|Criminal Law|30|N|Full Year UK|
-|LAWW2017|Foundations of Tort|30|N|Full Year UK|
+|LAWW2013|[Land Law](module1.html)|30|N|Full Year UK|
+|LAWW2014|[Criminal Law](module1.html)|30|N|Full Year UK|
+|LAWW2017|[Foundations of Tort](module1.html)|30|N|Full Year UK|
 {:.table .table-sm .notFullWidth}
 </div>
 
@@ -216,33 +216,33 @@ Credit Total: **90**
 
 _Students must take a minimum of 0 and a maximum of 20 credits from this group_
 
-<div class="table-responsive" markdown=1>
+<div class="table-responsive table-hover" markdown=1>
 |Code|Title|Credits|Compensatable|Taught|
 |----|-----|-------|-------------|------|
-|LAWW3088|Family Law|20|Y|Autumn UK|
-|LAWW2018|Legal Research Project A (for second year students)|10|Y|Autumn UK|
-|LAWW3089|UK Human Rights Law|20|Y|Autumn UK|
-|LAWW3093|Advanced Tort|20|Y|Autumn UK|
-|LAWW3097|Employment Law|20|Y|Autumn UK|
-|LAWW3100|Foundations of Public International Law|20|Y|Autumn UK|
-|LAWW3103|Legal Issues in Health Care|20|Y|Autumn UK|
-|LAWW2022|Online Regulation and E-Commerce (Internet Law A)|20||Autumn UK|
-|LAWW3138|Privacy and Data Protection Law|20||Autumn UK|
-|LAWW2021|The Creation of the Common Law: Power, Society, and Legal Change in England c. 1000–1250|20|Y|Autumn UK|
-|LAWW3086|Maritime Law|20|Y|Full&nbsp;Year&nbsp;UK|
-|LAWW3091|International Wildlife Law|20|Y|Full Year UK|
-|LAWW3099|Foundations of International Criminal Law|20|Y|Full Year UK|
-|LAWW3129|UK Constitutional Identity|20|Y|Full Year UK|
-|LAWW2020|Legal Research Project B (for second year students)|10|Y|Spring UK|
-|LAWW3098|European Convention on Human Rights|20|Y|Spring UK|
-|LAWW3117|Military Justice|20|Y|Spring UK|
-|LAWW3125|Principles of Personal Property|20|Y|Spring UK|
-|LAWW3127|The Law of Unjust Enrichment|20|Y|Spring UK|
-|LAWW3130|Introduction to Law and Economics|20|Y|Spring UK|
-|LAWW3131|Child Law|20|Y|Spring UK|
-|LAWW3134|Criminal Justice: Practice and Procedure|20|Y|Spring UK|
-|LAWW3136|International Law and the Global Economy|20|Y|Spring UK|
-|LAWW2023|Student Law Office|20|Y|Spring UK|
+|LAWW3088|[Family Law](module1.html)|20|Y|Autumn UK|
+|LAWW2018|[Legal Research Project A (for second year students)](module1.html)|10|Y|Autumn UK|
+|LAWW3089|[UK Human Rights Law](module1.html)|20|Y|Autumn UK|
+|LAWW3093|[Advanced Tort](module1.html)|20|Y|Autumn UK|
+|LAWW3097|[Employment Law](module1.html)|20|Y|Autumn UK|
+|LAWW3100|[Foundations of Public International Law](module1.html)|20|Y|Autumn UK|
+|LAWW3103|[Legal Issues in Health Care](module1.html)|20|Y|Autumn UK|
+|LAWW2022|[Online Regulation and E-Commerce (Internet Law A)](module1.html)|20||Autumn UK|
+|LAWW3138|[Privacy and Data Protection Law](module1.html)|20||Autumn UK|
+|LAWW2021|[The Creation of the Common Law: Power, Society, and Legal Change in England c. 1000–1250](module1.html)|20|Y|Autumn UK|
+|LAWW3086|[Maritime Law](module1.html)|20|Y|Full&nbsp;Year&nbsp;UK|
+|LAWW3091|[International Wildlife Law](module1.html)|20|Y|Full Year UK|
+|LAWW3099|[Foundations of International Criminal Law](module1.html)|20|Y|Full Year UK|
+|LAWW3129|[UK Constitutional Identity](module1.html)|20|Y|Full Year UK|
+|LAWW2020|[Legal Research Project B (for second year students)](module1.html)|10|Y|Spring UK|
+|LAWW3098|[European Convention on Human Rights](module1.html)|20|Y|Spring UK|
+|LAWW3117|[Military Justice](module1.html)|20|Y|Spring UK|
+|LAWW3125|[Principles of Personal Property](module1.html)|20|Y|Spring UK|
+|LAWW3127|[The Law of Unjust Enrichment](module1.html)|20|Y|Spring UK|
+|LAWW3130|[Introduction to Law and Economics](module1.html)|20|Y|Spring UK|
+|LAWW3131|[Child Law](module1.html)|20|Y|Spring UK|
+|LAWW3134|[Criminal Justice: Practice and Procedure](module1.html)|20|Y|Spring UK|
+|LAWW3136|[International Law and the Global Economy](module1.html)|20|Y|Spring UK|
+|LAWW2023|[Student Law Office](module1.html)|20|Y|Spring UK|
 {:.table .table-sm .notFullWidth}
 </div>
 
@@ -263,11 +263,11 @@ It shall be at the discretion of the Head of the School of Law to determine whet
 
 _**Students must take all modules in this group.**_
 
-<div class="table-responsive" markdown=1>
+<div class="table-responsive table-hover" markdown=1>
 |Code|Title|Credits|Compensatable|Taught|
 |----|-----|-------|-------------|------|
-|LAWW3111|Law of the European Union|20|Y|Full Year UK|
-|LAWW3114|Law of Trusts|20|Y|Full Year UK|
+|LAWW3111|[Law of the European Union](module1.html)|20|Y|Full Year UK|
+|LAWW3114|[Law of Trusts](module1.html)|20|Y|Full Year UK|
 {:.table .table-sm .notFullWidth}
 </div>
 
@@ -277,41 +277,41 @@ Credit Total: **40**
 
 _Students must take a minimum of 20 and a maximum of 80 credits from this group_
 
-<div class="table-responsive" markdown=1>
+<div class="table-responsive table-hover" markdown=1>
 |Code|Title|Credits|Compensatable|Taught|
 |----|-----|-------|-------------|------|
-|LAWW3088|Family Law|20|Y|Autumn UK|
-|LAWW3089|UK Human Rights Law|20|Y|Autumn UK|
-|LAWW3090|Foundations of Criminal Evidence|20|Y|Autumn UK|
-|LAWW3093|Advanced Tort|20|Y|Autumn UK|
-|LAWW3097|Employment Law|20|Y|Autumn UK|
-|LAWW3100|Foundations of Public International Law|20|Y|Autumn UK|
-|LAWW3103|Legal Issues in Health Care|20|Y|Autumn UK|
-|LAWW3105|Intellectual Property|20|Y|Autumn UK|
-|LAWW3109|Issues in Company Law|20|Y|Autumn UK|
-|LAWW2022|Online Regulation and E-Commerce (Internet Law A)|20|Y|Autumn UK|
-|LAWW3138|Privacy and Data Protection Law|20|Y|Autumn UK|
-|LAWW2021|The Creation of the Common Law: Power, Society, and Legal Change in England c. 1000–1250|20|Y|Autumn UK|
-|LAWW3017|Dissertation|40|Y|Full Year UK|
-|LAWW3086|Maritime Law|20|Y|Full Year UK|
-|LAWW3091|International Wildlife Law|20|Y|Full Year UK|
-|LAWW3099|Foundations of International Criminal Law|20|Y|Full&nbsp;Year&nbsp;UK|
-|LAWW3108|International Human Rights (Law)|20|Y|Full Year UK|
-|LAWW3124|Principles of Corporate Insolvency Law|20|Y|Full Year UK|
-|LAWW3129|UK Constitutional Identity|20|Y|Full Year UK|
-|LAWW3137|Law in Practice|20|Y|Full Year UK|
-|LAWW3080|Advanced Criminal Evidence|20|Y|Spring UK|
-|LAWW3087|Mental Health Law & Policy|20|Y|Spring UK|
-|LAWW3098|European Convention on Human Rights|20|Y|Spring UK|
-|LAWW3104|Industrial Property|20|Y|Spring UK|
-|LAWW3117|Military Justice|20|Y|Spring UK|
-|LAWW3125|Principles of Personal Property|20|Y|Spring UK|
-|LAWW3127|The Law of Unjust Enrichment|20|Y|Spring UK|
-|LAWW3130|Introduction to Law and Economics|20|Y|Spring UK|
-|LAWW3131|Child Law|20|Y|Spring UK|
-|LAWW3135|Cybercrime, Cybersecurity and Surveillance (Internet Law B)|20|Y|Spring UK|
-|LAWW3134|Criminal Justice: Practice and Procedure|20|Y|Spring UK|
-|LAWW3136|International Law and the Global Economy|20|Y|Spring UK|
+|LAWW3088|[Family Law](module1.html)|20|Y|Autumn UK|
+|LAWW3089|[UK Human Rights Law](module1.html)|20|Y|Autumn UK|
+|LAWW3090|[Foundations of Criminal Evidence](module1.html)|20|Y|Autumn UK|
+|LAWW3093|[Advanced Tort](module1.html)|20|Y|Autumn UK|
+|LAWW3097|[Employment Law](module1.html)|20|Y|Autumn UK|
+|LAWW3100|[Foundations of Public International Law](module1.html)|20|Y|Autumn UK|
+|LAWW3103|[Legal Issues in Health Care](module1.html)|20|Y|Autumn UK|
+|LAWW3105|[Intellectual Property](module1.html)|20|Y|Autumn UK|
+|LAWW3109|[Issues in Company Law](module1.html)|20|Y|Autumn UK|
+|LAWW2022|[Online Regulation and E-Commerce (Internet Law A)](module1.html)|20|Y|Autumn UK|
+|LAWW3138|[Privacy and Data Protection Law](module1.html)|20|Y|Autumn UK|
+|LAWW2021|[The Creation of the Common Law: Power, Society, and Legal Change in England c. 1000–1250](module1.html)|20|Y|Autumn UK|
+|LAWW3017|[Dissertation](module1.html)|40|Y|Full Year UK|
+|LAWW3086|[Maritime Law](module1.html)|20|Y|Full Year UK|
+|LAWW3091|[International Wildlife Law](module1.html)|20|Y|Full Year UK|
+|LAWW3099|[Foundations of International Criminal Law](module1.html)|20|Y|Full&nbsp;Year&nbsp;UK|
+|LAWW3108|[International Human Rights (Law)](module1.html)|20|Y|Full Year UK|
+|LAWW3124|[Principles of Corporate Insolvency Law](module1.html)|20|Y|Full Year UK|
+|LAWW3129|[UK Constitutional Identity](module1.html)|20|Y|Full Year UK|
+|LAWW3137|[Law in Practice](module1.html)|20|Y|Full Year UK|
+|LAWW3080|[Advanced Criminal Evidence](module1.html)|20|Y|Spring UK|
+|LAWW3087|[Mental Health Law & Policy](module1.html)|20|Y|Spring UK|
+|LAWW3098|[European Convention on Human Rights](module1.html)|20|Y|Spring UK|
+|LAWW3104|[Industrial Property](module1.html)|20|Y|Spring UK|
+|LAWW3117|[Military Justice](module1.html)|20|Y|Spring UK|
+|LAWW3125|[Principles of Personal Property](module1.html)|20|Y|Spring UK|
+|LAWW3127|[The Law of Unjust Enrichment](module1.html)|20|Y|Spring UK|
+|LAWW3130|[Introduction to Law and Economics](module1.html)|20|Y|Spring UK|
+|LAWW3131|[Child Law](module1.html)|20|Y|Spring UK|
+|LAWW3135|[Cybercrime, Cybersecurity and Surveillance (Internet Law B)](module1.html)|20|Y|Spring UK|
+|LAWW3134|[Criminal Justice: Practice and Procedure](module1.html)|20|Y|Spring UK|
+|LAWW3136|[International Law and the Global Economy](module1.html)|20|Y|Spring UK|
 {:.table .table-sm .notFullWidth}
 </div>
 
@@ -319,10 +319,10 @@ _Students must take a minimum of 20 and a maximum of 80 credits from this group_
 
 _Students may take a minimum of 0 and a maximum of 20 credits from this group_
 
-<div class="table-responsive" markdown=1>
+<div class="table-responsive table-hover" markdown=1>
 |Code|Title|Credits|Compensatable|Taught|
 |----|-----|-------|-------------|------|
-|LAWW3085|Independent Study C|20|Y|Full Year UK|
+|LAWW3085|[Independent Study C](module1.html)|20|Y|Full Year UK|
 {:.table .table-sm .notFullWidth}
 </div>
 
