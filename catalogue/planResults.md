@@ -28,6 +28,7 @@ customjs:
       <th scope="col">UCAS</th>
       <th scope="col">Code</th>
       <th scope="col">Title</th>
+      <th scope="col">Level</th>
       <th scope="col">First entry</th>
       <th scope="col"> </th>
     </tr>
@@ -39,6 +40,7 @@ customjs:
       <td>{{ plan.ucasCode }}</td>
       <td>{{ plan.planCode }}</td>
       <td><a href="plan1.html" class="stretched-link">{{ plan.Title }}</a></td>
+      <td>{{ plan.level }}</td>
       <td>{{ plan.yearEntry }}</td>
       <td class="right"><i class="fas fa-chevron-circle-right"></i></td>
     </tr>

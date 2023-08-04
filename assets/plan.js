@@ -7,6 +7,7 @@ $(document).ready( function () {
         //"buttons": ['copy', 'csv'],
         "language": { "info": "Showing _START_ to _END_ of _TOTAL_ programmes",
                       "infoFiltered":   "(filtered from _MAX_)",
-                       "search": "Filter:" }
+                       "search": "Filter:" },
+        "columnDefs": [ { "targets": 5, "orderable": false } ]
       });
 } );
