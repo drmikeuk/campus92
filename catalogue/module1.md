@@ -94,6 +94,7 @@ _modules that a student must not have taken or be taking before enrolling on thi
 
 ## Additional requirements
 
+<!-- NOT a list of modules !!
 <div class="table-responsive" markdown=1>
 |Code|Title|
 |----|-----|
@@ -102,7 +103,13 @@ _modules that a student must not have taken or be taking before enrolling on thi
 |[MATH1027](linkToModule)|Calculus|
 {:.table .table-sm .notFullWidth}
 </div>
+-->
 
+- only available to students on some exciting plan
+- only available to students taking
+  - module xyz, or
+  - module abc
+- only available to level3 students
 
 
 ## Method and frequency of class
