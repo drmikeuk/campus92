@@ -7,6 +7,7 @@ title: "Home"
   <h2>Various mockups for campus 9.2</h2>
 
   <ul>
+    <li><a href="awc/">AWC</a></li>
     <li><a href="catalogue/">Curriculum Catalogue</a></li>
     <li><a href="reg23/">Online Registration 2023</a></li>
     <li><a href="tiles/">Tiles</a></li>

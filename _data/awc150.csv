@@ -1,0 +1,151 @@
+n,id,name,course,school,tutor,career,year,support,photo,username
+1,10054116,Garth Abell,BA Hons Geography with Business,Law,Simon Chew,PGT,1,N,36,rmycd2
+2,10504942,Zara Ahmed,BA Hons Geography with Business,Philosophy,Frances Coady,UG,1,N,21,meyur6
+3,10952733,Iain Anderson,BA Hons Geography with Business,Law,Joshua Clarke,UG,1,N,12,otyyo0
+4,10431079,June Armstrong,BSc Hons Agricultural Business Management,Philosophy,Frances Coady,UG,1,N,24,xdytn6
+5,10424442,Colin Ashton,BSc Hons Accounting and Business,Biosciences,Kevin Berry,UG,1,N,9,trymm9
+6,10488537,Elizabeth Ashton,BA Hons Geography with Business,Philosophy,Joshua Clarke,UG,2,N,24,xgyzh9
+7,10614242,Stephen Ashurst,MSc Business and Management,Politics and International Relations,Patricia Collins,UG,1,N,6,usydq0
+8,10371801,Robert Atkinson,MSc Business and Management,Law,Joshua Clarke,UG,3,N,16,dyyqg9
+9,10398601,Thang Bak,MSc Business and Management,Philosophy,Joshua Clarke,PGT,3,N,33,geybc7
+10,10695028,Daniel Barrett,BSc Hons Accounting and Business,Politics and International Relations,Andrew Allen,UG,1,N,16,bwywo4
+11,10734283,Stephen Beard,MBA Business Administration,Politics and International Relations,Frances Coady,UG,2,N,34,flysl8
+12,10948073,Paula Beaumont,BSc Hons Accounting and Business,Business School,Susan Burke,UG,4,N,17,cfyev3
+13,10325008,Keith Blair,MSc International Business,Business School,Simon Chew,UG,1,N,9,wdyuu3
+14,10329508,George Boyle,MSc Business and Management,Politics and International Relations,Kevin Berry,UG,4,N,33,gjyjw8
+15,10073396,Cathy Boylen,MBA Business Administration,Law,Allison Chan,UG,1,N,24,puykn9
+16,10328052,Sian Brown,MSc International Business,Biosciences,Joshua Clarke,UG,1,N,24,fmysl6
+17,10011347,Hein Bui,BSc Hons Accounting and Business,Law,Simon Chew,PGT,3,N,25,ojydv9
+18,10550966,Denise Bull,MSc Business and Management,Law,Allison Chan,UG,3,N,28,msysa7
+19,10933309,Derren Burn,BSc Hons Agricultural Business Management,Politics and International Relations,Simon Chew,UG,1,N,22,eoyyu6
+20,10610673,Chris Bush,MSc Business and Management,Philosophy,Joshua Clarke,PGT,1,N,5,osydm1
+21,10503680,Paul Carter,MSc Business and Management,Biosciences,Simon Chew,UG,1,N,46,iwyeb8
+22,10144989,Ashfaq Chaudhry,MSc International Business,Law,Allison Chan,UG,1,N,30,layhx2
+23,10278733,Eddie Chung,MSc Business and Management,Business School,Simon Chew,UG,1,N,44,avyui8
+24,10656533,Lesley Clifford,BA Hons Geography with Business,Biosciences,Patricia Collins,PGT,1,N,11,kdyxd8
+25,10804247,Neville Coley,MSc International Business,Law,Andrew Allen,UG,3,N,19,qmyyh0
+26,10892290,Edwin Cook,BA Hons Geography with Business,Biosciences,Andrew Allen,UG,2,N,9,bmywm3
+27,10600843,Linda Crellin,BA Hons Geography with Business,Biosciences,Allison Chan,UG,3,N,11,byypq2
+28,10375206,Alicia Curry,MSc Business and Management,Biosciences,Kate Beard,UG,3,Y,42,uzyjd7
+29,10942827,Ian Dalton,BA Hons Geography with Business,Law,Allison Chan,PGT,1,N,8,nayqa7
+30,10829749,Lalit Das,BA Hons Geography with Business,Business School,Susan Burke,PGT,2,N,10,lnysj1
+31,10855590,Michael Deady,MSc Business and Management,Politics and International Relations,Simon Chew,UG,2,N,17,dcyvb5
+32,10761135,Rebecca Dewey,BA Hons Geography with Business,Law,Patricia Collins,UG,2,N,5,xbywc4
+33,10550836,Martin Dower,BSc Hons Agricultural Business Management,Politics and International Relations,Susan Burke,UG,4,N,3,sqyca9
+34,10356162,Jo Duffy,MSc International Business,Biosciences,Kate Beard,PGT,4,N,34,joyfq8
+35,10273708,Jim Dunstan,MSc Business and Management,Business School,Joshua Clarke,UG,3,N,2,evyfq3
+36,10258830,Mary Duthie,BSc Hons Agricultural Business Management,Business School,Simon Chew,UG,1,N,10,vsyxi6
+37,10712630,James Edmiston,BA Hons Geography with Business,Politics and International Relations,Kate Beard,UG,1,Y,40,gxynk4
+38,10644238,Alice Edwards,BSc Hons Agricultural Business Management,Politics and International Relations,Patricia Collins,UG,1,Y,39,wiycm1
+39,10061351,Geoffrey Evans,MBA Business Administration,Biosciences,Joshua Clarke,UG,1,Y,20,pkyik8
+40,10602561,Helen Franklin,BSc Hons Agricultural Business Management,Politics and International Relations,Joshua Clarke,UG,2,N,28,nzyba3
+41,10510994,Mark Fuller,MSc Business and Management,Business School,Kate Beard,PGT,3,Y,6,jtyfq8
+42,10797994,Fiona Garrett,MSc Business and Management,Biosciences,Simon Chew,UG,4,Y,2,ygyiq7
+43,10977634,Michael Gatenby,MSc Business and Management,Philosophy,Allison Chan,UG,3,N,29,nqywe4
+44,10735483,David Geddes,MSc International Business,Business School,Andrew Allen,UG,1,N,3,eiyht8
+45,10594295,Elias Getachew,MSc Business and Management,Philosophy,Kevin Berry,PGT,3,N,42,qryws3
+46,10965217,Colin Gibbons,MSc International Business,Politics and International Relations,Frances Coady,UG,1,N,50,mfyep5
+47,10377020,Stephen Goodall,MSc Business and Management,Law,Allison Chan,PGT,2,N,21,zzyec3
+48,10447801,Catherine Hagan,BSc Hons Agricultural Business Management,Business School,Susan Burke,UG,2,N,1,osyvp1
+49,10118037,Warren Hamlin,MBA Business Administration,Politics and International Relations,Frances Coady,UG,2,N,11,ntyby7
+50,10743919,Simon Handley,MSc International Business,Politics and International Relations,Simon Chew,UG,3,N,2,owyaw3
+51,10868847,Joyce Harding,BSc Hons Accounting and Business,Philosophy,Kevin Berry,UG,1,N,11,dcypk4
+52,10789062,Daniel Hayes,MSc Business and Management,Biosciences,Frances Coady,UG,1,N,50,bkyqn8
+53,10255814,Robert Haywood,BSc Hons Agricultural Business Management,Law,Kate Beard,UG,1,N,25,gkyli8
+54,10811170,Lindsey Henderson,MSc Business and Management,Politics and International Relations,Kate Beard,UG,1,N,16,vhynh7
+55,10125587,David Henry,MSc International Business,Philosophy,Kate Beard,UG,2,N,36,cjyzp2
+56,10687856,Edwin Hicks,BSc Hons Agricultural Business Management,Law,Allison Chan,UG,2,N,6,gmyik7
+57,10793055,David Higham,MSc Business and Management,Politics and International Relations,Kevin Berry,UG,1,N,43,phyoy0
+58,10290219,Adam Hoffman,BSc Hons Agricultural Business Management,Philosophy,Simon Chew,UG,1,N,40,clyyb1
+59,10457941,Maureen Holliday,MBA Business Administration,Business School,Kevin Berry,PGT,3,N,26,wryso5
+60,10928784,Norman Holmes,BSc Hons Agricultural Business Management,Law,Joshua Clarke,UG,2,N,4,bkyjr6
+61,10160279,Richard Hubbard,BSc Hons Agricultural Business Management,Philosophy,Andrew Allen,UG,3,Y,34,erymp5
+62,10787926,Julie Hurley,BA Hons Geography with Business,Business School,Patricia Collins,UG,3,N,47,jnyif9
+63,10988523,Beryl Hurren,MSc Business and Management,Politics and International Relations,Simon Chew,UG,3,N,33,mmyks5
+64,10448797,Aaron Jackson,BSc Hons Accounting and Business,Politics and International Relations,Patricia Collins,PGT,2,Y,19,zqynx6
+65,10294031,Abigail Jacob,BSc Hons Accounting and Business,Philosophy,Simon Chew,UG,1,Y,5,fmysa4
+66,10925677,William Jones,BSc Hons Agricultural Business Management,Philosophy,Frances Coady,UG,3,N,6,osyil3
+67,10593065,Lowri Jones,MSc International Business,Biosciences,Andrew Allen,PGT,3,N,42,wryvx1
+68,10838536,Warren Jordan,BSc Hons Agricultural Business Management,Philosophy,Joshua Clarke,UG,1,N,48,hjyle4
+69,10462456,Nigel Kendall,BA Hons Geography with Business,Philosophy,Joshua Clarke,UG,1,N,2,khyyg3
+70,10840396,William Kershaw,BSc Hons Accounting and Business,Politics and International Relations,Simon Chew,UG,3,N,39,tyyhd7
+71,10868942,Nindy Kumar,BSc Hons Accounting and Business,Politics and International Relations,Allison Chan,UG,2,N,6,jryyg0
+72,10951678,Anthony Lane,MSc International Business,Politics and International Relations,Andrew Allen,UG,2,N,15,pfyxz2
+73,10465512,John Langham,MSc International Business,Philosophy,Kate Beard,UG,1,N,33,tjycv3
+74,10000897,Claire Lawlor,MSc Business and Management,Law,Joshua Clarke,PGT,1,N,28,cvyxa2
+75,10036030,Stanley Lawrence,MSc Business and Management,Philosophy,Patricia Collins,UG,1,N,3,xkyhc3
+76,10464689,John Leach,BA Hons Geography with Business,Law,Simon Chew,PGT,2,N,17,jbyed0
+77,10007037,Susan Leigh,MBA Business Administration,Biosciences,Kate Beard,UG,1,N,23,wkygc6
+78,10576577,Graham Lloyd,MBA Business Administration,Politics and International Relations,Kate Beard,UG,3,N,8,cqyan1
+79,10057465,Rita Lockwood,BSc Hons Agricultural Business Management,Philosophy,Kate Beard,UG,3,N,50,yfynh5
+80,10162513,Sandra Lowe,MSc International Business,Philosophy,Simon Chew,UG,2,N,1,qxysz4
+81,10926543,Gillian MacDonald,BA Hons Geography with Business,Biosciences,Frances Coady,UG,2,Y,8,sdycd1
+82,10364414,Noel Malik,BSc Hons Agricultural Business Management,Biosciences,Andrew Allen,UG,1,N,33,woycw4
+83,10838212,Catherine May,MSc Business and Management,Politics and International Relations,Kevin Berry,UG,2,N,6,nmyiq2
+84,10678672,Nicola McDonald,BSc Hons Agricultural Business Management,Biosciences,Susan Burke,UG,2,N,24,caywa7
+85,10489998,Garry McGowen,BSc Hons Agricultural Business Management,Philosophy,Frances Coady,PGT,3,N,23,ybytm8
+86,10826802,Anne McLean,MSc International Business,Biosciences,Kate Beard,UG,1,N,4,jnyqq1
+87,10285260,Beryl Meredith,MBA Business Administration,Politics and International Relations,Kevin Berry,UG,2,N,49,boytr2
+88,10947700,Tony Millen,BSc Hons Agricultural Business Management,Law,Andrew Allen,UG,1,N,8,inyop4
+89,10363306,Karen Milligan,MBA Business Administration,Business School,Frances Coady,UG,3,N,16,sdynn6
+90,10787018,James Milton,BA Hons Geography with Business,Law,Kate Beard,UG,1,N,21,vyyav9
+91,10347068,Barry Minty,BSc Hons Agricultural Business Management,Biosciences,Simon Chew,UG,1,N,8,hcyev8
+92,10283046,Michael Mogg,BSc Hons Accounting and Business,Biosciences,Kevin Berry,UG,2,N,33,ipyqt9
+93,10450835,Arthur Morrison,BA Hons Geography with Business,Biosciences,Patricia Collins,UG,4,N,9,riyhm2
+94,10120283,Lynn Nevin,MSc International Business,Politics and International Relations,Joshua Clarke,UG,3,N,50,poyus4
+95,10468794,Denise Ng,MBA Business Administration,Biosciences,Andrew Allen,PGT,1,N,19,ecyzm9
+96,10918128,Patrick Nuttall,BA Hons Geography with Business,Business School,Patricia Collins,PGT,1,N,37,ppysv5
+97,10290872,Michael Orris,BA Hons Geography with Business,Business School,Frances Coady,UG,4,N,11,vwysb3
+98,10917444,Andrew Padgett,MSc International Business,Biosciences,Kevin Berry,UG,1,N,10,fkykr4
+99,10103527,Simon Payne,BA Hons Geography with Business,Law,Patricia Collins,UG,1,N,21,wyyvq4
+100,10686921,Robert Phillips,BSc Hons Agricultural Business Management,Politics and International Relations,Susan Burke,UG,1,N,31,mrybk2
+101,10514927,Nigel Poole,MSc International Business,Business School,Joshua Clarke,UG,2,N,12,csydw6
+102,10534730,Andrew Powell,MBA Business Administration,Business School,Simon Chew,PGT,3,N,31,dvydv2
+103,10510965,Steven Prosser,BSc Hons Agricultural Business Management,Business School,Joshua Clarke,UG,4,N,40,goynd0
+104,10747181,Alan Ransome,MSc International Business,Politics and International Relations,Susan Burke,PGT,3,N,36,mcyth8
+105,10622382,Belinda Read,MSc International Business,Biosciences,Simon Chew,UG,2,N,38,hbykf3
+106,10724727,Robert Reeder,MBA Business Administration,Politics and International Relations,Joshua Clarke,UG,3,N,27,bmyyd2
+107,10223342,William Reeves,MSc Business and Management,Philosophy,Frances Coady,UG,1,N,36,nnyhr9
+108,10523886,Stanley Riley,BSc Hons Agricultural Business Management,Law,Kate Beard,UG,3,N,13,mcyep0
+109,10036542,David Robinson,BA Hons Geography with Business,Politics and International Relations,Patricia Collins,UG,3,N,18,gtyct4
+110,10517592,Darren Ronan,MSc Business and Management,Biosciences,Kate Beard,UG,1,N,20,qvyvf2
+111,10068739,Helen Rosser,MBA Business Administration,Philosophy,Kevin Berry,UG,3,N,36,feyxd8
+112,10418490,Robert Rowan,BSc Hons Accounting and Business,Business School,Frances Coady,UG,3,N,4,qeymj1
+113,10462254,Patricia Russell,BA Hons Geography with Business,Business School,Andrew Allen,UG,3,N,15,ysysz6
+114,10854004,Diane Sampson,BA Hons Geography with Business,Biosciences,Andrew Allen,UG,1,N,46,bzysl4
+115,10205900,Andrew Savage,MSc International Business,Business School,Allison Chan,PGT,3,N,8,lfymo2
+116,10414496,Ian Selby,MSc International Business,Biosciences,Allison Chan,UG,2,N,27,znyos3
+117,10963883,Robert Setchell,MSc Business and Management,Philosophy,Simon Chew,UG,1,N,34,vvyxg6
+118,10531839,John Shand,MBA Business Administration,Business School,Allison Chan,UG,3,N,14,brysq7
+119,10708066,Wendy Sharrock,BA Hons Geography with Business,Biosciences,Simon Chew,PGT,2,N,31,xxygb4
+120,10949018,Kyra Sheehan,MSc International Business,Biosciences,Kate Beard,UG,1,N,48,shyhk1
+121,10521084,Sharon Simm,BSc Hons Agricultural Business Management,Politics and International Relations,Patricia Collins,UG,2,N,30,fjync8
+122,10493720,Rocky Singh,MSc Business and Management,Philosophy,Simon Chew,PGT,1,N,1,pqycv1
+123,10201142,Colin Smith,BSc Hons Agricultural Business Management,Law,Frances Coady,UG,3,N,9,lryqx1
+124,10938004,Nigel Smith,BA Hons Geography with Business,Law,Kate Beard,UG,3,N,36,rwyzb1
+125,10922198,Rachael Smith,MBA Business Administration,Law,Patricia Collins,UG,1,N,37,vtyeq3
+126,10457927,Sandra Spence,MSc International Business,Biosciences,Patricia Collins,PGT,1,N,3,hjyzy4
+127,10211568,John Stevenson,BSc Hons Accounting and Business,Business School,Joshua Clarke,UG,2,N,31,kpyls1
+128,10645635,Terence Strain,MSc Business and Management,Philosophy,Allison Chan,UG,2,N,31,dvysv4
+129,10310658,Sally Stratton,MBA Business Administration,Philosophy,Andrew Allen,UG,2,N,18,yoyli3
+130,10201428,Emma Stride,MBA Business Administration,Law,Allison Chan,PGT,1,N,6,aqytp6
+131,10241128,Tessa Strong,BA Hons Geography with Business,Biosciences,Andrew Allen,UG,1,N,4,vgynj9
+132,10145336,Julia Stuart,BSc Hons Accounting and Business,Biosciences,Kate Beard,UG,2,N,37,uuylh7
+133,10667538,Sean Sullivan,MBA Business Administration,Philosophy,Kevin Berry,UG,3,N,23,zsyuw7
+134,10281499,Nasrin Sultana,MBA Business Administration,Philosophy,Susan Burke,UG,3,N,41,ahymr4
+135,10570244,Walter Tan,MSc International Business,Politics and International Relations,Allison Chan,UG,1,N,39,bhyxt8
+136,10589235,Matthew Tasker,MBA Business Administration,Biosciences,Joshua Clarke,UG,3,Y,46,joyld8
+137,10670713,Margaret Taylor,BA Hons Geography with Business,Philosophy,Andrew Allen,UG,1,Y,32,ovyhr0
+138,10092862,Joanna Teague,BA Hons Geography with Business,Philosophy,Frances Coady,PGT,1,N,41,xfysu2
+139,10514359,Amanda Thacker,MBA Business Administration,Law,Allison Chan,UG,4,N,23,nkygl8
+140,10244989,Shirley Thompson,MSc Business and Management,Philosophy,Andrew Allen,UG,1,N,43,hoydb6
+141,10916501,Stephen Tingle,MBA Business Administration,Law,Joshua Clarke,UG,2,N,33,tkyms8
+142,10852764,Christopher Trill,MBA Business Administration,Business School,Kevin Berry,PGT,1,N,3,ecycl4
+143,10188895,Zoe Waller,MBA Business Administration,Biosciences,Allison Chan,UG,4,N,30,bsymh7
+144,10126439,Joseph Ward,BA Hons Geography with Business,Biosciences,Patricia Collins,PGT,2,N,10,eqywi6
+145,10852908,Benjamin Watson,MSc International Business,Politics and International Relations,Kevin Berry,PGT,2,N,11,thygl6
+146,10021619,David Whitaker,MBA Business Administration,Biosciences,Simon Chew,UG,1,Y,47,mwytr1
+147,10562980,Rob Willson,MBA Business Administration,Biosciences,Kate Beard,UG,1,N,1,alyta9
+148,10655223,Neil Wison,BSc Hons Accounting and Business,Philosophy,Kate Beard,PGT,3,N,13,fayut0
+149,10859680,Nga Wong,MBA Business Administration,Politics and International Relations,Joshua Clarke,UG,1,N,25,orynx0
+150,10210463,Paul Wood,MSc International Business,Law,Frances Coady,PGT,2,N,32,boykt9
