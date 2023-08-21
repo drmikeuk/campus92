@@ -9,7 +9,7 @@
   {% endfor %}
 {% endif %}
 <style>
-  body    {margin-bottom: 2em}
+body    {margin-bottom: 4em /* leave room for sticky footer */}
   .material-symbols-sharp { font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48 }
 
   h1      {margin-bottom: 0}
@@ -25,7 +25,7 @@
 
 /*banner NB background NOT the 'find my uon' black #0e202e but the current black */
 	.hub 		     {background: #1d2733; color: white; }
-  .hub .back   {padding-left: 1em}
+  .hub .back   {padding-left: 1em; line-height: 1}
   .hub .title  {text-align: center; font-size: 20px;}
   .hub .icons  {text-align: right; padding-right: 1em}
   .main        {padding-top: 1em}
@@ -64,9 +64,10 @@
 
 .right                   {text-align: right}
 #DataTable_filter        {text-align: left}
-#DataTable_filter .label {font-weight: normal;}
-.levels .label           {font-weight: normal; margin-right: 0.5em}
-#DataTable_paginate .pagination  {margin-top: 0.8em}
+#DataTable_filter label  {font-weight: normal; margin-top: 0.4rem; margin-bottom: 0}
+.levels label            {font-weight: normal; margin-right: 0.5em}
+#DataTable_paginate .pagination XXX {margin-top: 0.8em}
+#DataTable_paginate .pagination li {padding-bottom: 0}
 
 #DataTable               {line-height: 1.5;}
 .name                    {white-space: nowrap;}
@@ -78,14 +79,14 @@
 .actions                 {backgroundXX: #ccc; padding: 2px; white-space: nowrap; /*and to over ride stretchd link... */ z-index: 2; position: relative;}
 .actions .material-symbols-sharp {font-size: 20px; }
 
-.fixed-bottom            {background: #f8f8f8; left: 25em; padding: 0.5em 15px 0.3em 15px}
+.fixed-bottom            {background: #ccc; left: 25em; padding: 0.5em 15px 0.3em 15px}
 tr                       {position: relative}  /* so stretched links work */
 
 
 /* plan page */
 
 
-label      {font-weight: bold; margin-top: 0.8em}
+labelXX      {font-weight: bold; margin-top: 0.8em}
 #buttons   {margin-top: 2.5em; /*border-top: 1px solid #ccc; padding-top: 1.5em*/}
 .btn-outline-secondary {margin-right: 1em}
 

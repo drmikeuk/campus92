@@ -27,7 +27,7 @@ customjs:
         <tr>
           <th scope="col">Name</th>
           <th scope="col">Course / School</th>
-          <th scope="col">Personal tutor</th>
+          <th scope="col" style="white-space: nowrap">Personal tutor</th>
           <th scope="col">UG/PG</th>
           <th scope="col">Year</th>
           <th scope="col">Actions</th>
@@ -40,7 +40,7 @@ customjs:
         {% for student in students %}
         {% assign email = student.username | append: "@nottingham.ac.uk" %}
         <tr style="position: relative">
-          <td class="name"><div class="media">
+          <td class="name" data-sort="{{ student.surname }} {{ student.forename }}"><div class="media">
           <img class="photo" src="{{ student.photo | prepend: "photos/128-" | append: ".jpg"}}" alt="{{ student.name }} photo">
           <div class="media-body"><a href="details.html" class="stretched-link">{{ student.name }}</a><br/><span class="id">{{ student.id }}</span></div>
           </div></td>
