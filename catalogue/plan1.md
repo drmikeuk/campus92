@@ -142,7 +142,8 @@ General Information
 |Programme requirements|AAA|
 |Including|Five GCSEs at grade 4 (C) or above, which must include English|
 |Excluding|General studies, critical thinking, citizenship, global perspectives and research, and thinking skills|
-|Other requirements|<span class="note">don't display if empty</span>|
+|IB Requirements|with 3 subjects at higher level including higher level 5 in a science subject<span class="note">don't display if empty</span>|
+|Other requirements|Law students need to fluent in English language in order to both understand and complete the programme<span class="note">don't display if empty</span>|
 |IELTS Requirements|6.5 w/ no less than 6.5 in ea.|
 |General Information|<span class="note">don't display if empty</span>|
 {:.table .table-sm .notFullWidth}
@@ -340,6 +341,16 @@ It shall be at the discretion of the Head of the School of Law to determine whet
 
 The plan specification content should be read in the context of the relevant University Study Regulations. Please refer to this information on:
 http://www.nottingham.ac.uk/academicservices/qualitymanual/assessmentandawards/undergraduate-programme-regulations.aspx
+
+
+### Assessment delivery information
+
+- Dissertation
+- Presentation
+- Written exam
+- Portfolio
+
+Assessment is based on a combination of the methods listed above.  The precise assessment vary between modules and across the years of your degree.
 
 ### Assessment marking criteria
 
