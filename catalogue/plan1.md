@@ -142,7 +142,7 @@ General Information
 |Programme requirements|AAA|
 |Including|Five GCSEs at grade 4 (C) or above, which must include English|
 |Excluding|General studies, critical thinking, citizenship, global perspectives and research, and thinking skills|
-|IB Requirements|with 3 subjects at higher level including higher level 5 in a science subject<span class="note">don't display if empty</span>|
+|IB requirements|with 3 subjects at higher level including higher level 5 in a science subject<span class="note">don't display if empty</span>|
 |Other requirements|Law students need to fluent in English language in order to both understand and complete the programme<span class="note">don't display if empty</span>|
 |IELTS Requirements|6.5 w/ no less than 6.5 in ea.|
 |General Information|<span class="note">don't display if empty</span>|
