@@ -4,6 +4,7 @@ title: "My Students"
 nav: "no"
 back: "Back"
 backurl: "home.html"
+page: listTutees
 customcss:
   - /vendor/datatables.min.css
 customjs:
@@ -59,10 +60,15 @@ customjs:
     </table>
 
     <div class="fixed-bottom bottom-bar">
-      <a class="btn btn-secondary" href="#" role="button"><span class="material-symbols-sharp">download</span>Download</a>
 
-      Download all students in this group...
-      plus will include the following extra fields...
+      <div class="media">
+        <a class="btn btn-secondary" href="#" role="button"><span class="material-symbols-sharp">download</span>Download</a>
+        <div class="media-body">
+          <h5 class="mt-0">Download all students in this group...</h5>
+          plus will include the following extra fields...
+        </div>
+      </div>
+      
     </div>
 
 

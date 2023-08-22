@@ -1,11 +1,14 @@
 - title: Business ethics and sustainability
   code: BUSI3157
-  count: 193
+  page: listModule
+  count: 150
 
 - title: Strategic management
   code: BUSI3158
+  page: no
   count: 86
 
 - title: Sustainable decisions and organisations
   code: BUSI4214
+  page: no
   count: 29

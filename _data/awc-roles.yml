@@ -1,12 +1,15 @@
 - title: Personal tutees
   count: 35
-  page: listTutees.html
+  page: listTutees
 
 - title: PGR students
   count: 5
+  page: no
 
 - title: Project supervisor
   count: 20
+  page: no
 
 - title: Exams Officer
   count: 1005
+  page: no

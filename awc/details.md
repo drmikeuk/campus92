@@ -1,5 +1,5 @@
 ---
-layout: awc
+layout: awcNoSide
 title: "Student details"
 nav: "no"
 back: "Back"

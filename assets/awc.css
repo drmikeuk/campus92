@@ -1,0 +1,127 @@
+body    {height: 100%; margin-bottom: 4em /* leave room for sticky footer */}
+  .material-symbols-sharp { font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48 }
+
+  h1      {margin-bottom: 0}
+	h2 			{font-size: 1.7rem; padding-bottom: 0}
+	h3 			{font-size: 1.2rem; font-weight: bold; padding-top: 1rem}
+	h4      {font-size: 1rem; font-weight: bold; padding-top: 0.5rem}
+
+  .strapline {font-size: 1.3rem; font-weight: 300}
+	.notFullWidth {width: auto}
+
+
+  .note {background: #CCFFFF; padding: 3px; font-style: italic; font-size: 80%}
+
+/*banner NB background NOT the 'find my uon' black #0e202e but the current black */
+	.hub 		     {background: #1d2733; color: white; }
+  .hub .back   {padding-left: 2em; line-height: 1}
+  .hub .back .btn {padding: 0.2rem 0.75rem 0.2rem 0.3rem; margin: 3px}
+  .hub .back .material-symbols-sharp {vertical-align: middle; padding-bottom: 3px}
+  .hub .title  {text-align: center; font-size: 20px; padding: 7px 0px}
+  .hub .icons  {text-align: right; padding: 7px 2em}
+
+/* sidebar */
+.main           {padding-left: 2em}
+.home           {padding-left: 2em; }
+.sidebar        {background: #f8f8f8; height: 100%}
+.groupList      {list-style-type: none; margin: 0 -15px; padding: 0; border-top: 2px solid #ccc;}
+.groupList li   {border-bottom: 2px solid #ccc; padding: 0.25em 15px; min-height: 3em; position: relative /* for stretched link*/}
+.groupList .active {background: #FDF3E4 /* redwood 11 ie --pt-menu-item-hover-background-color); */}
+.groupList li:hover {background-color: rgba(0,0,0,.075);/* same as bootstrap table hover*/}
+.groupList a    {color: black}
+
+.sidebar .media          {padding-top: 1.2em; }
+.sidebar .media-body     {font-size: 0.9em; font-style: italic;}
+.sidebar .media-body h5  {font-size: 1.5em; font-style: normal; font-weight: 400; margin-bottom: 0}
+.sidebar .media .material-symbols-sharp {font-size: 40px; color: #808080 /* grey */; padding-right: 10px; padding-top: 3px}
+
+
+
+/* home */
+.strapline      {margin-bottom: 2rem;}
+.sub            {font-size: 0.8em; font-style: italic; padding-left: 36px; padding-top: 1.5em}
+.CTA            {font-size: 1.5em; font-weight: 300; line-height: 1}
+.CTA .material-symbols-sharp {color: #116EB1 /* redwood blue6*/; font-size: 32px; line-height: 1; vertical-align: middle; padding-bottom: 3px}
+.searchbox      {border: 1px solid #116EB1 /* redwood blue6*/;}
+
+/* search form */
+  .btn-primary  {padding: 6px 30px}
+  .noPad        {margin-bottom: 0}
+  ::placeholder {font-style: italic}
+
+@media only screen and (min-width: 720px) {
+    .form-control {width: 50%}
+    .padTitle     {margin-bottom: 30px;}
+}
+
+/* search results list */
+.nav-tabs                  {line-height: 1; font-size: 1.2em; margin-bottom: 1em; padding-top: 1em}
+.nav-tabs li               { padding-bottom: 0}
+.nav-tabs .nav-link.active {font-weight: bold;}
+
+.table-sm td, .table-sm th { padding: 0.4rem 0.5rem; border-top: 0}
+.table-sm td               { border-top: 2px solid #dee2e6;}
+.table-sm th               { background: #808080 /* GREY IS _NOT_ OVER RIDING BOOTSTRAPS TH */}
+.table-sm                  {border-bottom: 2px solid #dee2e6;}
+
+.table .material-symbols-sharp  {font-size: 30px; color: #808080; /* grey - FIX SO JUST SPECIFIC ICONS? */}
+.table a                        {color: #808080; /* grey - FIX SO JUST SPECIFIC ICONS? */}
+.table .media a                 {color: blue}
+.table a:hover                  {color: blue}
+
+.right                   {text-align: right}
+#DataTable_filter        {text-align: left}
+#DataTable_filter label  {font-weight: normal; margin-top: 0.4rem; margin-bottom: 0}
+.levels label            {font-weight: normal; margin-right: 0.5em}
+#DataTable_paginate .pagination XXX {margin-top: 0.8em}
+#DataTable_paginate .pagination li {padding-bottom: 0}
+
+#DataTable               {line-height: 1.5;}
+.name                    {white-space: nowrap;}
+.course                  {white-space: nowrap; overflow: hidden; text-overflow: clip; }
+.id                      {font-style: italic;}
+.school                  {font-style: italic; font-size: 100%}
+.photo 					         {width: 4rem; padding-right: 1em}
+.email                   {display: none;}
+.actions                 {backgroundXX: #ccc; padding: 2px; white-space: nowrap; /*and to over ride stretchd link... */ z-index: 2; position: relative;}
+.actions .material-symbols-sharp {font-size: 20px; }
+
+.bottom-bar              {background: #ccc; left: 355px; padding: 0.5em 15px 0.3em 15px}
+.fixed-bottom            {border-top: 3px solid #aaa}
+tr                       {position: relative}  /* so stretched links work */
+
+.bottom-bar .media-body     {font-size: 0.9em; font-style: italic;}
+.bottom-bar .media-body h5  {font-size: 1.3em; font-style: normal; font-weight: 400; margin-bottom: 0}
+.bottom-bar .media .material-symbols-sharp {padding-right: 3px; line-height: 1; vertical-align: middle; padding-bottom: 3px}
+.bottom-bar .media .btn     {margin-right: 1em;}
+
+
+
+
+/* plan page */
+
+
+labelXX      {font-weight: bold; margin-top: 0.8em}
+#buttons   {margin-top: 2.5em; /*border-top: 1px solid #ccc; padding-top: 1.5em*/}
+.btn-outline-secondary {margin-right: 1em}
+
+
+
+	.secondary td   {padding: 0.4rem}
+	.secondary th   {padding: 0.4rem; text-align: right}
+
+
+	.floatLeft      {float:left; }
+
+	.table-striped thead tr { background-color: rgba(0,0,0,.1)}
+	.table-striped thead th { padding: 0.5rem 1.5rem; border-bottom: none}  /* tighter & darker */
+	.table-striped th,
+	.table-striped td       { padding: 0.75rem 1.5rem; border-bottom: 2px solid rgba(0,0,0,.1);}
+
+
+
+  .form-check-label  {margin-top: 0;}
+
+.form-check-label {font-weight: normal; /* disability options */}
+
+  li {padding-bottom: 0.5rem}

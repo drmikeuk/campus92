@@ -3,7 +3,12 @@
 {% assign roles = site.data.awc-roles %}
 <ul class="groupList">
 {% for role in roles %}
-  <li><a href="listTutees.html" class="stretched-link">{{ role.title }}</a>
+  {% if role.page == page.page %}
+  {% assign class = "active" %}
+  {% else %}
+  {% assign class = "" %}
+  {% endif %}
+  <li class="{{ class }}"><a href="listTutees.html" class="stretched-link">{{ role.title }}</a>
     <span class="badge badge-pill badge-secondary float-right">{{ role.count }}</span></li>
 {% endfor %}
 </ul>
@@ -12,7 +17,12 @@
 {% assign modules = site.data.awc-modules %}
 <ul class="groupList">
 {% for module in modules %}
-  <li><a href="listTutees.html" class="stretched-link">{{ module.code }}</a><span class="badge badge-pill badge-secondary float-right">{{ module.count }}</span>
+  {% if module.page == page.page %}
+  {% assign class = "active" %}
+  {% else %}
+  {% assign class = "" %}
+  {% endif %}
+  <li class="{{ class }}"><a href="listTutees.html" class="stretched-link">{{ module.code }}</a><span class="badge badge-pill badge-secondary float-right">{{ module.count }}</span>
   <br/>{{ module.title }}
     </li>
 {% endfor %}
