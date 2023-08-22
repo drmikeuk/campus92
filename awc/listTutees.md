@@ -58,7 +58,7 @@ customjs:
       </tbody>
     </table>
 
-    <div class="fixed-bottom">
+    <div class="fixed-bottom bottom-bar">
       <a class="btn btn-secondary" href="#" role="button"><span class="material-symbols-sharp">download</span>Download</a>
 
       Download all students in this group...

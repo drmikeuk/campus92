@@ -1,1 +1,45 @@
-sidebar
+<h2>Select a group to view:</h2>
+
+{% assign roles = site.data.awc-roles %}
+<ul class="groupList">
+{% for role in roles %}
+  <li><a href="listTutees.html" class="stretched-link">{{ role.title }}</a>
+    <span class="badge badge-pill badge-secondary float-right">{{ role.count }}</span></li>
+{% endfor %}
+</ul>
+
+
+{% assign modules = site.data.awc-modules %}
+<ul class="groupList">
+{% for module in modules %}
+  <li><a href="listTutees.html" class="stretched-link">{{ module.code }}</a><span class="badge badge-pill badge-secondary float-right">{{ module.count }}</span>
+  <br/>{{ module.title }}
+    </li>
+{% endfor %}
+</ul>
+
+<br/>
+
+<div class="media">
+  <span class="material-symbols-sharp">manage_accounts</span>
+  <div class="media-body">
+    <h5 class="mt-0">My Associations</h5>
+    See a list of your associations
+  </div>
+</div>
+
+<div class="media">
+  <span class="material-symbols-sharp">help</span>
+  <div class="media-body">
+    <h5 class="mt-0">Help</h5>
+    Help, training, tips
+  </div>
+</div>
+
+<div class="media">
+  <span class="material-symbols-sharp">help</span>
+  <div class="media-body">
+    <h5 class="mt-0">Missing students?</h5>
+    Fix students missing from your lists
+  </div>
+</div>
