@@ -17,4 +17,18 @@ $(document).ready( function () {
       //var filtersCode = 'stuff';
       //$('.filters').append(filtersCode);
 
+
+
+
+      // run photogrid filter from filter box
+      // keyup so do as typing + onsearch so runs if click X
+      $("#filter").on("keyup search", function() {
+        var value = $(this).val().toLowerCase();
+        //console.log(value);
+        $("#photos div").filter(function() {
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+      });
+
+
 } );

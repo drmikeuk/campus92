@@ -4,7 +4,7 @@ title: "My Students"
 nav: "no"
 back: "Back"
 backurl: "home.html"
-page: listTutees
+page: listModules
 customcss:
   - /vendor/datatables.min.css
 customjs:
@@ -12,5 +12,5 @@ customjs:
   - /assets/awc.js
 ---
 
-{% assign students = site.data.awc35 %}
+{% assign students = site.data.awc150 %}
 {% include awc-resultslist.html %}
