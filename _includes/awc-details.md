@@ -1,6 +1,5 @@
 <h1 class="title">Robin Hood</h1>
 
-
 <dl class="row">
   <dt class="col-sm-3">StudentID</dt>
   <dd class="col-sm-9">10282116</dd>
@@ -17,5 +16,3 @@
   <dt class="col-sm-3">Support plan</dt>
   <dd class="col-sm-9"><a class="btn btn-sm btn-outline-primary" href="#" role="button"><span class="material-symbols-sharp">expand_circle_right</span>View support plan</a></dd>
 </dl>
-
-<!-- <span class="material-symbols-sharp">expand_circle_right</span> -->

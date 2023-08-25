@@ -10,6 +10,21 @@ backurl: "listTutees.html"
 
 <div class="container-fluid details" markdown="1">
 
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="Academic-tab" data-toggle="tab" href="#Academic" role="tab" aria-controls="Academic" aria-selected="true">Academic</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="Notes-tab" data-toggle="tab" href="#Notes" role="tab" aria-controls="Notes" aria-selected="false">Notes</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="Personal-tab" data-toggle="tab" href="#Personal" role="tab" aria-controls="Personal" aria-selected="false">Personal details and address</a>
+  </li>
+</ul>
+
+
+<div class="tab-content" id="myTabContent">
+<div class="tab-pane fade show active" id="Academic" role="tabpanel" aria-labelledby="Academic-tab">
 <div class="row" markdown="1">
   <div class="col-md-8" markdown="1">
 
@@ -40,7 +55,6 @@ backurl: "listTutees.html"
 </div>
 
 
-
 <div class="row space" markdown="1">
   <div class="col" markdown="1">
    <!-- PLAN -->
@@ -48,7 +62,6 @@ backurl: "listTutees.html"
     <h2>22-23: BSc Hons Accounting and Business <span class="material-symbols-sharp outline">file_copy</span></h2>
     <div class="codes">Plan code: <b>U6UACCBU</b><br>UCAS code: <b>NN41</b></div>
   </div>
-
 {% include awc-plan1.md %}
   </div>
 </div>
@@ -61,7 +74,6 @@ backurl: "listTutees.html"
     <h2>22-23: BSc Hons Accounting and Business <span class="material-symbols-sharp outline">file_copy</span></h2>
     <div class="codes">Plan code: <b>U6UACCBU</b><br>UCAS code: <b>NN41</b></div>
   </div>
-
 {% include awc-plan1.md %}
   </div>
 </div>
@@ -74,11 +86,43 @@ backurl: "listTutees.html"
     <h2>20-21: MSci Hons Medicinal and Biological Chemistry with an Assessed Year in Industry <span class="material-symbols-sharp outline">file_copy</span></h2>
     <div class="codes">Plan code: <b>U6UACCBU</b><br>UCAS code: <b>NN41</b></div>
   </div>
-
 {% include awc-plan1.md %}
   </div>
 </div>
 
 
 
+</div>
+<div class="tab-pane fade" id="Notes" role="tabpanel" aria-labelledby="Notes-tab">
+
+{% include awc-slimheader.md %}
+
+
+<h2>Notes...</h2>
+
+- list current.
+
+- create new
+-
+- <b>look at delivered functionality?</b>
+
+
+
+
+</div>
+<div class="tab-pane fade" id="Personal" role="tabpanel" aria-labelledby="Personal-tab">
+
+{% include awc-slimheader.md %}
+
+<h2>Personal...</h2>
+
+- primary address & contact
+
+- long name
+
+- dob
+
+- other addresses / phones
+
+</div>
 </div>

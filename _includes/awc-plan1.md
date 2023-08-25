@@ -1,9 +1,3 @@
-<!-- <dl class="d-flex flex-row inline">
-  <dt>Plan code:</dt>
-  <dd>U6UACCBU</dd>
-  <dt>UCAS code:</dt>
-  <dd>NN41</dd>
-</dl> -->
 
 <dl class="d-flex flex-row inline">
   <dt>Year of study:</dt>
