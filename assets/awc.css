@@ -125,7 +125,7 @@ tr                       {position: relative}  /* so stretched links work */
 .details dl                  {margin-bottom: 0.4rem; margin-top: 0.4rem}
 .inline dt                   {padding-right: 0.5em; }
 .inline dd                   {padding-right: 2.5em; margin-bottom: 0; font-weight: bold}
-
+.codes                       {padding-left: 3em; font-size: 90%}
 
 
 
