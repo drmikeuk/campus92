@@ -59,9 +59,9 @@ body    {height: 100%; margin-bottom: 4em /* leave room for sticky footer */}
 .nav-tabs li               { padding-bottom: 0}
 .nav-tabs .nav-link.active {font-weight: bold;}
 
-.table-sm td, .table-sm th { padding: 0.4rem 0.5rem; border-top: 0}
+.table-sm td, .table-sm th { padding: 0.2rem 0.5rem; border-top: 0}
 .table-sm td               { border-top: 2px solid #dee2e6;}
-.table-sm th               { background: #808080 /* GREY IS _NOT_ OVER RIDING BOOTSTRAPS TH */}
+.table-sm th               { background: #EBEEF0 /* GREY  */}
 .table-sm                  {border-bottom: 2px solid #dee2e6;}
 
 .table .material-symbols-sharp  {font-size: 30px; color: #808080; /* grey - FIX SO JUST SPECIFIC ICONS? */}
@@ -109,7 +109,25 @@ tr                       {position: relative}  /* so stretched links work */
 
 
 
-/* plan page */
+/* details page */
+.details .title             {margin-bottom: 0.5rem}
+.details h2                 {margin-bottom: 0.5rem; font-size: 1.8rem; }
+.details h2.completed       {font-size: 1.5em}
+.details h3                 {font-weight: normal}
+.detailsphoto               {width: 100%; margin-bottom: 1em}
+.space                      {padding-top: 1.5em}
+.details dt                 {font-weight: normal; }
+.details .material-symbols-sharp  { padding-right: 3px; vertical-align: middle; padding-bottom: 3px}
+.hilight                     {color: #C04A26; /* redwood45 orange/brown */}
+.details .btn .material-symbols-sharp {font-size: 20px}
+
+.details h2 .material-symbols-sharp {padding-left: 0.1em; color: #808080; /* grey - FIX SO JUST SPECIFIC ICONS? */}
+.details dl                  {margin-bottom: 0.4rem; margin-top: 0.4rem}
+.inline dt                   {padding-right: 0.5em; }
+.inline dd                   {padding-right: 2.5em; margin-bottom: 0; font-weight: bold}
+
+
+
 
 
 labelXX      {font-weight: bold; margin-top: 0.8em}
