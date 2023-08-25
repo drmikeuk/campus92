@@ -120,6 +120,7 @@ tr                       {position: relative}  /* so stretched links work */
 .details .material-symbols-sharp  { padding-right: 3px; vertical-align: middle; padding-bottom: 3px}
 .hilight                     {color: #C04A26; /* redwood45 orange/brown */}
 .details .btn .material-symbols-sharp {font-size: 20px}
+.details .padRight           {margin-right: 2em}
 
 .details h2 .material-symbols-sharp {padding-left: 0.1em; color: #808080; /* grey - FIX SO JUST SPECIFIC ICONS? */}
 .details dl                  {margin-bottom: 0.4rem; margin-top: 0.4rem}

@@ -63,6 +63,7 @@ backurl: "listTutees.html"
     <div class="codes">Plan code: <b>U6UACCBU</b><br>UCAS code: <b>NN41</b></div>
   </div>
 {% include awc-plan1.md %}
+{% include awc-marks1.md %}
   </div>
 </div>
 
@@ -71,10 +72,11 @@ backurl: "listTutees.html"
   <div class="col" markdown="1">
    <!-- PLAN -->
   <div class="d-flex flex-row">
-    <h2>22-23: BSc Hons Accounting and Business <span class="material-symbols-sharp outline">file_copy</span></h2>
+    <h2>21-22: BSc Hons Accounting and Business <span class="material-symbols-sharp outline">file_copy</span></h2>
     <div class="codes">Plan code: <b>U6UACCBU</b><br>UCAS code: <b>NN41</b></div>
   </div>
 {% include awc-plan1.md %}
+{% include awc-marks1.md %}
   </div>
 </div>
 
@@ -87,6 +89,7 @@ backurl: "listTutees.html"
     <div class="codes">Plan code: <b>U6UACCBU</b><br>UCAS code: <b>NN41</b></div>
   </div>
 {% include awc-plan1.md %}
+{% include awc-nomarks1.md %}
   </div>
 </div>
 
