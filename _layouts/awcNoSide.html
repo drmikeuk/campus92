@@ -17,7 +17,9 @@
 	<div class="hub">
     <div class="row">
       <div class="col back">
+        {% if page.back %}
         <a class="btn btn-outline-light" type="submit" href="{{page.backurl}}"><span class="material-symbols-sharp">chevron_left</span>{{page.back}}</a>
+        {% endif %}
       </div>
       <div class="col title">
         {{ page.title }}

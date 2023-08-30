@@ -119,6 +119,11 @@ backurl: "listTutees.html"
 
 <h2>Personal...</h2>
 
+<h3>Support plan</h3>
+
+1. Extra time - 25% (Approved as of 3 November 2021)
+2. Extensions to deadlines, if possible, should be allowed on request. Student to discuss each request with module convenor/EC officer in their Home School. (Approved as of 3 November 2021)
+
 - primary address & contact
 
 - long name

@@ -20,5 +20,5 @@ backurl: "index.html"
   <input id="search" type="text" class="form-control mb-2 mr-sm-2 searchbox" placeholder="Search my students..."> <a class="btn btn-secondary mb-2" type="submit" href="listTutees.html">Search</a>
   </form>
 
-  <p class="sub">or search for any student using the <a href="">Search for Students</a> tile</p>
+  <p class="sub">or search for any student using the <a href="index.html">Search for Students</a> tile</p>
 </div>
