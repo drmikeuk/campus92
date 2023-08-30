@@ -100,37 +100,23 @@ backurl: "listTutees.html"
 
 {% include awc-slimheader.md %}
 
+<h2>Notes</h2>
 
-<h2>Notes...</h2>
+<p><b>NB: look at current/new delivered functionality + do we really need sub-cats?</b></p>
 
-- list current.
+{% include awc-notes.md %}
 
-- create new
--
-- <b>look at delivered functionality?</b>
-
+<p><a class="btn btn-outline-primary" href="#" role="button"><span class="material-symbols-sharp">add_circle</span>Add a new note</a></p>
 
 
 
 </div>
 <div class="tab-pane fade" id="Personal" role="tabpanel" aria-labelledby="Personal-tab">
 
-{% include awc-slimheader.md %}
+{% include awc-slimheader-nosupport.md %}
 
-<h2>Personal...</h2>
+{% include awc-personal.md %}
 
-<h3>Support plan</h3>
-
-1. Extra time - 25% (Approved as of 3 November 2021)
-2. Extensions to deadlines, if possible, should be allowed on request. Student to discuss each request with module convenor/EC officer in their Home School. (Approved as of 3 November 2021)
-
-- primary address & contact
-
-- long name
-
-- dob
-
-- other addresses / phones
 
 </div>
 </div>

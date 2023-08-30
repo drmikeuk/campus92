@@ -1,6 +1,6 @@
 <dl class="d-flex flex-row inline">
   <dt>Year of study:</dt>
-  <dd>2 Undergraduate Fulltime</dd>
+  <dd>2 Undergraduate FullTime <span>(14.9.20 - 31.5.23)</span></dd>
   <dt>Academic shift:</dt>
   <dd>APRIL</dd>
   <dt>Form of study:</dt>

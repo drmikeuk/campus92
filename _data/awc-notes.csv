@@ -1,0 +1,4 @@
+﻿id,Category,SubSategory,Subject,AssignedTo,Status,ActionItems,StudentAccess,Updated
+1,Academic,Academic General,EC re mother,Dr Fred Bloggs,Open,None,Yes,18/08/2023
+2,General,General,Attended some event,Dr Fred Bloggs,Closed,None,Yes,01/08/2023
+3,Academic,Academic General,FYI,,Closed,None,No,09/09/2022

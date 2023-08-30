@@ -117,18 +117,27 @@ tr                       {position: relative}  /* so stretched links work */
 .detailsphoto               {width: 100%; margin-bottom: 1em}
 .space                      {padding-top: 1.5em}
 .details dt                 {font-weight: normal; }
-.details .material-symbols-sharp  { padding-right: 3px; vertical-align: middle; padding-bottom: 3px}
-.hilight                     {color: #C04A26; /* redwood45 orange/brown */}
-.details .btn .material-symbols-sharp {font-size: 20px}
-.details .padRight           {margin-right: 2em}
 
-.details h2 .material-symbols-sharp {padding-left: 0.1em; color: #808080; /* grey - FIX SO JUST SPECIFIC ICONS? */}
+.details .padRight           {margin-right: 2em}
+.details .padBottom          {margin-bottom: 1.5em}
+.details .padTop             {margin-top: 1.5em}
+
 .details dl                  {margin-bottom: 0.4rem; margin-top: 0.4rem}
 .inline dt                   {padding-right: 0.5em; }
 .inline dd                   {padding-right: 2.5em; margin-bottom: 0; font-weight: bold}
+.inline dd span              {font-weight: normal; font-style: italic;}
 .codes                       {padding-left: 3em; font-size: 90%}
+.details .card-header        {background: inherit; padding: inherit;}
 
 
+
+/* improve these icons styles ... highlight/primary/grey sm/md/lg solid/outline */
+.details .material-symbols-sharp  { padding-right: 3px; vertical-align: middle; padding-bottom: 3px}
+.details h2 .material-symbols-sharp {padding-left: 0.1em; color: #808080; /* grey - FIX SO JUST SPECIFIC ICONS? */}
+.details dd .material-symbols-sharp {padding-left: 0.2em; font-size: 1em; color: #808080; /* grey - FIX SO JUST SPECIFIC ICONS? */}
+.details .btn .material-symbols-sharp {font-size: 20px; color: #007bff}
+.details dd .hilight               {font-size: 24px; color: #C04A26; /* redwood45 orange/brown */}
+.details .hilight               {font-size: 24px; color: #C04A26; /* redwood45 orange/brown */}
 
 
 labelXX      {font-weight: bold; margin-top: 0.8em}
