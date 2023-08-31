@@ -11,9 +11,9 @@ backurl: "index.html"
   <p class="strapline">Strapline to explain what this is in one brief line so clear scope ie MY not ALL students</p>
 
 
-  <p class="CTA"><span class="material-symbols-sharp">expand_circle_right</span> Select a group from the lists on the left</p>
+  <p class="CTA"><span class="material-symbols-sharp primary solid">expand_circle_right</span> Select a group from the lists on the left</p>
 
-  <p class="CTA"><span class="material-symbols-sharp">expand_circle_right</span> Search for one of your associated students below</p>
+  <p class="CTA"><span class="material-symbols-sharp primary solid">expand_circle_right</span> Search for one of your associated students below</p>
 
   <form class="form-inline" style="padding-left: 36px;">
   <label for="search" class="sr-only">Search</label>

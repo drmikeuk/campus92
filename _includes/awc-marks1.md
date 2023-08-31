@@ -1,5 +1,5 @@
-<p class="space"><span class="material-symbols-sharp hilight">error</span> All marks are <b><i>provisional</i></b> and should not be shared with students until approved by an Exam Board.
-<a class="btn btn-sm btn-outline-primary float-right" href="#" role="button"><span class="material-symbols-sharp">expand_circle_right</span>View element marks report</a></p>
+<p class="space"><span class="material-symbols-sharp hilight solid">error</span> All marks are <b><i>provisional</i></b> and should not be shared with students until approved by an Exam Board.
+<a class="btn btn-sm btn-outline-primary float-right" href="#" role="button"><span class="material-symbols-sharp solid smIcon">expand_circle_right</span>View element marks report</a></p>
 
 <table class="table table-sm">
 <thead>

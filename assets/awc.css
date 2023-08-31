@@ -1,24 +1,23 @@
 body    {height: 100%; margin-bottom: 4em /* leave room for sticky footer */}
-  .material-symbols-sharp { font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48 }
 
-  h1      {margin-bottom: 0}
-	h2 			{font-size: 1.7rem; padding-bottom: 0}
-	h3 			{font-size: 1.2rem; font-weight: bold; padding-top: 1rem}
-	h4      {font-size: 1rem; font-weight: bold; padding-top: 0.5rem}
+h1      {margin-bottom: 0}
+h2 			{font-size: 1.7rem; padding-bottom: 0}
+h3 			{font-size: 1.2rem; font-weight: bold; padding-top: 1rem}
+h4      {font-size: 1rem; font-weight: bold; padding-top: 0.5rem}
 
-  .strapline {font-size: 1.3rem; font-weight: 300}
-	.notFullWidth {width: auto}
+.strapline    {font-size: 1.3rem; font-weight: 300}
+.notFullWidth {width: auto}
+
+.note         {background: #CCFFFF; padding: 3px; font-style: italic; font-size: 80%}
 
 
-  .note {background: #CCFFFF; padding: 3px; font-style: italic; font-size: 80%}
+/*banner   NB background NOT the 'find my uon' black #0e202e but the current black */
+.hub 		        {background: #1d2733; color: white; }
+.hub .back      {padding-left: 2em; line-height: 1}
+.hub .back .btn {padding: 0.2rem 0.75rem 0.2rem 0.3rem; margin: 3px}
+.hub .title     {text-align: center; font-size: 20px; padding: 7px 0px}
+.hub .icons     {text-align: right; padding: 7px 2em}
 
-/*banner NB background NOT the 'find my uon' black #0e202e but the current black */
-	.hub 		     {background: #1d2733; color: white; }
-  .hub .back   {padding-left: 2em; line-height: 1}
-  .hub .back .btn {padding: 0.2rem 0.75rem 0.2rem 0.3rem; margin: 3px}
-  .hub .back .material-symbols-sharp {vertical-align: middle; padding-bottom: 3px}
-  .hub .title  {text-align: center; font-size: 20px; padding: 7px 0px}
-  .hub .icons  {text-align: right; padding: 7px 2em}
 
 /* sidebar */
 .main           {padding-left: 2em}
@@ -33,58 +32,56 @@ body    {height: 100%; margin-bottom: 4em /* leave room for sticky footer */}
 .sidebar .media          {padding-top: 1.2em; }
 .sidebar .media-body     {font-size: 0.9em; font-style: italic;}
 .sidebar .media-body h5  {font-size: 1.5em; font-style: normal; font-weight: 400; margin-bottom: 0}
-.sidebar .media .material-symbols-sharp {font-size: 40px; color: #808080 /* grey */; padding-right: 10px; padding-top: 3px}
-
+.sidebar .media .material-symbols-sharp {font-size: 40px; padding-right: 10px; padding-top: 3px}
 
 
 /* home */
 .strapline      {margin-bottom: 2rem;}
 .sub            {font-size: 0.8em; font-style: italic; padding-left: 36px; padding-top: 1.5em}
 .CTA            {font-size: 1.5em; font-weight: 300; line-height: 1}
-.CTA .material-symbols-sharp {color: #116EB1 /* redwood blue6*/; font-size: 32px; line-height: 1; vertical-align: middle; padding-bottom: 3px}
+.CTA .material-symbols-sharp {font-size: 32px;}
 .searchbox      {border: 1px solid #116EB1 /* redwood blue6*/;}
 
 /* search form */
-  .btn-primary  {padding: 6px 30px}
-  .noPad        {margin-bottom: 0}
-  ::placeholder {font-style: italic}
+.btn-primary  {padding: 6px 30px}
+.noPad        {margin-bottom: 0}
+::placeholder {font-style: italic}
 
 @media only screen and (min-width: 720px) {
     .form-control {width: 50%}
     .padTitle     {margin-bottom: 30px;}
 }
 
+
 /* search results list */
 .nav-tabs                  {line-height: 1; font-size: 1.2em; margin-bottom: 1em; padding-top: 1em}
-.nav-tabs li               { padding-bottom: 0}
+.nav-tabs li               {padding-bottom: 0}
 .nav-tabs .nav-link.active {font-weight: bold;}
 
-.table-sm td, .table-sm th { padding: 0.2rem 0.5rem; border-top: 0}
-.table-sm td               { border-top: 2px solid #dee2e6;}
-.table-sm th               { background: #EBEEF0 /* GREY  */}
+.table-sm td, .table-sm th {padding: 0.2rem 0.5rem; border-top: 0}
+.table-sm td               {border-top: 2px solid #dee2e6;}
+.table-sm th               {background: #EBEEF0 /* GREY  */}
 .table-sm                  {border-bottom: 2px solid #dee2e6;}
 
-.table .material-symbols-sharp  {font-size: 30px; color: #808080; /* grey - FIX SO JUST SPECIFIC ICONS? */}
-.table a                        {color: #808080; /* grey - FIX SO JUST SPECIFIC ICONS? */}
-.table .media a                 {color: blue}
-.table a:hover                  {color: blue}
+.table a                   {color: #6c757d; /* secondary grey  */}
+.table .media a            {color: blue}
+.table a:hover             {color: blue}
 
-.right                   {text-align: right}
-#DataTable_filter        {text-align: left}
-#DataTable_filter label  {font-weight: normal; margin-top: 0.4rem; margin-bottom: 0}
-.levels label            {font-weight: normal; margin-right: 0.5em}
-#DataTable_paginate .pagination XXX {margin-top: 0.8em}
+.right                     {text-align: right}
+#DataTable_filter          {text-align: left}
+#DataTable_filter label    {font-weight: normal; margin-top: 0.4rem; margin-bottom: 0}
+.levels label              {font-weight: normal; margin-right: 0.5em}
 #DataTable_paginate .pagination li {padding-bottom: 0}
 
 #DataTable               {line-height: 1.5;}
 .name                    {white-space: nowrap;}
-.courseXXX                  {white-space: nowrap; overflow: hidden; text-overflow: clip; }
+.courseXXX   FIXTHIS               {white-space: nowrap; overflow: hidden; text-overflow: clip; }
 .id                      {font-style: italic;}
 .school                  {font-style: italic; font-size: 100%}
 .photo 					         {width: 4rem; padding-right: 1em}
 .email                   {display: none;}
-.actions                 {white-space: nowrap; /*and to over ride stretchd link... */ z-index: 2; position: relative;}
-.actions .material-symbols-sharp {padding-right: 0.3em; font-sizeXX: 20px; }
+.actions                 {white-space: nowrap; /* to over ride stretched link... */ z-index: 2; position: relative;}
+.actions .material-symbols-sharp {padding-right: 0.3em;}
 
 .bottom-bar              {background: #ccc; left: 355px; padding: 0.5em 15px 0.3em 15px}
 .fixed-bottom            {border-top: 3px solid #aaa}
@@ -92,21 +89,18 @@ tr                       {position: relative}  /* so stretched links work */
 
 .bottom-bar .media-body     {font-size: 0.9em; font-style: italic;}
 .bottom-bar .media-body h5  {font-size: 1.3em; font-style: normal; font-weight: 400; margin-bottom: 0}
-.bottom-bar .media .material-symbols-sharp {padding-right: 3px; line-height: 1; vertical-align: middle; padding-bottom: 3px}
+.bottom-bar .media .material-symbols-sharp {padding-right: 3px; }
 .bottom-bar .media .btn     {margin-right: 1em;}
 
 
 /* photo grid */
-
 .photogrid                  {float: left; margin-right: 1.5em; margin-bottom: 1.5em; position: relative; /* for stretched link */}
 .photogrid .card-body       {padding: 0.5rem;}
 .photogrid h5               {font-size: 1rem;}
 .photogrid .card-title      {margin-bottom: 0;}
 .photogrid p                {margin-bottom: 0; font-style: italic;}
-.photogrid .material-symbols-sharp  {font-size: 30px; color: #808080; /* grey - FIX SO JUST SPECIFIC ICONS? */ position: absolute; bottom: 0.5rem; right: 0.5rem;}
-
+.photogrid .material-symbols-sharp  {position: absolute; bottom: 0.5rem; right: 0.5rem;}
 #photos .form-control-sm    {width: 16em}
-
 
 
 /* details page */
@@ -119,6 +113,7 @@ tr                       {position: relative}  /* so stretched links work */
 .details dt                 {font-weight: normal; }
 
 .details .padRight           {margin-right: 2em}
+.details .padLeft            {margin-left: 0.5em}
 .details .padBottom          {margin-bottom: 1.5em}
 .details .padTop             {margin-top: 1.5em}
 
@@ -129,15 +124,24 @@ tr                       {position: relative}  /* so stretched links work */
 .codes                       {padding-left: 3em; font-size: 90%}
 .details .card-header        {background: inherit; padding: inherit;}
 
+.details .material-symbols-sharp    {padding-right: 3px;}
+.details h2 .material-symbols-sharp {padding-left: 0.2em;}
 
 
-/* improve these icons styles ... highlight/primary/grey sm/md/lg solid/outline */
-.details .material-symbols-sharp  { padding-right: 3px; vertical-align: middle; padding-bottom: 3px}
-.details h2 .material-symbols-sharp {padding-left: 0.1em; color: #808080; /* grey - FIX SO JUST SPECIFIC ICONS? */}
-.details dd .material-symbols-sharp {padding-left: 0.2em; font-size: 1em; color: #808080; /* grey - FIX SO JUST SPECIFIC ICONS? */}
-.details .btn .material-symbols-sharp {font-size: 20px; color: #007bff}
-.details dd .hilight               {font-size: 24px; color: #C04A26; /* redwood45 orange/brown */}
-.details .hilight               {font-size: 24px; color: #C04A26; /* redwood45 orange/brown */}
+/* material icons */
+.material-symbols-sharp {vertical-align: middle; padding-bottom: 3px; font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48 }
+.solid                  {font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48 }
+
+.primary                {color: #116EB1 /* redwood blue6 */}
+.secondary              {color: #6c757d /* bootstrap grey */}
+.hilight                {color: #C04A26 /* redwood45 orange/brown */}
+
+.smIcon                 {font-size: 20px;}
+.mdIcon                 {font-size: 24px;}
+.lgIcon                 {font-size: 30px;}
+
+
+
 
 
 labelXX      {font-weight: bold; margin-top: 0.8em}

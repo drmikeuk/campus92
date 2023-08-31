@@ -1,4 +1,4 @@
-<p class="space"><a class="btn btn-sm btn-outline-primary padRight" href="#" role="button"><span class="material-symbols-sharp">expand_circle_right</span>Request to view marks</a> <i>some explainer of associations / business need... ...</i></p>
+<p class="space"><a class="btn btn-sm btn-outline-primary padRight" href="#" role="button"><span class="material-symbols-sharp solid smIcon">expand_circle_right</span>Request to view marks</a> <i>some explainer of associations / business need... ...</i></p>
 <!-- p><span class="material-symbols-sharp hilight">error</span> All marks are <b><i>provisional</i></b> and should not be shared with students until approved by an Exam Board.</p -->
 
 

@@ -17,7 +17,7 @@
                       <dd class="col-sm-8"><a href="mailto:abc1xyz@nottingham.ac.uk">abc1xyz@nottingham.ac.uk</a></dd>
 
                       <dt class="col-sm-4">Support plan</dt>
-                      <dd class="col-sm-8"><a class="btn btn-sm btn-outline-primary" href="#SupportPlan" role="button" data-toggle="collapse"><span class="material-symbols-sharp">expand_circle_right</span>View support plan</a></dd>
+                      <dd class="col-sm-8"><a class="btn btn-sm btn-outline-primary" href="#SupportPlan" role="button" data-toggle="collapse"><span class="material-symbols-sharp solid smIcon">expand_circle_right</span>View support plan</a></dd>
                     </dl>
                 </div>
                 <div class="col-md-6">
@@ -26,7 +26,7 @@
                       <dd class="col-sm-7">Registered  <i>(29.9.22)</i></dd>
 
                       <dt class="col-sm-5">Form of study</dt>
-                      <dd class="col-sm-7"><span class="material-symbols-sharp hilight">error</span><b>Mobility</b></dd>
+                      <dd class="col-sm-7"><span class="material-symbols-sharp hilight solid mdIcon">error</span><b>Mobility</b></dd>
 
                     </dl>
                 </div>

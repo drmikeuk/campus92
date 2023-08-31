@@ -1,0 +1,40 @@
+<!-- DATATABLE LIST -->
+<table id="DataTable" class="table table-sm table-hover">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Mark</th>
+      <th scope="col">Late penalty mark</th>
+      <th scope="col">Not attend</th>
+      <th scope="col">EC granted</th>
+      <th scope="col">Repeating</th>
+      <th scope="col">Attempt</th>
+      <th scope="col">History</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for student in students %}
+    <tr style="position: relative">
+      <td>{{ student.id }}</td>
+      <td class="name" data-sort="{{ student.surname }} {{ student.forename }}">{{ student.surname }}, {{ student.forename }}</td>
+      <td><input type="text" value="{{ student.mark }}"></td>
+      <td><input type="text" value="{{ student.latemark }}"></td>
+      <td><input type="text" value="{{ student.notattend }}"></td>
+      <td>{{ student.EC }}</td>
+      <td>{{ student.repeating }}</td>
+      <td>{{ student.attempt }}</td>
+      <td class="right"><a href=""><span class="material-symbols-sharp primary lgIcon solid">expand_circle_right</span> Marks history</a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+
+<div class="fixed-bottom bottom-bar" style="left: 0">
+<div class="media">
+<a class="btn btn-primary" href="#" role="button"><span class="material-symbols-sharp">save</span>Save</a>
+<div class="media-body">
+  <h5 class="mt-0">...</h5>
+</div>
+</div>

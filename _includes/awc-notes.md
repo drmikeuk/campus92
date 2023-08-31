@@ -25,7 +25,7 @@
     <td>{{note.ActionItems}}</td>
     <td>{{note.StudentAccess}}</td>
     <td>{{note.Updated}}</td>
-    <td class="right"><span class="material-symbols-sharp">expand_circle_right</span></td>
+    <td class="right"><span class="material-symbols-sharp solid primary">expand_circle_right</span></td>
   </tr>
 {% endfor %}
 </tbody>

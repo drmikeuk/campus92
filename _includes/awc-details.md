@@ -2,10 +2,10 @@
 
 <dl class="row">
   <dt class="col-sm-3">StudentID</dt>
-  <dd class="col-sm-9">10282116 <a href=""><span class="material-symbols-sharp outline">file_copy</span></a></dd>
+  <dd class="col-sm-9">10282116 <a href="" class="secondary"><span class="material-symbols-sharp outline smIcon padLeft">file_copy</span></a></dd>
 
   <dt class="col-sm-3">Email</dt>
-  <dd class="col-sm-9"><a href="mailto:abc1xyz@nottingham.ac.uk">abc1xyz@nottingham.ac.uk</a> <span class="material-symbols-sharp outline">file_copy</span></dd>
+  <dd class="col-sm-9"><a href="mailto:abc1xyz@nottingham.ac.uk">abc1xyz@nottingham.ac.uk</a> <a href="" class="secondary"><span class="material-symbols-sharp outline smIcon padLeft">file_copy</span></a></dd>
 
   <dt class="col-sm-3">Campus</dt>
   <dd class="col-sm-9">UK </dd>
@@ -17,10 +17,10 @@
   <dd class="col-sm-9">Registered  <i>(29.9.22)</i></dd>
 
   <dt class="col-sm-3">Form of study</dt>
-  <dd class="col-sm-9"><span class="material-symbols-sharp hilight">error</span><b>Mobility</b></dd>
+  <dd class="col-sm-9"><span class="material-symbols-sharp hilight solid mdIcon">error</span><b>Mobility</b></dd>
 
   <dt class="col-sm-3">Support plan</dt>
-  <dd class="col-sm-9"><a class="btn btn-sm btn-outline-primary" href="#SupportPlan" role="button" data-toggle="collapse"><span class="material-symbols-sharp">expand_circle_right</span>View support plan</a></dd>
+  <dd class="col-sm-9"><a class="btn btn-sm btn-outline-primary" href="#SupportPlan" role="button" data-toggle="collapse"><span class="material-symbols-sharp solid smIcon">expand_circle_right</span>View support plan</a></dd>
 </dl>
 
 <div id="SupportPlan" class="collapse in padBottom">

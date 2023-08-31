@@ -35,11 +35,11 @@
           <td>{{ student.tutor }}</td>
           <td>{{ student.career }}</td>
           <td>{{ student.year }}</td>
-          <td class="actions"><span class="email">{{ email }}</span><a href="mailto:{{ email }}" title="email {{ email }}"><span class="material-symbols-sharp">mail</span></a>
-          <a href="notes.html" title="Edit notes"><span class="material-symbols-sharp">description</span></a>
+          <td class="actions"><span class="email">{{ email }}</span><a href="mailto:{{ email }}" title="email {{ email }}"><span class="material-symbols-sharp secondary lgIcon">mail</span></a>
+          <a href="notes.html" title="Edit notes"><span class="material-symbols-sharp secondary lgIcon">description</span></a>
           </td>
-          <td>{% if student.support == "Y" %}<span class="material-symbols-sharp">flag</span>{% endif %}</td>
-          <td class="right"><span class="material-symbols-sharp">expand_circle_right</span></td>
+          <td>{% if student.support == "Y" %}<span class="material-symbols-sharp secondary lgIcon solid">flag</span>{% endif %}</td>
+          <td class="right"><span class="material-symbols-sharp primary lgIcon solid">expand_circle_right</span></td>
         </tr>
         {% endfor %}
       </tbody>
@@ -57,7 +57,7 @@
       <div class="card-body">
         <h5 class="card-title"><a href="details.html" class="stretched-link">{{ student.name }}</a></h5>
         <p class="card-text">{{ student.id }}</p>
-        <span class="chevron material-symbols-sharp">expand_circle_right</span>
+        <span class="chevron material-symbols-sharp primary lgIcon solid">expand_circle_right</span>
       </div>
     </div>
     {% endfor %}
