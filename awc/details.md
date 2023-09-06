@@ -4,6 +4,8 @@ title: "Student details"
 nav: "no"
 back: "Back"
 backurl: "listTutees.html"
+customjs:
+  - /assets/awcDetails.js
 ---
 
 {% assign photo = 36 %}
@@ -102,7 +104,7 @@ backurl: "listTutees.html"
 
 <h2>Notes</h2>
 
-<p><b>NB: look at current/new delivered functionality + do we really need sub-cats?</b></p>
+<p><b>NB: look at current/new delivered functionality + do we really need sub-cats?</b> start by replicating what we have currently?</p>
 
 {% include awc-notes.md %}
 

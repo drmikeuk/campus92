@@ -19,7 +19,7 @@
   <tr>
     <td>{{note.Category}}</td>
     <td>{{note.SubSategory}}</td>
-    <td><a href="" class="stretched-link">{{note.Subject}}</a></td>
+    <td><a href="#" class="stretched-link primary">{{note.Subject}}</a></td>
     <td>{{note.AssignedTo}}</td>
     <td>{{note.Status}}</td>
     <td>{{note.ActionItems}}</td>

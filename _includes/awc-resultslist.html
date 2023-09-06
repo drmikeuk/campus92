@@ -29,14 +29,14 @@
         <tr style="position: relative">
           <td class="name" data-sort="{{ student.surname }} {{ student.forename }}"><div class="media">
           <img class="photo" src="{{ student.photo | prepend: "photos/128-" | append: ".jpg"}}" alt="{{ student.name }} photo">
-          <div class="media-body"><a href="details.html" class="stretched-link">{{ student.name }}</a><br/><span class="id">{{ student.id }}</span></div>
+          <div class="media-body"><a href="details.html" class="stretched-link primary">{{ student.name }}</a><br/><span class="id">{{ student.id }}</span></div>
           </div></td>
           <td class="text-truncate"><div class="course">{{ student.course }}</div><span class="school">{{ student.school }}</span></td>
           <td>{{ student.tutor }}</td>
           <td>{{ student.career }}</td>
           <td>{{ student.year }}</td>
           <td class="actions"><span class="email">{{ email }}</span><a href="mailto:{{ email }}" title="email {{ email }}"><span class="material-symbols-sharp secondary lgIcon">mail</span></a>
-          <a href="notes.html" title="Edit notes"><span class="material-symbols-sharp secondary lgIcon">description</span></a>
+          <a href="details.html?tab=Notes" title="Edit notes"><span class="material-symbols-sharp secondary lgIcon">description</span></a>
           </td>
           <td>{% if student.support == "Y" %}<span class="material-symbols-sharp secondary lgIcon solid">flag</span>{% endif %}</td>
           <td class="right"><span class="material-symbols-sharp primary lgIcon solid">expand_circle_right</span></td>

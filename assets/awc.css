@@ -64,16 +64,20 @@ h4      {font-size: 1rem; font-weight: bold; padding-top: 0.5rem}
 .table-sm                  {border-bottom: 2px solid #dee2e6;}
 
 .table a                   {color: #6c757d; /* secondary grey  */}
-.table .media a            {color: blue}
-.table a:hover             {color: blue}
+.table a.primary           {color: #007bff /* bootstrap primary link as redwood blue6 too weak */}
+.table a:hover             {color: #0056b3 /* bootstrap primary hover as redwood blue6 too weak */}
 
 .right                     {text-align: right}
 #DataTable_filter          {text-align: left}
 #DataTable_filter label    {font-weight: normal; margin-top: 0.4rem; margin-bottom: 0}
 .levels label              {font-weight: normal; margin-right: 0.5em}
 #DataTable_paginate .pagination li {padding-bottom: 0}
+#DataTable                 {line-height: 1.5;}
 
-#DataTable               {line-height: 1.5;}
+.extrafilters select       {max-width: 10em;}
+
+
+
 .name                    {white-space: nowrap;}
 .courseXXX   FIXTHIS               {white-space: nowrap; overflow: hidden; text-overflow: clip; }
 .id                      {font-style: italic;}
