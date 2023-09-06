@@ -67,9 +67,11 @@ h4      {font-size: 1rem; font-weight: bold; padding-top: 0.5rem}
 .table a.primary           {color: #007bff /* bootstrap primary link as redwood blue6 too weak */}
 .table a:hover             {color: #0056b3 /* bootstrap primary hover as redwood blue6 too weak */}
 
+.filterRow                 {padding-bottom: 0.5em}
+.dataTables_wrapper .search input  {line-height: 1.5; font-size: 1rem; height: calc(1.5em + 0.75rem + 2px); border: 1px solid #116EB1 /* redwood blue6*/;}
 .right                     {text-align: right}
 #DataTable_filter          {text-align: left}
-#DataTable_filter label    {font-weight: normal; margin-top: 0.4rem; margin-bottom: 0}
+#DataTable_filter label    {font-weight: normal; margin-top: 0; margin-bottom: 0}
 .levels label              {font-weight: normal; margin-right: 0.5em}
 #DataTable_paginate .pagination li {padding-bottom: 0}
 #DataTable                 {line-height: 1.5;}
@@ -104,7 +106,6 @@ tr                       {position: relative}  /* so stretched links work */
 .photogrid .card-title      {margin-bottom: 0;}
 .photogrid p                {margin-bottom: 0; font-style: italic;}
 .photogrid .material-symbols-sharp  {position: absolute; bottom: 0.5rem; right: 0.5rem;}
-#photos .form-control-sm    {width: 16em}
 
 
 /* details page */
