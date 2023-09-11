@@ -13,8 +13,7 @@
 <body>
 
 	<!-- TOP NOTTINGHAM HUB BAR -->
-
-	<div class="hub">
+	<div class="hub container-fluid">
     <div class="row">
       <div class="col back">
         {% if page.back %}
@@ -36,12 +35,12 @@
 	<div class="container-fluid">
 		<div class="row">
 	    <!-- SIDEBAR -->
-      <div class="col-md-3 sidebar">
+      <div class="col sidebar">
 	    {% include awc-sidebar.html %}
 	    </div>
 
 	    <!-- CONTENT -->
-      <div class="col-md-9 main">
+      <div class="col main">
 	    {{ content }}
 	    </div>
 		</div>
