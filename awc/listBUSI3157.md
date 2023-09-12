@@ -4,7 +4,7 @@ title: "My Students"
 nav: "no"
 back: "Back"
 backurl: "home.html"
-page: listModules
+page: listBUSI3157
 customcss:
   - /vendor/datatables.min.css
 customjs:

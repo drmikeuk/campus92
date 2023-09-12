@@ -92,6 +92,7 @@ h4      {font-size: 1rem; font-weight: bold; padding-top: 0.5rem}
 
 .bottom-bar              {background: #ccc; left: 355px; padding: 0.5em 15px 0.3em 15px}
 .fixed-bottom            {border-top: 3px solid #aaa}
+.tab-content             {margin-bottom: 4em}
 tr                       {position: relative}  /* so stretched links work */
 
 .bottom-bar .media-body     {font-size: 0.9em; font-style: italic;}

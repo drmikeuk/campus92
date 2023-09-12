@@ -4,12 +4,12 @@
 
 - title: PGR students
   count: 5
-  page: no
+  page: listPGR
 
 - title: Project supervisor
   count: 20
-  page: no
+  page: listProject
 
 - title: Exams Officer
-  count: 1005
-  page: no
+  count: 2000
+  page: listExams

@@ -8,7 +8,7 @@
   {% else %}
   {% assign class = "" %}
   {% endif %}
-  <li class="{{ class }}"><a href="listTutees.html" class="stretched-link">{{ role.title }}</a>
+  <li class="{{ class }}"><a href='{{ role.page | append: ".html" }}' class="stretched-link">{{ role.title }}</a>
     <span class="badge badge-pill badge-secondary float-right">{{ role.count }}</span></li>
 {% endfor %}
 </ul>
@@ -22,7 +22,7 @@
   {% else %}
   {% assign class = "" %}
   {% endif %}
-  <li class="{{ class }}"><a href="listModules.html" class="stretched-link">{{ module.code }}</a><span class="badge badge-pill badge-secondary float-right">{{ module.count }}</span>
+  <li class="{{ class }}"><a href='{{ module.page | append: ".html" }}' class="stretched-link">{{ module.code }}</a><span class="badge badge-pill badge-secondary float-right">{{ module.count }}</span>
   <br/>{{ module.title }}
     </li>
 {% endfor %}
