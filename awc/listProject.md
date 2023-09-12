@@ -12,5 +12,5 @@ customjs:
   - /assets/awc.js
 ---
 
-{% assign students = site.data.awc35 | slice: 15,35 %}
+{% assign students = site.data.awc150 | slice: 130,150 %}
 {% include awc-resultslist.html %}

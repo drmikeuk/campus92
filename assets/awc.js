@@ -19,9 +19,37 @@ $(document).ready( function () {
       $('.filters').append(filtersCode);
 
       //add extra dropdowns html to .filters2 (2nd row)
-      var filtersCode = '<form class="form-inline extrafilters"> <label class="label mr-sm-2">Filter for:</label> <select class="form-control form-control-sm mr-sm-2" id="UGPG"> <option value="">UG/PG...</option> <option value="1">UG</option> <option value="2">PGT</option> <option value="3">PGR</option> </select> <select class="form-control form-control-sm mr-sm-2" id="yos"> <option value="">Year...</option> <option value="1">Year 1</option> <option value="2">Year 2</option> <option value="3">Year 3</option> <option value="4">Year 4</option> </select> <select class="form-control form-control-sm mr-sm-2" id="course"> <option value="">Course...</option> <option value="1">BA Hons Geography with Business</option> <option value="2">BSc Hons Agricultural Business Management</option> <option value="3">BSc Hons Accounting and Business</option> <option value="4">MSc Business and Management</option> <option value="5">MBA Business Administration</option> <option value="6">MSc International Business</option> </select> <select class="form-control form-control-sm mr-sm-2" id="course"> <option value="">Tutor...</option> <option value="1">Andrew Allen</option> <option value="2">Kate Beard</option> <option value="3">Kevin Berry</option> <option value="4">Susan Burke</option> <option value="5">Allison Chan</option> <option value="6">Simon Chew</option> <option value="7">Joshua Clarke</option> <option value="8">Frances Coady</option> <option value="9">Patricia Collins</option> </select> <select class="form-control form-control-sm mr-sm-2" id="flags"> <option value="">Flags...</option> <option value="1">Support plan</option> <option value="2">Mobility</option> <option value="3">etc</option> <option value="4">etc</option> </select> </form>';
+      var filtersCode = '<form class="form-inline extrafilters"> <label class="label mr-sm-2">Filter for:</label> <select class="form-control form-control-sm mr-sm-2" id="UGPG"> <option value="">UG/PG...</option> <option value="UG">UG</option> <option value="PGT">PGT</option> <option value="PGR">PGR</option> </select> <select class="form-control form-control-sm mr-sm-2" id="yos"> <option value="">Year...</option> <option value="1">Year 1</option> <option value="2">Year 2</option> <option value="3">Year 3</option> <option value="4">Year 4</option> </select> <select class="form-control form-control-sm mr-sm-2" id="course"> <option value="">Course...</option> <option value="Geography with Business">BA Hons Geography with Business</option> <option value="Agricultural Business Management">BSc Hons Agricultural Business Management</option> <option value="Accounting and Business">BSc Hons Accounting and Business</option> <option value="MSc Business and Management">MSc Business and Management</option> <option value="MBA Business and Management">MBA Business and Management</option> <option value="International Business">MSc International Business</option> </select> <select class="form-control form-control-sm mr-sm-2" id="tutor"> <option value="">Tutor...</option> <option value="Andrew Allen">Andrew Allen</option> <option value="Kate Beard">Kate Beard</option> <option value="Kevin Berry">Kevin Berry</option> <option value="Susan Burke">Susan Burke</option> <option value="Allison Chan">Allison Chan</option> <option value="Simon Chew">Simon Chew</option> <option value="Joshua Clarke">Joshua Clarke</option> <option value="Frances Coady">Frances Coady</option> <option value="Patricia Collins">Patricia Collins</option> </select> <select class="form-control form-control-sm mr-sm-2" id="flags"> <option value="">Flags...</option> <option value="supportPlan">Support plan</option> <option value="mobility">Mobility</option> <option value="">etc</option> <option value="">etc</option> </select> </form> ';
       $('.filters2').append(filtersCode);
 
+
+      // add search action to UG/PG career select #UGPG
+      $('#UGPG').on('change', function() {
+        var career = $(this).val();
+        //console.log ("Filter for UGPG: " + career);
+        $('#DataTable').DataTable().column(3).search(career).draw();
+      });
+
+      // add search action to year select #yos
+      $('#yos').on('change', function() {
+        var year = $(this).val();
+        //console.log ("Filter for year: " + year);
+        $('#DataTable').DataTable().column(4).search(year).draw();
+      });
+
+      // add search action to course select #course
+      $('#course').on('change', function() {
+        var course = $(this).val();
+        console.log ("Filter for course: " + course);
+        $('#DataTable').DataTable().column(1).search(course).draw();
+      });
+
+      // add search action to tutor select #tutor
+      $('#tutor').on('change', function() {
+        var tutor = $(this).val();
+        console.log ("Filter for tutor: " + tutor);
+        $('#DataTable').DataTable().column(2).search(tutor).draw();
+      });
 
 
 
