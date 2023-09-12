@@ -30,7 +30,7 @@ $(document).ready( function () {
       $("#filter").on("keyup search", function() {
         var value = $(this).val().toLowerCase();
         //console.log(value);
-        $("#photos div").filter(function() {
+        $("#photogrid .card").filter(function() {
           $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
         });
       });

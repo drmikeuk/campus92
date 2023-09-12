@@ -54,7 +54,7 @@
       <div class="row filterRow">
         <div class="col col-md-auto search">
           <div id="DataTable_filter" class="dataTables_filter">
-            <label><input type="search" class="form-control form-control-sm" placeholder="Filter this list..." aria-controls="DataTable"></label>
+            <label><input id="filter" type="search" class="form-control form-control-sm" placeholder="Filter this list..." aria-controls="DataTable"></label>
           </div>
         </div>
         <div class="col col-md-auto">
@@ -64,17 +64,18 @@
       </div>
     </div>
 
-
-    {% for student in students %}
-    <div class="card photogrid" style="width: 14rem;">
-      <img class="card-img-top" src="{{ student.photo | prepend: "photos/128-" | append: ".jpg"}}" alt="{{ student.name }} photo">
-      <div class="card-body">
-        <h5 class="card-title"><a href="details.html" class="stretched-link">{{ student.name }}</a></h5>
-        <p class="card-text">{{ student.id }}</p>
-        <span class="chevron material-symbols-sharp primary lgIcon solid">expand_circle_right</span>
+    <div id="photogrid">
+      {% for student in students %}
+      <div class="card photogrid" style="width: 14rem;">
+        <img class="card-img-top" src="{{ student.photo | prepend: "photos/128-" | append: ".jpg"}}" alt="{{ student.name }} photo">
+        <div class="card-body">
+          <h5 class="card-title"><a href="details.html" class="stretched-link">{{ student.name }}</a></h5>
+          <p class="card-text">{{ student.id }}</p>
+          <span class="chevron material-symbols-sharp primary lgIcon solid">expand_circle_right</span>
+        </div>
       </div>
+      {% endfor %}
     </div>
-    {% endfor %}
 
 
 
