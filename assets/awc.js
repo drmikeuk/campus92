@@ -1,4 +1,5 @@
 $(document).ready( function () {
+    //alert("pause")
     $('#DataTable').DataTable({
         "pageLength": 50,
         // "order": [[ 3, 'des' ], [ 2, 'asc' ]],
@@ -11,7 +12,9 @@ $(document).ready( function () {
                       // hide instead "search": "Filter:",
                       search: "_INPUT_",
                       searchPlaceholder: "Filter this list..." },
-        "columnDefs": [ { "targets": [5,7], "orderable": false } ]
+        "columnDefs": [ { "targets": [5,8], "orderable": false} ],
+        // dont want its width calcs as incorrect and force wider table
+        "autoWidth": false
       });
 
       //add year dropdowns html to .filters
@@ -40,15 +43,22 @@ $(document).ready( function () {
       // add search action to course select #course
       $('#course').on('change', function() {
         var course = $(this).val();
-        console.log ("Filter for course: " + course);
+        //console.log ("Filter for course: " + course);
         $('#DataTable').DataTable().column(1).search(course).draw();
       });
 
       // add search action to tutor select #tutor
       $('#tutor').on('change', function() {
         var tutor = $(this).val();
-        console.log ("Filter for tutor: " + tutor);
+        //console.log ("Filter for tutor: " + tutor);
         $('#DataTable').DataTable().column(2).search(tutor).draw();
+      });
+
+      // add search action to flags select #flags
+      $('#flags').on('change', function() {
+        var flags = $(this).val();
+        //console.log ("Filter for flags: " + flags);
+        $('#DataTable').DataTable().column(7).search(flags).draw();
       });
 
 
