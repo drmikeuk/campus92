@@ -4,7 +4,7 @@ title: "Curriculum catalogue"
 nav: "no"
 ---
 
-<div class="breadcrumbs">Curriculum catalogue</div>
+<!-- <div class="breadcrumbs">Curriculum catalogue</div> -->
 
 <h1 class="padTitle">Curriculum catalogue</h1>
 
@@ -33,7 +33,7 @@ nav: "no"
       <div class="card-body">
         <h5 class="card-title">{{ card.title }}</h5>
         <p class="card-text">Module catalogue
-        <a href="planSearch.html" class="stretched-link"><i class="fas fa-chevron-circle-right"></i></a></p>
+        <a href="moduleSearch.html" class="stretched-link"><i class="fas fa-chevron-circle-right"></i></a></p>
       </div>
     </div>
     {% endfor %}

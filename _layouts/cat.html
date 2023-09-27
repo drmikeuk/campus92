@@ -9,11 +9,17 @@
 {% endif %}
 <style>
   body {margin-bottom: 2em}
-	.hub 		{background: #0e202e; color: white; text-align: left; font-size: 32px; margin-bottom: 20px}
+	.hub 		{background: #0e202e; color: white; text-align: left; font-size: 24px; margin-bottom: 20px}
   .hub img {margin-right: 1em}
 	.bar    {background-color: #f8f8f8; padding: 0.3em 0.4em; text-align: left; border-bottom: 1px solid #ced4da; margin-bottom: 1em}
 
-  h1      {margin-bottom: 0}
+
+/* bigger screens: bigger banner text */
+@media only screen and (min-width: 780px) {
+    .hub 		{font-size: 32px; }
+}
+
+  h1      {font-size: 2rem; margin-bottom: 0}
 	h2 			{font-size: 1.7rem; padding-bottom: 0}
 	h3 			{font-size: 1.2rem; font-weight: bold; padding-top: 1rem}
 	h4      {font-size: 1rem; font-weight: bold; padding-top: 0.5rem}
@@ -49,6 +55,7 @@
   .noPad        {margin-bottom: 0}
   ::placeholder {font-style: italic}
 
+/* bigger screens don't need huge full width input fields */
 @media only screen and (min-width: 720px) {
     .form-control {width: 50%}
     .padTitle     {margin-bottom: 30px;}

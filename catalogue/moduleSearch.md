@@ -1,15 +1,15 @@
 ---
 layout: cat
-title: "Programmes: Search"
+title: "Modules: Search"
 nav: "no"
 ---
 
-<h1 class="padTitle">Programmes: UK</h1>
+<h1 class="padTitle">Modules: Malaysia</h1>
 
-<form action="planResults.html">
+<form action="moduleResults.html">
 
   <div class="form-group row">
-    <label for="AcademicYear" class="col-sm-2 col-form-labelXX">Academic year</label>
+    <label for="AcademicYear" class="col-sm-2 col-form-labelXX">Academic Year</label>
     <div class="col-sm-10">
       <select id="AcademicYear" class="form-control">
         {% assign years = site.data.years %}
@@ -32,18 +32,18 @@ nav: "no"
 <div><i>or</i></div>
 
   <div class="form-group row noPad">
-    <label for="Programme code" class="col-sm-2 col-form-labelXX">Programme code</label>
+    <label for="School" class="col-sm-2 col-form-labelXX">School</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" id="Programme code" >
+      <input type="text" class="form-control" id="School" >
     </div>
   </div>
 
 <div><i>or</i></div>
 
   <div class="form-group row">
-    <label for="UCAS code" class="col-sm-2 col-form-labelXX">UCAS code</label>
+    <label for="Modulecode" class="col-sm-2 col-form-labelXX">Module code</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" id="UCAS code" >
+      <input type="text" class="form-control" id="Modulecode" >
     </div>
   </div>
 
