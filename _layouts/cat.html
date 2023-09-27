@@ -9,14 +9,15 @@
 {% endif %}
 <style>
   body {margin-bottom: 2em}
-	.hub 		{background: #0e202e; color: white; text-align: left; font-size: 24px; margin-bottom: 20px}
+	.hub 		{background: #0e202e; color: white; text-align: left; font-size: 32px; margin-bottom: 20px}
+  .hub span {display: none}
   .hub img {margin-right: 1em}
 	.bar    {background-color: #f8f8f8; padding: 0.3em 0.4em; text-align: left; border-bottom: 1px solid #ced4da; margin-bottom: 1em}
 
 
-/* bigger screens: bigger banner text */
+/* bigger screens: display title in banner  */
 @media only screen and (min-width: 780px) {
-    .hub 		{font-size: 32px; }
+    .hub span		{display: inline-block; }
 }
 
   h1      {font-size: 2rem; margin-bottom: 0}
@@ -146,7 +147,7 @@ label      {font-weight: bold; margin-top: 0.8em}
 
 	<div class="hub">
     <div class="container"><!-- logo as per find your nottingham -->
-		    <a href="home.html"><img src="{{ "/assets/logo-white.svg"| prepend: site.baseurl}}" alt="University of Nottingham logo" height="72" width="197"></a> Curriculum catalogue
+		    <a href="home.html"><img src="{{ "/assets/logo-white.svg"| prepend: site.baseurl}}" alt="University of Nottingham logo" height="72" width="197"></a> <span>Curriculum catalogue</span>
   </div>
 	</div>
 
