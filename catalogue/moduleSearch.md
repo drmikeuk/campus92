@@ -22,7 +22,7 @@ nav: "no"
 
 <!-- <p>Search by keyword <b>or</b> programme <b>or</b> UCAS code:</p> -->
 
-  <div class="form-group row noPad">
+  <div class="form-group row noPadXXX">
     <label for="Title" class="col-sm-2 col-form-labelXX">Title</label>
     <div class="col-sm-10">
       <input type="text" class="form-control" id="Title" placeholder="Title keywords...">
@@ -31,7 +31,7 @@ nav: "no"
 
 <div><i>or</i></div>
 
-  <div class="form-group row noPad">
+  <div class="form-group row noPadXXX">
     <label for="School" class="col-sm-2 col-form-labelXX">School</label>
     <div class="col-sm-10">
       <input type="text" class="form-control" id="School" >
