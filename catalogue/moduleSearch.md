@@ -9,7 +9,7 @@ nav: "no"
 <form action="moduleResults.html">
 
   <div class="form-group row">
-    <label for="AcademicYear" class="col-sm-2 col-form-labelXX">Academic Year</label>
+    <label for="AcademicYear" class="col-sm-2 col-form-labelXX">Academic year</label>
     <div class="col-sm-10">
       <select id="AcademicYear" class="form-control">
         {% assign years = site.data.years %}
