@@ -28,7 +28,7 @@ customjs:
       <th scope="col">Code</th>
       <th scope="col">Title</th>
       <th scope="col">Level</th>
-      <th scope="col">Semester</th>
+      <th scope="col">Taught</th>
       <th scope="col"> </th>
     </tr>
   </thead>
