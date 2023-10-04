@@ -65,6 +65,12 @@ BA Law thoroughly covers the foundations of English law. Core modules examine ar
 All our undergraduate law degrees allow exemption from the academic stage of qualification as a Barrister. Graduates wishing to qualify as barristers may proceed directly to the vocational stage of legal training, the Bar Training Course. Students who wish to become a solicitor must undertake the Solicitors Qualifying Examination (SQE). There are no exemptions conferred on students who have an undergraduate law degree. A number of institutions offer courses preparing students to pass the SQE. Some of these institutions guarantee a place for Nottingham graduates with at least a 2.2 degree.
 
 
+<!-- new -->
+### Content note
+
+As a health course, we will be covering topics (diseases, medication, health situations) which you may find personal, sensitive and/or distressing. If you have any worries and/or concerns then please come and speak to any of the teaching team about this so we can provide appropriate support and/or guidance.
+
+
 ## Distinguishing features
 
 **Study abroad**<br/>
@@ -485,3 +491,9 @@ Graduates should be able to:
 - when relevant, use, present, and evaluate information provided in numerical and statistical form
 - utilise his or her problem-solving skills in practical and theoretical contexts
 - manage time and prioritise tasks by working to strict deadlines.
+
+<!-- new -->
+### Professional competencies
+
+- some example competency
+- maybe a second competency

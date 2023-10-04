@@ -40,6 +40,11 @@ This course considers:
 - Organisational leadership in relation to prescribing;
 - Continuing professional development.
 
+<!-- new -->
+### Content note
+
+As a health course, we will be covering topics (diseases, medication, health situations) which you may find personal, sensitive and/or distressing. If you have any worries and/or concerns then please come and speak to any of the teaching team about this so we can provide appropriate support and/or guidance.
+
 
 <!-- OMIT Course Web Links: [Moodle](https://moodle/) -->
 
@@ -152,3 +157,8 @@ Assessed by end of Designated Period
 - Critically analyse information obtained from the various dimensions of clinical assessment. Formulate a differential diagnosis and discuss how the findings of clinical assessments support clinical decision making in prescribing situations applying relevant national frameworks.
 - Take and present a systematic clinical history to include medical history and detailed medication history which includes: allergy status, prescribed and over the counter medicines, complementary and herbal remedies.
 - Critically consider the options when prescribing including; non-pharmacological and pharmacological treatments, de-prescribing, patient factors, clinical evidence, cost effectiveness and public health including antimicrobial stewardship.
+
+### Professional competencies
+
+- some example competency
+- maybe a second competency
