@@ -66,7 +66,7 @@ All our undergraduate law degrees allow exemption from the academic stage of qua
 
 
 <!-- new -->
-### Content note
+#### Content note
 
 As a health course, we will be covering topics (diseases, medication, health situations) which you may find personal, sensitive and/or distressing. If you have any worries and/or concerns then please come and speak to any of the teaching team about this so we can provide appropriate support and/or guidance.
 
