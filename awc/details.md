@@ -65,7 +65,7 @@ customjs:
 
 ## Programmes
 
-|Title                                           |Code    |UCAS|Year     |Expected dates|Note|
+|Title                                           |Code    |UCAS|Year     |Expected dates||
 |------------------------------------------------|--------|----|---------|---------|----|
 |**Business School - No Award - Semester**       |U8PNUBSN|NOQL|2 (UG FT)|26.9.22 &mdash; 26.2.22|<span class="material-symbols-sharp hilight solid mdIcon">error</span> Inter-campus exchange Malaysia|
 |**BSc Hons Finance, Accounting and Management** |U6UFAMGT|NN34|2 (UG FT)|20.9.21 &mdash; 31.5.24||

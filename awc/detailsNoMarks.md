@@ -62,11 +62,12 @@ customjs:
 
 <div class="row space" markdown="1">
   <div class="col" markdown="1">
-   <!-- PLAN -->
+
 ## Programmes
 
-**BSc Hons Finance, Accounting and Management** |U6UFAMGT|NN34|<span class="material-symbols-sharp hilight solid mdIcon">error</span> Inter-campus exchange Malaysia|
-**BSc Hons Accounting and Business** |U6UACCBU|NN41||
+|Title                                           |Code    |UCAS|Year     |Expected dates||
+|------------------------------------------------|--------|----|---------|---------|----|
+|**BSc Hons Finance, Accounting and Management** |U6UFAMGT|NN34|2 (UG FT)|20.9.21 &mdash; 31.5.24||
 {:.table .table-sm .notFullWidth}
 
 
