@@ -41,8 +41,6 @@ customjs:
 
   <div class="row space" markdown="1">
    <div class="col" markdown="1">
-## Associated staff
-
 {% include awc-tutors.md %}
    </div>
   </div>
@@ -59,75 +57,68 @@ customjs:
 </div>
 
 
-
 <div class="row space" markdown="1">
   <div class="col" markdown="1">
-
-## Programmes
-
-|Title                                           |Code    |UCAS|Year     |Expected dates|Note|
-|------------------------------------------------|--------|----|---------|---------|----|
-|**Business School - No Award - Semester**       |U8PNUBSN|NOQL|2 (UG FT)|26.9.22 &mdash; 26.2.22|<span class="material-symbols-sharp hilight solid mdIcon">error</span> Inter-campus exchange Malaysia|
-|**BSc Hons Finance, Accounting and Management** |U6UFAMGT|NN34|2 (UG FT)|20.9.21 &mdash; 31.5.24||
-{:.table .table-sm .notFullWidth}
-
-
+   <!-- PLAN -->
+  <div class="d-flex flex-row">
+    <h2>22-23: BSc Hons Accounting and Business <span class="material-symbols-sharp secondary outline">file_copy</span></h2>
+    <div class="codes">Plan code: <b>U6UACCBU</b><br>UCAS code: <b>NN41</b></div>
+  </div>
+{% include awc-plan1.md %}
+{% include awc-marks1.md %}
   </div>
 </div>
-
 
 
 <div class="row space" markdown="1">
   <div class="col" markdown="1">
-## Modules and marks
-<p><span class="material-symbols-sharp hilight solid">error</span> All marks are <b><i>provisional</i></b> and should not be shared with students until approved by an Exam Board.</p>
+   <!-- PLAN -->
+  <div class="d-flex flex-row">
+    <h2>21-22: BSc Hons Accounting and Business <span class="material-symbols-sharp secondary outline">file_copy</span></h2>
+    <div class="codes">Plan code: <b>U6UACCBU</b><br>UCAS code: <b>NN41</b></div>
+  </div>
+{% include awc-plan1.md %}
+{% include awc-marks1.md %}
   </div>
 </div>
 
-<div class="row" markdown="1">
+
+<div class="row space" markdown="1">
   <div class="col" markdown="1">
-<h3>2022-23 <span class="part2"><span class="material-symbols-sharp spacer">fiber_manual_record</span>Inter-campus exchange Malaysia</span></h3>
-{% include awc-nomarksreleased2.md %}
+   <!-- PLAN -->
+  <div class="d-flex flex-row">
+    <h2>20-21: MSci Hons Medicinal and Biological Chemistry with an Assessed Year in Industry <span class="material-symbols-sharp secondary outline">file_copy</span></h2>
+    <div class="codes">Plan code: <b>U6UACCBU</b><br>UCAS code: <b>NN41</b></div>
+  </div>
+{% include awc-plan1.md %}
+{% include awc-nomarks1.md %}
   </div>
 </div>
 
-<div class="row " markdown="1">
-  <div class="col" markdown="1">
-<h3>2021-22 <a class="btn btn-sm btn-outline-primary float-right" href="#" role="button"><span class="material-symbols-sharp solid smIcon">expand_circle_right</span>View element marks report</a></h3>
-{% include awc-marks2.md %}
-  </div>
-</div>
 
 
 </div>
-
-
-
-
-
 <div class="tab-pane fade" id="Notes" role="tabpanel" aria-labelledby="Notes-tab">
 
-  {% include awc-slimheader.md %}
+{% include awc-slimheader.md %}
 
-  <h2>Notes</h2>
+<h2>Notes</h2>
 
-  <p><b>NB: look at current/new delivered functionality + do we really need sub-cats?</b> start by replicating what we have currently?</p>
+<p><b>NB: look at current/new delivered functionality + do we really need sub-cats?</b> start by replicating what we have currently?</p>
 
-  {% include awc-notes.md %}
+{% include awc-notes.md %}
 
-  <p><a class="btn btn-outline-primary" href="#" role="button"><span class="material-symbols-sharp solid">add_circle</span>Add a new note</a></p>
+<p><a class="btn btn-outline-primary" href="#" role="button"><span class="material-symbols-sharp solid">add_circle</span>Add a new note</a></p>
+
+
 
 </div>
-
-
-
-
-
 <div class="tab-pane fade" id="Personal" role="tabpanel" aria-labelledby="Personal-tab">
 
-  {% include awc-slimheader-nosupport.md %}
+{% include awc-slimheader-nosupport.md %}
 
-  {% include awc-personal.md %}
+{% include awc-personal.md %}
+
 
 </div>
 </div>

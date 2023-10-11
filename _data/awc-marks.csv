@@ -1,6 +1,6 @@
 ﻿ID,Code,Moduletitle,Semester,Credits,Enrolled,Repeating,Mark,1stresit,2ndresit,Outcome
-1,BUSI2051,The Psychology of Economic and Business Decisions,Autumn UK,10,Enrolled,Repeating,52,,,Pass
-,BUSI2147,Management Accounting,Autumn UK,20,Enrolled,,39,45,,Pass
-,BUSI2026,Management Strategy,Autumn UK,10,Enrolled,,45,,,Pass
-,BUSI2174,Firm Strategy and Internationalisation,Spring UK,20,Enrolled,,61,,,Pass
-,BUSI2165,Corporate Entrepreneurship and Innovation Management,Spring UK,20,Enrolled,,35,39,,Fail
+1,BUSI2051,The Psychology of Economic and Business Decisions,Autumn UK,10,Enrolled,,52,,,Pass
+2,BUSI2147,Management Accounting,Autumn UK,20,Enrolled,,39,45,,Pass
+3,BUSI2026,Management Strategy,Autumn UK,10,Enrolled,,45,,,Pass
+4,BUSI2174,Firm Strategy and Internationalisation,Spring UK,20,Enrolled,,61,,,Pass
+5,BUSI2165,Corporate Entrepreneurship and Innovation Management,Spring UK,20,Enrolled,,35,39,,Fail

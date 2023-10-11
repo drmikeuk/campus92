@@ -62,13 +62,11 @@ customjs:
 
 <div class="row space" markdown="1">
   <div class="col" markdown="1">
-
+   <!-- PLAN -->
 ## Programmes
 
-|Title                                           |Code    |UCAS|Year     |Expected dates|Note|
-|------------------------------------------------|--------|----|---------|---------|----|
-|**Business School - No Award - Semester**       |U8PNUBSN|NOQL|2 (UG FT)|26.9.22 &mdash; 26.2.22|<span class="material-symbols-sharp hilight solid mdIcon">error</span> Inter-campus exchange Malaysia|
-|**BSc Hons Finance, Accounting and Management** |U6UFAMGT|NN34|2 (UG FT)|20.9.21 &mdash; 31.5.24||
+**BSc Hons Finance, Accounting and Management** |U6UFAMGT|NN34|<span class="material-symbols-sharp hilight solid mdIcon">error</span> Inter-campus exchange Malaysia|
+**BSc Hons Accounting and Business** |U6UACCBU|NN41||
 {:.table .table-sm .notFullWidth}
 
 
@@ -80,7 +78,8 @@ customjs:
 <div class="row space" markdown="1">
   <div class="col" markdown="1">
 ## Modules and marks
-<p><span class="material-symbols-sharp hilight solid">error</span> All marks are <b><i>provisional</i></b> and should not be shared with students until approved by an Exam Board.</p>
+<!-- <p><span class="material-symbols-sharp hilight solid">error</span> All marks are <b><i>provisional</i></b> and should not be shared with students until approved by an Exam Board.</p>-->
+<div><a class="btn btn-sm btn-outline-primary padRight" href="#" role="button"><span class="material-symbols-sharp solid smIcon">expand_circle_right</span>Request to view marks</a> <i>some explainer of associations / business need... ...</i></div>
   </div>
 </div>
 
@@ -93,8 +92,8 @@ customjs:
 
 <div class="row " markdown="1">
   <div class="col" markdown="1">
-<h3>2021-22 <a class="btn btn-sm btn-outline-primary float-right" href="#" role="button"><span class="material-symbols-sharp solid smIcon">expand_circle_right</span>View element marks report</a></h3>
-{% include awc-marks2.md %}
+<h3>2021-22</h3>
+{% include awc-nomarks2.md %}
   </div>
 </div>
 

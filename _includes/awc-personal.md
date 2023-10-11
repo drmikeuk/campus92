@@ -6,6 +6,9 @@
   <dt class="col-sm-4">Long name</dt>
   <dd class="col-sm-8">Robin Locksley Hood</dd>
 
+  <dt class="col-sm-4">Name (中国文字)</dt>
+  <dd class="col-sm-8">罗宾·洛克斯利·胡德</dd>
+
   <dt class="col-sm-4">Date of Birth</dt>
   <dd class="col-sm-8">01 01 1990</dd>
 </dl>
