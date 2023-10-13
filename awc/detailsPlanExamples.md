@@ -102,6 +102,36 @@ customjs:
 |**Cert Foundation Programme in Business and Management** |M5UFDBMA|FNM1|Foundation|11.6.20 &mdash; 11.12.21|**Completed 26.5.21** Awarded 2:1|
 {:.table .table-sm .notFullWidth}
 
+----
+
+## Programmes (single w shift)
+
+|Title                                           |Code    |UCAS|Year     |Expected dates|Shift||
+|------------------------------------------------|--------|----|---------|---------|----|-----||
+|**BSc Hons Finance, Accounting and Management** |U6UFAMGT|NN34|2 (UG FT)|20.9.21 &mdash; 31.5.24|**APRIL**||
+{:.table .table-sm .notFullWidth}
+
+
+
+## Programmes (double w shift)
+
+|Title                                           |Code    |UCAS|Year     |Expected dates|Shift||
+|------------------------------------------------|--------|----|---------|---------|----|-----||
+|**Business School - No Award - Semester**       |U8PNUBSN|NOQL|2 (UG FT)|26.9.22 &mdash; 26.2.22|September|<span class="material-symbols-sharp hilight solid mdIcon">error</span> Inter-campus exchange Malaysia|
+|**BSc Hons Finance, Accounting and Management** |U6UFAMGT|NN34|2 (UG FT)|20.9.21 &mdash; 31.5.24|September||
+{:.table .table-sm .notFullWidth}
+
+
+
+
+## Programmes (1 complete w shift)
+
+|Title                                           |Code    |UCAS|Year     |Expected dates|Shift||
+|------------------------------------------------|--------|----|---------|---------|----|-----||
+|**BSc Hons Finance, Accounting and Management** |U6UFAMGT|NN34|2 (UG FT)|20.9.21 &mdash; 31.5.24|September||
+|**Cert Foundation Programme in Business and Management** |M5UFDBMA|FNM1|Foundation|11.6.20 &mdash; 11.12.21|September|**Completed 26.5.21** Awarded 2:1|
+{:.table .table-sm .notFullWidth}
+
 
   </div>
 </div>
