@@ -67,9 +67,9 @@ customjs:
 
 ## Programmes
 
-|Title                                           |Code    |UCAS|Year     |Expected dates||
-|------------------------------------------------|--------|----|---------|---------|----|
-|**BSc Hons Finance, Accounting and Management** |U6UFAMGT|NN34|2 (UG FT)|20.9.21 &mdash; 31.5.24||
+|Title                                           |Code    |UCAS|Year     |Expected dates|Shift||
+|------------------------------------------------|--------|----|---------|---------|----|-----||
+|**BSc Hons Finance, Accounting and Management** |U6UFAMGT|NN34|2 (UG FT)|20.9.21 &mdash; 31.5.24|**APRIL**||
 {:.table .table-sm .notFullWidth}
 
 

@@ -10,7 +10,7 @@ h3      {font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight
 h4      {font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold}
 </style>
 
-<div markdown=1 style="font-family: Arial, Helvetica, sans-serif; font-size: 14px;">
+<div markdown=1 style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 1.5;">
 # BA Hons Law (Arial)
 
 <p class="strapline">ACADEMIC YEAR <b>2022</b></p>
