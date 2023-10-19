@@ -1,6 +1,6 @@
 ---
 layout: awcNoSide
-title: "Student details"
+title: "Student details (comp studies)"
 nav: "no"
 back: "Back"
 backurl: "listTutees.html"
@@ -36,39 +36,6 @@ customjs:
    </div>
    <div class="col-sm-9 col-md-9" markdown="1">
 {% include awc-details.md %}
-
-## Extra status examples
-<dl class="row">
-
-  <dt class="col-sm-3">Status</dt>
-  <dd class="col-sm-9"><span class="material-symbols-sharp hilight solid mdIcon">error</span><b>Completed</b>  <i>(1.8.20)</i></dd>
-
-  <dt class="col-sm-3">Status</dt>
-  <dd class="col-sm-9"><span class="material-symbols-sharp hilight solid mdIcon">error</span><b>On leave of absence</b>  <i>(1.10.23 &mdash; 1.1.24)</i></dd>
-
-
-
-  <dt class="col-sm-3">Status</dt>
-  <dd class="col-sm-9">Registered  <i>(29.9.22)</i></dd>
-
-  <dt class="col-sm-3">Status</dt>
-  <dd class="col-sm-9"><b>Not yet registered</b></dd>
-
-</dl>
-
-### And if 2 active plans show Registered / Not for each
-
-<dl class="row">
-
-  <dt class="col-sm-3">Status</dt>
-  <dd class="col-sm-9">Registered for U6UFAMGT <i>(29.9.22)</i></dd>
-
-  <dt class="col-sm-3">Status</dt>
-  <dd class="col-sm-9"><b>Not yet registered for M5UFDBMA</b></dd>
-
-</dl>
-
-
    </div>
   </div>
 
@@ -98,71 +65,13 @@ customjs:
 
 <div class="row space" markdown="1">
   <div class="col" markdown="1">
-   <!-- PLAN -->
+
 ## Programmes
-
-|**BSc Hons Finance, Accounting and Management** |U6UFAMGT|NN34|<span class="material-symbols-sharp hilight solid mdIcon">error</span> Inter-campus exchange Malaysia|
-|**BSc Hons Accounting and Business** |U6UACCBU|NN41|Academic shift: **APRIL**|
-{:.table .table-sm .notFullWidth}
-
-
-
-## Programmes (single)
-
-|Title                                           |Code    |UCAS|Year     |Expected dates||
-|------------------------------------------------|--------|----|---------|---------|----|
-|**BSc Hons Finance, Accounting and Management** |U6UFAMGT|NN34|2 (UG FT)|20.9.21 &mdash; 31.5.24|Academic shift: **APRIL**|
-{:.table .table-sm .notFullWidth}
-
-
-
-## Programmes (double)
-
-|Title                                           |Code    |UCAS|Year     |Expected dates||
-|------------------------------------------------|--------|----|---------|---------|----|
-|**Business School - No Award - Semester**       |U8PNUBSN|NOQL|2 (UG FT)|26.9.22 &mdash; 26.2.22|<span class="material-symbols-sharp hilight solid mdIcon">error</span> Inter-campus exchange Malaysia|
-|**BSc Hons Finance, Accounting and Management** |U6UFAMGT|NN34|2 (UG FT)|20.9.21 &mdash; 31.5.24||
-{:.table .table-sm .notFullWidth}
-
-
-
-
-## Programmes (1 complete)
-
-|Title                                           |Code    |UCAS|Year     |Expected dates||
-|------------------------------------------------|--------|----|---------|---------|----|
-|**BSc Hons Finance, Accounting and Management** |U6UFAMGT|NN34|2 (UG FT)|20.9.21 &mdash; 31.5.24||
-|**Cert Foundation Programme in Business and Management** |M5UFDBMA|FNM1|Foundation|11.6.20 &mdash; 11.12.21|**Completed 26.5.21** Awarded 2:1|
-{:.table .table-sm .notFullWidth}
-
-----
-
-## Programmes (single w shift)
-
-|Title                                           |Code    |UCAS|Year     |Expected dates|Shift||
-|------------------------------------------------|--------|----|---------|---------|----|-----||
-|**BSc Hons Finance, Accounting and Management** |U6UFAMGT|NN34|2 (UG FT)|20.9.21 &mdash; 31.5.24|**APRIL**||
-{:.table .table-sm .notFullWidth}
-
-
-
-## Programmes (double w shift)
 
 |Title                                           |Code    |UCAS|Year     |Expected dates|Shift||
 |------------------------------------------------|--------|----|---------|---------|----|-----||
 |**Business School - No Award - Semester**       |U8PNUBSN|NOQL|2 (UG FT)|26.9.22 &mdash; 26.2.22|September|<span class="material-symbols-sharp hilight solid mdIcon">error</span> Inter-campus exchange Malaysia|
 |**BSc Hons Finance, Accounting and Management** |U6UFAMGT|NN34|2 (UG FT)|20.9.21 &mdash; 31.5.24|September||
-{:.table .table-sm .notFullWidth}
-
-
-
-
-## Programmes (1 complete w shift)
-
-|Title                                           |Code    |UCAS|Year     |Expected dates|Shift||
-|------------------------------------------------|--------|----|---------|---------|----|-----||
-|**BSc Hons Finance, Accounting and Management** |U6UFAMGT|NN34|2 (UG FT)|20.9.21 &mdash; 31.5.24|September||
-|**Cert Foundation Programme in Business and Management** |M5UFDBMA|FNM1|Foundation|11.6.20 &mdash; 11.12.21|September|**Completed 26.5.21** Awarded 2:1|
 {:.table .table-sm .notFullWidth}
 
 
@@ -185,6 +94,13 @@ customjs:
   </div>
 </div>
 
+<div class="row" markdown="1">
+  <div class="col" markdown="1">
+<h3>2022-23 <span class="part2"><span class="material-symbols-sharp spacer">fiber_manual_record</span>Complementary Studies</span></h3>
+{% include awc-nomarksreleased2comp.md %}
+  </div>
+</div>
+
 <div class="row " markdown="1">
   <div class="col" markdown="1">
 <h3>2021-22 <a class="btn btn-sm btn-outline-primary float-right" href="#" role="button"><span class="material-symbols-sharp solid smIcon">expand_circle_right</span>View element marks report</a></h3>
@@ -192,6 +108,12 @@ customjs:
   </div>
 </div>
 
+<div class="row" markdown="1">
+  <div class="col" markdown="1">
+<h3>2021-22 <span class="part2"><span class="material-symbols-sharp spacer">fiber_manual_record</span>Complementary Studies</span></h3>
+{% include awc-marks2comp.md %}
+  </div>
+</div>
 
 </div>
 
