@@ -28,6 +28,9 @@
                       <dt class="col-sm-5">Form of study</dt>
                       <dd class="col-sm-7"><span class="material-symbols-sharp hilight solid mdIcon">error</span><b>Mobility</b></dd>
 
+                      <dt class="col-sm-5">Pronouns</dt>
+                      <dd class="col-sm-7">He/him</dd>
+
                     </dl>
                 </div>
             </div>

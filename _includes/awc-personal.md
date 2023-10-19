@@ -11,6 +11,9 @@
 
   <dt class="col-sm-4">Date of Birth</dt>
   <dd class="col-sm-8">01 01 1990</dd>
+
+  <dt class="col-sm-4">Pronouns</dt>
+  <dd class="col-sm-8">He/him</dd>
 </dl>
 
 <h2>Support plan</h2>

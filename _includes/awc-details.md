@@ -7,6 +7,9 @@
   <dt class="col-sm-3">Email</dt>
   <dd class="col-sm-9"><a href="mailto:abc1xyz@nottingham.ac.uk">abc1xyz@nottingham.ac.uk</a> <a href="" class="secondary"><span class="material-symbols-sharp outline smIcon padLeft">file_copy</span></a></dd>
 
+  <dt class="col-sm-3">Pronouns</dt>
+  <dd class="col-sm-9">He/him</dd>
+
   <dt class="col-sm-3">Campus</dt>
   <dd class="col-sm-9">UK </dd>
 
