@@ -68,9 +68,9 @@ NB. Make sure not carrying over project supervisors or personal tutors from PGT/
 
 ## Programmes
 
-|Title                                           |Code    |UCAS|Year     |Expected dates|Shift||
-|------------------------------------------------|--------|----|---------|---------|----|-----||
-|**PhD Business and Management**       |M8PBMNGT|NN12|2 (PGR FT)|26.9.22 &mdash; 26.9.25|||
+|Title                                           |Code    |UCAS|Year     |Expected dates|
+|------------------------------------------------|--------|----|---------|---------|----|
+|**PhD Business and Management**       |M8PBMNGT|NN12|2 (PGR FT)|26.9.22 &mdash; 26.9.25|
 {:.table .table-sm .notFullWidth}
 
 
