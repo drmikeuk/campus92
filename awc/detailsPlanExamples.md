@@ -41,11 +41,22 @@ customjs:
 <dl class="row">
 
   <dt class="col-sm-3">Status</dt>
-  <dd class="col-sm-9"><span class="material-symbols-sharp hilight solid mdIcon">error</span><b>Completed</b>  <i>(1.8.20)</i></dd>
+  <dd class="col-sm-9"><span class="material-symbols-sharp secondary solid mdIcon">school</span><b>Completed</b>  <i>(1.8.20)</i></dd>
 
   <dt class="col-sm-3">Status</dt>
   <dd class="col-sm-9"><span class="material-symbols-sharp hilight solid mdIcon">error</span><b>On leave of absence</b>  <i>(1.10.23 &mdash; 1.1.24)</i></dd>
 
+  <dt class="col-sm-3">Status</dt>
+  <dd class="col-sm-9"><span class="material-symbols-sharp hilight solid mdIcon">error</span><b>Suspended</b>  </dd>
+
+  <dt class="col-sm-3">Status</dt>
+  <dd class="col-sm-9"><span class="material-symbols-sharp hilight solid mdIcon">error</span><b>Discontinued</b>  </dd>
+
+  <dt class="col-sm-3">Status</dt>
+  <dd class="col-sm-9"><span class="material-symbols-sharp hilight solid mdIcon">error</span><b>Cancelled</b>  </dd>
+
+  <dt class="col-sm-3">Status</dt>
+  <dd class="col-sm-9"><span class="material-symbols-sharp hilight solid mdIcon">error</span><b>Dismissed</b>  </dd>
 
 
   <dt class="col-sm-3">Status</dt>
@@ -62,9 +73,7 @@ customjs:
 
   <dt class="col-sm-3">Status</dt>
   <dd class="col-sm-9">Registered for U6UFAMGT <i>(29.9.22)</i></dd>
-
-  <dt class="col-sm-3">Status</dt>
-  <dd class="col-sm-9"><b>Not yet registered for M5UFDBMA</b></dd>
+  <dd class="col-sm-9 offset-md-3"><b>Not yet registered for M5UFDBMA</b></dd>
 
 </dl>
 
