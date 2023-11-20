@@ -170,7 +170,7 @@ General Information
 
 #### Compulsory
 
-_**Students must take all modules in this group**_
+_Students must take all modules in this group_
 
 <div class="table-responsive table-hover" markdown=1>
 |Code|Title|Credits|Compensatable|Taught|
@@ -213,7 +213,7 @@ Additional course choice should be minimum of 40 and a maximum of 40 credits fro
 
 #### Compulsory
 
-_**Students must take all modules in this group**_
+_Students must take all modules in this group_
 
 <div class="table-responsive table-hover" markdown=1>
 |Code|Title|Credits|Compensatable|Taught|
@@ -275,7 +275,7 @@ It shall be at the discretion of the Head of the School of Law to determine whet
 
 #### Compulsory
 
-_**Students must take all modules in this group.**_
+_Students must take all modules in this group._
 
 <div class="table-responsive table-hover" markdown=1>
 |Code|Title|Credits|Compensatable|Taught|
