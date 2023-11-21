@@ -6,7 +6,7 @@ nav: "no"
 <style>
 h1      {font-family: Arial, Helvetica, sans-serif; font-size: 30px; font-weight: 500}
 h2      {font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: 500}
-h3      {font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold}
+h3      {font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: bold}
 h4      {font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold}
 </style>
 
