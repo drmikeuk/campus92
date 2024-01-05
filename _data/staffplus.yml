@@ -18,6 +18,11 @@
   materialicon: list
   width: rsz_w1
 
+- title: Forms
+  icon: fa-list
+  materialicon: app_registration
+  width: rsz_w1
+
 - title: Query library
   icon: fa-table
   maybematerialicon: accessibility_new
