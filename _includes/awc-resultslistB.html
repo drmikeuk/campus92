@@ -1,0 +1,100 @@
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#summary" role="tab" aria-controls="summary" aria-selected="true">Summary</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="photos-tab" data-toggle="tab" href="#photos" role="tab" aria-controls="photos" aria-selected="false">Photo grid</a>
+  </li>
+</ul>
+
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="summary" role="tabpanel" aria-labelledby="summary-tab">
+  <!-- DATATABLE LIST -->
+    <table id="DataTable" class="table table-sm table-hover">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">UG/PG</th>
+          <th scope="col">Year</th>
+          <th scope="col">Course / School</th>
+          <th scope="col" style="white-space: nowrap">Personal tutor</th>
+          <th scope="col">Support?</th>
+          <th scope="col">Actions</th>
+          <th scope="col" class="hide">Flags for filter</th>
+          <th scope="col"> </th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for student in students %}
+        {% assign email = student.username | append: "@nottingham.ac.uk" %}
+        <tr style="position: relative">
+          <td class="name" data-sort="{{ student.surname }} {{ student.forename }}"><div class="media">
+          <img class="photo" src="{{ student.photo | prepend: "photos/128-" | append: ".jpg"}}" alt="{{ student.name }} photo">
+          <div class="media-body"><a href="details.html" class="stretched-link primary">{{ student.name }}</a><br/><span class="id">{{ student.id }}</span></div>
+          </div></td>
+          <td>{{ student.career }}</td>
+          <td>{{ student.year }}</td>
+          <td><div class="course text-truncate">{{ student.course }}</div><div class="school">{{ student.school }}</div></td>
+          <td>{{ student.tutor }}</td>
+
+      <td>{% if student.support == "Y" %}Support plan{% endif %}</td>
+
+          <td class="actions"><span class="email">{{ email }}</span><a href="mailto:{{ email }}" title="email {{ email }}"><span class="material-symbols-sharp secondary lgIcon">mail</span></a>
+          <a href="details.html?tab=Notes" title="Edit notes"><span class="material-symbols-sharp secondary lgIcon">description</span></a>
+          </td>
+
+          <td class="hide">{% if student.support == "Y" %}supportPlan{% endif %}</td>
+          <td class="right"><span class="material-symbols-sharp primary lgIcon solid">expand_circle_right</span></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+
+  <div class="tab-pane fade" id="photos" role="tabpanel" aria-labelledby="photos-tab">
+    <!-- PHOTO GRID -->
+
+    <div id="DataTable_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
+      <div class="row filterRow">
+        <div class="col col-md-auto search">
+          <div id="DataTable_filter" class="dataTables_filter">
+            <label><input id="filter" type="search" class="form-control form-control-sm" placeholder="Filter this list..." aria-controls="DataTable"></label>
+          </div>
+        </div>
+        <div class="col col-md-auto">
+          <div class="filters">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="photogrid">
+      {% for student in students %}
+      <div class="card photogrid" style="width: 14rem;">
+        <img class="card-img-top" src="{{ student.photo | prepend: "photos/128-" | append: ".jpg"}}" alt="{{ student.name }} photo">
+        <div class="card-body">
+          <h5 class="card-title"><a href="details.html" class="stretched-link">{{ student.name }}</a></h5>
+          <p class="card-text">{{ student.id }}</p>
+          <span class="chevron material-symbols-sharp primary lgIcon solid">expand_circle_right</span>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+
+
+  </div>
+</div>
+
+
+
+<div class="fixed-bottom bottom-bar">
+  <div class="media">
+    <a class="btn btn-secondary" href="#" role="button"><span class="material-symbols-sharp">download</span>Download</a>
+    <div class="media-body">
+      <h5 class="mt-0">Download all students in this group...</h5>
+      plus will include the following extra fields...
+    </div>
+  </div>
+</div>
