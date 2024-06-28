@@ -29,9 +29,14 @@
   materialicon: table_view
   width: rsz_w1
 
-- title: Plan and course specification
+- title: Plan and module specification
   icon: fa-file-alt
   materialicon: description
+  width: rsz_w1
+
+- title: Module review
+  icon: fa-file-alt
+  materialicon: edit_note
   width: rsz_w1
 
 - title: UCAS admissions tutor
