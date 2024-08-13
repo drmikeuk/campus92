@@ -1,0 +1,37 @@
+<!-- DATATABLE LIST -->
+<table id="DataTable" class="table table-sm table-hover">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Code</th>
+      <th scope="col">Title</th>
+      <th scope="col">Level</th>
+      <th scope="col">Core</th>
+      <th scope="col">Changes</th>
+      <th scope="col">Convenors</th>
+      <th scope="col">Programs</th>
+      <th scope="col">Changes in</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for module in modules %}
+    <tr>
+      <td><a href=''>{{ module.Code }}</a></td>
+      <td>{{ module.Title }}</td>
+      <td>{{ module.Level }}</td>
+      <td>{{ module.Core }}</td>
+      <td>{{ module.NumberChanges }}</td>
+      <td>{{ module.Convenors }}</td>
+      <td>{{ module.Programs }}</td>
+      <td> {% comment %} Sample filter fails for 1: so get 2 & limit the loop to 1 {% endcomment %}
+        {% if module.NumberChanges == "1"}
+          {% assign changes = site.data.module-agenda-fields | sample: 2 %}
+          {% for change in changes limit:1 %} {{ change.field }}; {% endfor %}
+        {% else %}
+          {% assign changes = site.data.module-agenda-fields | sample: module.NumberChanges %}
+          {% for change in changes %} {{ change.field }}; {% endfor %}
+        {% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
