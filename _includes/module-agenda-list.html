@@ -8,8 +8,8 @@
       <th scope="col">Core</th>
       <th scope="col">Changes</th>
       <th scope="col">Convenors</th>
-      <th scope="col">Programs</th>
       <th scope="col">Changes in</th>
+      <th scope="col">Programs</th>
     </tr>
   </thead>
   <tbody>
@@ -21,7 +21,6 @@
       <td>{{ module.Core }}</td>
       <td>{{ module.NumberChanges }}</td>
       <td>{{ module.Convenors }}</td>
-      <td>{{ module.Programs }}</td>
       <td> {% comment %} Sample filter fails for 1: so get 2 & limit the loop to 1 {% endcomment %}
         {% if module.NumberChanges == "1"}
           {% assign changes = site.data.module-agenda-fields | sample: 2 %}
@@ -29,6 +28,15 @@
         {% else %}
           {% assign changes = site.data.module-agenda-fields | sample: module.NumberChanges %}
           {% for change in changes %} {{ change.field }}; {% endfor %}
+        {% endif %}
+      </td>
+      <td>
+        {% if module.Programs == "1"}
+          {% assign programs = site.data.module-agenda-programs | sample: 2 %}
+          {% for program in programs limit:1 %} {{ program.ProgramTitle }}; {% endfor %}
+        {% else %}
+          {% assign programs = site.data.module-agenda-programs | sample: module.Programs %}
+          {% for program in programs %} {{ program.ProgramTitle }}; {% endfor %}
         {% endif %}
       </td>
     </tr>

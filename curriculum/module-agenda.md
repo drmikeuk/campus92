@@ -3,7 +3,7 @@ layout: awcNoSide
 title: "Module Review"
 nav: "no"
 back: "Back"
-backurl: "home.html"
+backurl: "module-agenda.html"
 page: listTutees
 customcss:
   - /vendor/datatables.min.css
@@ -14,6 +14,7 @@ customjs:
 <style>
 h1 {padding: 12px 0}
 .filters select {max-width:15em}
+.table a { color: #007bff;}
 #xxxDataTable input {width: 3em}
 </style>
 
