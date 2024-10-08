@@ -1,0 +1,5 @@
+﻿ID,name,emplid,year,ftpt,status1,status2,status3,days,noMtg,engagement,progress,leadSupervisor,otherSupervisors
+1,Alice Jones,10012345,1,FT,meets,meets,meets,20,,,,Colin Ashton,June Armstrong
+2,Bob Smith,10012346,2,FT,concern,meets,noMtg,45,1,1,1,Colin Ashton,"June Armstrong, Daniel Barrett"
+3,Chris Evans,10012347,3,FT,meets,concern,meets,2,,1,,Colin Ashton,Robert Atkinson
+3,David Miller,10012348,1,Part,meets,meets,meets,36,,,,Colin Ashton,Lesley Clifford; Catherine Malik
