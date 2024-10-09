@@ -20,6 +20,7 @@ h1 {padding: 12px 0}
 .green {padding-right: 0.2em; color: #005F36 /* uon Forest Green 8*/}
 .amber {padding-right: 0.2em; color: #F98109/* uon Mandarin Orange  */}
 .red   {padding-right: 0.2em; color: #B91C2E /* uon Jubilee Red */}
+.grey   {padding-right: 0.2em; color: #9FA8B1 /* uon blue tint */}
 </style>
 
 # PGR supervision status
