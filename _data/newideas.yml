@@ -1,0 +1,70 @@
+
+- title: PGR dashboard
+  icon: fa-clipboard-list
+  materialicon: query_stats
+  width: rsz_w1
+
+- title: Analytics dashboard
+  icon: fa-clipboard-list
+  materialicon: analytics
+  width: rsz_w1
+
+- title: Monitoring dashboard
+  icon: fa-clipboard-list
+  materialicon: monitoring
+  width: rsz_w1
+
+- title: Bar chart dashboard
+  icon: fa-clipboard-list
+  materialicon: bar_chart_4_bars
+  width: rsz_w1
+
+
+- title: Forms
+  icon: fa-list
+  materialicon: app_registration
+  width: rsz_w1
+
+- title: Module review
+  materialicon: edit_note
+  width: rsz_w1
+
+- title: Grad ticket
+  materialicon: confirmation_number
+  width: rsz_w1
+
+- title: Shop
+  materialicon: shopping_cart
+  width: rsz_w1
+
+- title: Receipt
+  materialicon: receipt
+  width: rsz_w1
+
+- title: Receipt
+  materialicon: receipt_long
+  width: rsz_w1
+
+- title: ID
+  materialicon: badge
+  width: rsz_w1
+
+- title: Letters
+  materialicon: mail
+  width: rsz_w1
+
+- title: Cogs / settings
+  materialicon: settings
+  width: rsz_w1
+
+- title: Change circumstances
+  materialicon: manage_accounts
+  width: rsz_w1
+
+- title: Dashboard
+  materialicon: dashboard
+  width: rsz_w1
+
+- title: Question answer
+  materialicon: question_answer
+  width: rsz_w1
