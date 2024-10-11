@@ -7,9 +7,10 @@
       <th scope="col">FT?</th>
       <th scope="col">Supervisions</th>
       <th scope="col">Days</th>
-      <th scope="col">No mtg</th>
+      <th scope="col">No&nbsp;mtg</th>
       <th scope="col">Engage</th>
       <th scope="col">Progress</th>
+      <th scope="col">#</th>
       <th scope="col">ID</th>
       <th scope="col">Lead supervisor</th>
       <th scope="col">Other supervisors</th>
@@ -23,7 +24,47 @@
       <td>{{ student.year }}</td>
       <td>{{ student.ftpt }}</td>
 
-      <td>
+{% comment %} __STATUS SCORE__ {% endcomment %}
+{% assign statusScore = 0 %}
+{% if student.status1 == "engage" %}
+  {% assign statusScore = statusScore | plus: 2 %}
+{% elsif student.status1 == "progress" %}
+  {% assign statusScore = statusScore | plus: 2 %}
+{% elsif student.status1 == "both" %}
+  {% assign statusScore = statusScore | plus: 4 %}
+{% elsif student.status1 == "unknown" %}
+  {% assign statusScore = statusScore | plus: 7 %}
+{% elsif student.status1 == "NoMtg" %}
+  {% assign statusScore = statusScore | plus: 3 %}
+{% endif %}
+
+{% if student.status2 == "engage" %}
+  {% assign statusScore = statusScore | plus: 2 %}
+{% elsif student.status2 == "progress" %}
+  {% assign statusScore = statusScore | plus: 2 %}
+{% elsif student.status2 == "both" %}
+  {% assign statusScore = statusScore | plus: 4 %}
+{% elsif student.status2 == "unknown" %}
+  {% assign statusScore = statusScore | plus: 7 %}
+{% elsif student.status2 == "NoMtg" %}
+  {% assign statusScore = statusScore | plus: 4 %}
+{% endif %}
+
+{% if student.status3 == "engage" %}
+  {% assign statusScore = statusScore | plus: 3 %}
+{% elsif student.status3 == "progress" %}
+  {% assign statusScore = statusScore | plus: 3 %}
+{% elsif student.status3 == "both" %}
+  {% assign statusScore = statusScore | plus: 5 %}
+{% elsif student.status3 == "unknown" %}
+  {% assign statusScore = statusScore | plus: 0 %}
+{% elsif student.status3 == "NoMtg" %}
+  {% assign statusScore = statusScore | plus: 5 %}
+{% elsif student.status3 == "meets" %}
+  {% assign statusScore = statusScore | minus: 2 %}
+{% endif %}
+
+      <td data-sort="{{ statusScore }}">
 {% comment %} __STATUS ICONS__ {% endcomment %}
 {% if student.status1 == "meets" %}
   <span class="material-icons-sharp green">done</span>
@@ -129,6 +170,7 @@
   {{ countStatus }}
 {% endif %}
       </td>
+<td>{{ statusScore }}</td>
       <td>{{ student.emplid }}</td>
       <td>{{ student.leadSupervisor }}</td>
       <td>{{ student.otherSupervisors }}</td>
