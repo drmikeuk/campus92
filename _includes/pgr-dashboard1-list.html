@@ -33,9 +33,9 @@
 {% elsif student.status1 == "both" %}
   {% assign statusScore = statusScore | plus: 4 %}
 {% elsif student.status1 == "unknown" %}
-  {% assign statusScore = statusScore | plus: 7 %}
+  {% assign statusScore = statusScore | plus: 5 %}
 {% elsif student.status1 == "NoMtg" %}
-  {% assign statusScore = statusScore | plus: 3 %}
+  {% assign statusScore = statusScore | plus: 1 %}
 {% endif %}
 
 {% if student.status2 == "engage" %}
@@ -45,9 +45,9 @@
 {% elsif student.status2 == "both" %}
   {% assign statusScore = statusScore | plus: 4 %}
 {% elsif student.status2 == "unknown" %}
-  {% assign statusScore = statusScore | plus: 7 %}
+  {% assign statusScore = statusScore | plus: 5 %}
 {% elsif student.status2 == "NoMtg" %}
-  {% assign statusScore = statusScore | plus: 4 %}
+  {% assign statusScore = statusScore | plus: 1 %}
 {% endif %}
 
 {% if student.status3 == "engage" %}
@@ -59,7 +59,7 @@
 {% elsif student.status3 == "unknown" %}
   {% assign statusScore = statusScore | plus: 0 %}
 {% elsif student.status3 == "NoMtg" %}
-  {% assign statusScore = statusScore | plus: 5 %}
+  {% assign statusScore = statusScore | plus: 2 %}
 {% elsif student.status3 == "meets" %}
   {% assign statusScore = statusScore | minus: 2 %}
 {% endif %}
