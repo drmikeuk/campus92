@@ -1,0 +1,180 @@
+<!-- DATATABLE LIST -->
+<table id="DataTable" class="table table-sm table-hover">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Year</th>
+      <th scope="col">FT?</th>
+      <th scope="col">Supervisions</th>
+      <th scope="col">Days</th>
+      <th scope="col">No&nbsp;mtg</th>
+      <th scope="col">Engage</th>
+      <th scope="col">Progress</th>
+      <th scope="col">#</th>
+      <th scope="col">ID</th>
+      <th scope="col">Lead supervisor</th>
+      <th scope="col">Other supervisors</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    {% for student in students %}
+    <tr>
+      <td><a href=''>{{ student.name }}</a></td>
+      <td>{{ student.year }}</td>
+      <td>{{ student.ftpt }}</td>
+
+{% comment %} __STATUS SCORE__ {% endcomment %}
+{% assign statusScore = 0 %}
+{% if student.status1 == "engage" %}
+  {% assign statusScore = statusScore | plus: 2 %}
+{% elsif student.status1 == "progress" %}
+  {% assign statusScore = statusScore | plus: 2 %}
+{% elsif student.status1 == "both" %}
+  {% assign statusScore = statusScore | plus: 3 %}
+{% elsif student.status1 == "unknown" %}
+  {% assign statusScore = statusScore | plus: 5 %}
+{% elsif student.status1 == "NoMtg" %}
+  {% assign statusScore = statusScore | plus: 1 %}
+{% endif %}
+
+{% if student.status2 == "engage" %}
+  {% assign statusScore = statusScore | plus: 2 %}
+{% elsif student.status2 == "progress" %}
+  {% assign statusScore = statusScore | plus: 2 %}
+{% elsif student.status2 == "both" %}
+  {% assign statusScore = statusScore | plus: 3 %}
+{% elsif student.status2 == "unknown" %}
+  {% assign statusScore = statusScore | plus: 5 %}
+{% elsif student.status2 == "NoMtg" %}
+  {% assign statusScore = statusScore | plus: 1 %}
+{% endif %}
+
+{% if student.status3 == "engage" %}
+  {% assign statusScore = statusScore | plus: 3 %}
+{% elsif student.status3 == "progress" %}
+  {% assign statusScore = statusScore | plus: 3 %}
+{% elsif student.status3 == "both" %}
+  {% assign statusScore = statusScore | plus: 5 %}
+{% elsif student.status3 == "unknown" %}
+  {% assign statusScore = statusScore | plus: 0 %}
+{% elsif student.status3 == "NoMtg" %}
+  {% assign statusScore = statusScore | plus: 2 %}
+{% elsif student.status3 == "meets" %}
+  {% assign statusScore = statusScore | minus: 2 %}
+{% endif %}
+
+      <td data-sort="{{ statusScore }}">
+{% comment %} __STATUS ICONS__ {% endcomment %}
+{% if student.status1 == "meets" %}
+  <span class="material-icons-sharp green">done</span>
+{% elsif student.status1 == "unknown" %}
+  <span class="material-icons-sharp red">help</span>
+{% elsif student.status1 == "NoMtg" %}
+  <span class="material-icons-sharp red">cancel</span>
+{% else %}
+  <span class="material-icons-sharp amber">error_outline</span>
+{% endif %}
+
+{% if student.status2 == "meets" %}
+  <span class="material-icons-sharp green">done</span>
+{% elsif student.status2 == "unknown" %}
+  <span class="material-icons-sharp red">help</span>
+{% elsif student.status2 == "NoMtg" %}
+  <span class="material-icons-sharp red">cancel</span>
+{% else %}
+  <span class="material-icons-sharp amber">error_outline</span>
+{% endif %}
+
+{% if student.status3 == "meets" %}
+  <span class="material-icons-sharp green">done</span>
+{% elsif student.status3 == "unknown" %}
+  <span class="material-icons-sharp grey">help_outline</span>
+{% elsif student.status3 == "NoMtg" %}
+  <span class="material-icons-sharp red">cancel</span>
+{% else %}
+  <span class="material-icons-sharp amber">error_outline</span>
+{% endif %}
+      </td>
+
+      <td>{{ student.days }}</td>
+      <td>
+{% comment %} __NO MEETINGS__ {% endcomment %}
+{% assign countStatus = 0 %}
+{% if student.status1 == "NoMtg" or student.status1 == "unknown" %}
+  {% assign countStatus = countStatus | plus: 1 %}
+{% endif %}
+{% if student.status2 == "NoMtg" or student.status2 == "unknown"%}
+  {% assign countStatus = countStatus | plus: 1 %}
+{% endif %}
+{% if student.status3 == "NoMtg" %}
+  {% assign countStatus = countStatus | plus: 1 %}
+{% endif %}
+
+{% if countStatus >= 1 %}
+  {{ countStatus }}
+{% endif %}
+      </td>
+      <td>
+{% comment %} __ENGAGE__ {% endcomment %}
+{% assign countStatus = 0 %}
+{% if student.status1 == "engage" %}
+  {% assign countStatus = countStatus | plus: 1 %}
+{% endif %}
+{% if student.status2 == "engage" %}
+  {% assign countStatus = countStatus | plus: 1 %}
+{% endif %}
+{% if student.status3 == "engage" %}
+  {% assign countStatus = countStatus | plus: 1 %}
+{% endif %}
+
+{% if student.status1 == "both" %}
+  {% assign countStatus = countStatus | plus: 1 %}
+{% endif %}
+{% if student.status2 == "both" %}
+  {% assign countStatus = countStatus | plus: 1 %}
+{% endif %}
+{% if student.status3 == "both" %}
+  {% assign countStatus = countStatus | plus: 1 %}
+{% endif %}
+
+{% if countStatus >= 1 %}
+  {{ countStatus }}
+{% endif %}
+
+      </td>
+      <td>
+{% comment %} __PROGRESS__ {% endcomment %}
+{% assign countStatus = 0 %}
+{% if student.status1 == "progress" %}
+  {% assign countStatus = countStatus | plus: 1 %}
+{% endif %}
+{% if student.status2 == "progress" %}
+  {% assign countStatus = countStatus | plus: 1 %}
+{% endif %}
+{% if student.status3 == "progress" %}
+  {% assign countStatus = countStatus | plus: 1 %}
+{% endif %}
+
+{% if student.status1 == "both" %}
+  {% assign countStatus = countStatus | plus: 1 %}
+{% endif %}
+{% if student.status2 == "both" %}
+  {% assign countStatus = countStatus | plus: 1 %}
+{% endif %}
+{% if student.status3 == "both" %}
+  {% assign countStatus = countStatus | plus: 1 %}
+{% endif %}
+
+{% if countStatus >= 1 %}
+  {{ countStatus }}
+{% endif %}
+      </td>
+<td>{{ statusScore }}</td>
+      <td>{{ student.emplid }}</td>
+      <td>{{ student.leadSupervisor }}</td>
+      <td>{{ student.otherSupervisors }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
