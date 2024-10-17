@@ -1,16 +1,16 @@
 ﻿ID,name,emplid,year,ftpt,status1,status2,status3,days,leadSupervisor,otherSupervisors
 1,Alice Jones,10012345,1,FT,meets,meets,meets,3,Colin Ashton,June Armstrong
-2,Bob Smith,10012346,2,FT,meets,meets,engage,6,Colin Ashton,"June Armstrong, Daniel Barrett"
+2,Bob Smith,10012346,2,FT,meets,meets,progress,6,Colin Ashton,"June Armstrong, Daniel Barrett"
 3,Chris Evans,10012347,3,FT,meets,meets,NoMtg,42,Colin Ashton,Robert Atkinson
 4,David Miller,10012348,1,Part,meets,meets,unknown,37,Colin Ashton,Lesley Clifford; Catherine Malik
 5,Stephen Abell,10020000,3,Part,meets,meets,meets,8,Durante Collecott,"Felita Heistermann, Melita Yekel"
 6,Zara Ahmed,10020001,2,FT,meets,engage,engage,21,Belita Farmloe,"Anneliese Thiese, Town Formilli"
 7,Iain Anderson,10020002,3,FT,meets,both,both,9,Clyve Geaney,"Selby Lepope, Arabelle Thorwarth"
-8,June Armstrong,10020003,2,Part,meets,unknown,unknown,38,Dorie Sills,"Glory Maeer, Onfroi Powe"
-9,Colin Ashton,10020004,1,FT,meets,meets,meets,14,Lissie Blasdale,"Annamaria Philippeaux, Torre Ethelstone"
-10,Elizabeth Ashton,10020005,1,FT,engage,meets,meets,9,Maximilian Ullyott,"Rand Attwell, Amalie Cutford"
-11,Stephen Ashurst,10020006,1,Part,meets,meets,engage,12,Esra Imlaw,"Cordelie Epine, Maurice Chang"
-12,Robert Atkinson,10020007,3,FT,meets,meets,NoMtg,43,Carolynn Curuclis,"Matty Moncarr, Hazel Lofts"
-13,Thang Bak,10020008,3,FT,meets,both,unknown,33,Eugenia King,"Odille Mc Ilwrick, "
-14,Daniel Barrett,10020009,2,FT,meets,meets,meets,5,Hew Powner,"Boony Snead, "
-15,Stephen Beard,10020010,4,FT,meets,meets,meets,6,Clare Kerley,"Dunc Reah, Estele Farriar"
+8,June Armstrong,10020003,2,FT,meets,unknown,unknown,38,Dorie Sills,"Glory Maeer, Onfroi Powe"
+9,Daniel Barrett,10020004,2,Part,unknown,unknown,unknown,5,Hew Powner,"Boony Snead, "
+10,Stephen Beard,10020005,4,Part,meets,unknown,unknown,6,Clare Kerley,"Dunc Reah, Estele Farriar"
+11,Colin Ashton,10020006,1,FT,meets,meets,meets,14,Lissie Blasdale,"Annamaria Philippeaux, Torre Ethelstone"
+12,Elizabeth Ashton,10020007,1,FT,engage,meets,meets,9,Maximilian Ullyott,"Rand Attwell, Amalie Cutford"
+13,Stephen Ashurst,10020008,1,Part,meets,meets,engage,12,Esra Imlaw,"Cordelie Epine, Maurice Chang"
+14,Robert Atkinson,10020009,3,FT,meets,meets,NoMtg,43,Carolynn Curuclis,"Matty Moncarr, Hazel Lofts"
+15,Thang Bak,10020010,3,FT,meets,both,unknown,33,Eugenia King,"Odille Mc Ilwrick, "

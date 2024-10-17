@@ -1,0 +1,161 @@
+<!-- DATATABLE LIST -->
+<table id="DataTable" class="table table-sm table-hover">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Year</th>
+      <th scope="col">FT?</th>
+      <th scope="col">Supervisions</th>
+      <th scope="col">Days</th>
+      <th scope="col">No&nbsp;mtg</th>
+      <th scope="col">Engage</th>
+      <th scope="col">Progress</th>
+      <th scope="col">#</th>
+      <th scope="col">ID</th>
+      <th scope="col">Lead&nbsp;supervisor</th>
+      <th scope="col">Other supervisors</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    {% for student in students %}
+    <tr>
+      <td><a href=''>{{ student.name }}</a></td>
+      <td>{{ student.year }}</td>
+      <td>{{ student.ftpt }}</td>
+
+{% comment %} __STATUS SCORE__ {% endcomment %}
+{% assign statusScore = 0 %}
+
+{% assign months = "1, 2" | split: ", " %}
+{% comment %}https://stackoverflow.com/questions/49889227/adding-a-variable-in-for-loop-liquid{% endcomment %}
+{% for month in months %}
+  {% assign status = month | prepend: "status" %}
+  {% if student[status] == "engage" %}
+    {% assign statusScore = statusScore | plus: 2 %}
+  {% elsif student[status] == "progress" %}
+    {% assign statusScore = statusScore | plus: 2 %}
+  {% elsif student[status] == "both" %}
+    {% assign statusScore = statusScore | plus: 4 %}
+  {% elsif student[status] == "unknown" %}
+    {% assign statusScore = statusScore | plus: 5 %}
+  {% elsif student[status] == "NoMtg" %}
+    {% assign statusScore = statusScore | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} LATEST is weighted differently inc. extra for MEETS {% endcomment %}
+{% assign status = student.status3 %}
+{% if status == "engage" %}
+  {% assign statusScore = statusScore | plus: 3 %}
+{% elsif status == "progress" %}
+  {% assign statusScore = statusScore | plus: 3 %}
+{% elsif status == "both" %}
+  {% assign statusScore = statusScore | plus: 5 %}
+{% elsif status == "unknown" %}
+  {% assign statusScore = statusScore | plus: 0 %}
+{% elsif status == "NoMtg" %}
+  {% assign statusScore = statusScore | plus: 2 %}
+{% elsif status == "meets" %}
+  {% assign statusScore = statusScore | minus: 2 %}
+{% endif %}
+
+      <td data-sort="{{ statusScore }}">
+{% comment %} __STATUS ICONS__ {% endcomment %}
+{% assign months = "1, 2" | split: ", " %}
+{% for month in months %}
+  {% assign status = month | prepend: "status" %}
+  {% if month == "1" %}
+    {% assign previousstatus = "1" | prepend: "status" %}
+  {% else %}
+    {% assign previousstatus = month | minus: 1 | prepend: "status" %}
+  {% endif %}
+
+
+  {% if student[status] == "meets" %}
+    <span class="material-icons-sharp green">done</span>
+  {% elsif student[status] == "unknown" %}
+    {% if student.ftpt == "FT"%}
+      <span class="material-icons-sharp red">help</span>
+    {% elsif student[previousstatus] == "unknown" %}
+      <span class="material-icons-sharp red">help</span>
+    {% else %}
+      <span class="material-icons-sharp grey">remove</span>
+    {% endif %}
+  {% elsif student[status] == "NoMtg" %}
+    <span class="material-icons-sharp red">cancel</span>
+  {% else %}
+    <span class="material-icons-sharp amber">error_outline</span>
+  {% endif %}
+{% endfor %}
+
+
+{% comment %} LATEST "unknown" is displayed differently (grey){% endcomment %}
+{% assign status = student.status3 %}
+{% if status == "meets" %}
+  <span class="material-icons-sharp green">done</span>
+{% elsif status == "unknown" %}
+  <span class="material-icons-sharp grey">help_outline</span>
+{% elsif status == "NoMtg" %}
+  <span class="material-icons-sharp red">cancel</span>
+{% else %}
+  <span class="material-icons-sharp amber">error_outline</span>
+{% endif %}
+      </td>
+
+      <td>{{ student.days }}</td>
+      <td>
+{% comment %} __NO MEETINGS__ {% endcomment %}
+{% assign countStatus = 0 %}
+{% assign statuses = "status1, status2" | split: ", " %}
+{% for status in statuses %}
+  {% if student[status] == "NoMtg" or student[status] == "unknown"%}
+   {% assign countStatus = countStatus | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% if student.status3 == "NoMtg" %}
+  {% assign countStatus = countStatus | plus: 1 %}
+{% endif %}
+
+{% if countStatus >= 1 %}
+  {{ countStatus }}
+{% endif %}
+      </td>
+      <td>
+{% comment %} __ENGAGE__ {% endcomment %}
+{% assign countStatus = 0 %}
+{% assign statuses = "status1, status2, status3" | split: ", " %}
+{% for status in statuses %}
+  {% if student[status] == "engage" or student[status] == "both"%}
+   {% assign countStatus = countStatus | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% if countStatus >= 1 %}
+  {{ countStatus }}
+{% endif %}
+
+      </td>
+      <td>
+{% comment %} __PROGRESS__ {% endcomment %}
+{% assign countStatus = 0 %}
+{% assign statuses = "status1, status2, status3" | split: ", " %}
+{% for status in statuses %}
+  {% if student[status] == "progress" or student[status] == "both"%}
+   {% assign countStatus = countStatus | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% if countStatus >= 1 %}
+  {{ countStatus }}
+{% endif %}
+      </td>
+<td>{{ statusScore }}</td>
+      <td>{{ student.emplid }}</td>
+      <td>{{ student.leadSupervisor }}</td>
+      <td>{{ student.otherSupervisors }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
