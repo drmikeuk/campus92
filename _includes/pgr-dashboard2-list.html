@@ -31,6 +31,12 @@
 {% comment %}https://stackoverflow.com/questions/49889227/adding-a-variable-in-for-loop-liquid{% endcomment %}
 {% for month in months %}
   {% assign status = month | prepend: "status" %}
+  {% if month == "1" %}
+    {% assign previousstatus = "1" | prepend: "status" %}
+  {% else %}
+    {% assign previousstatus = month | minus: 1 | prepend: "status" %}
+  {% endif %}
+
   {% if student[status] == "engage" %}
     {% assign statusScore = statusScore | plus: 2 %}
   {% elsif student[status] == "progress" %}
@@ -38,7 +44,11 @@
   {% elsif student[status] == "both" %}
     {% assign statusScore = statusScore | plus: 4 %}
   {% elsif student[status] == "unknown" %}
-    {% assign statusScore = statusScore | plus: 5 %}
+    {% if student.ftpt == "FT"%}
+      {% assign statusScore = statusScore | plus: 5 %}
+    {% elsif student[previousstatus] == "unknown" %}
+      {% assign statusScore = statusScore | plus: 5 %}
+    {% endif %}
   {% elsif student[status] == "NoMtg" %}
     {% assign statusScore = statusScore | plus: 1 %}
   {% endif %}
@@ -70,7 +80,6 @@
   {% else %}
     {% assign previousstatus = month | minus: 1 | prepend: "status" %}
   {% endif %}
-
 
   {% if student[status] == "meets" %}
     <span class="material-icons-sharp green">done</span>
@@ -107,11 +116,25 @@
       <td>
 {% comment %} __NO MEETINGS__ {% endcomment %}
 {% assign countStatus = 0 %}
-{% assign statuses = "status1, status2" | split: ", " %}
-{% for status in statuses %}
-  {% if student[status] == "NoMtg" or student[status] == "unknown"%}
-   {% assign countStatus = countStatus | plus: 1 %}
+{% assign months = "1, 2" | split: ", " %}
+{% for month in months %}
+  {% assign status = month | prepend: "status" %}
+  {% if month == "1" %}
+    {% assign previousstatus = "1" | prepend: "status" %}
+  {% else %}
+    {% assign previousstatus = month | minus: 1 | prepend: "status" %}
   {% endif %}
+
+  {% if student[status] == "NoMtg"%}
+   {% assign countStatus = countStatus | plus: 1 %}
+  {% elsif student[status] == "unknown"%}
+    {% if student.ftpt == "FT"%}
+      {% assign countStatus = countStatus | plus: 1 %}
+    {% elsif student[previousstatus] == "unknown" %}
+      {% assign countStatus = countStatus | plus: 1 %}
+    {% endif %}
+  {% endif %}
+
 {% endfor %}
 
 {% if student.status3 == "NoMtg" %}
