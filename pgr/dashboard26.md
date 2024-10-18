@@ -25,5 +25,5 @@ h1 {padding: 12px 0}
 
 # PGR supervision status (v2)
 
-{% assign students = site.data.pgr-dashboard2test %}
-{% include pgr-dashboard2-list.html %}
+{% assign students = site.data.pgr-dashboard2 %}
+{% include pgr-dashboard26-list.html %}
