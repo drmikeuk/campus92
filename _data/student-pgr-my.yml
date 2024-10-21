@@ -4,6 +4,11 @@
   image: Information-point_large_white_RGB-SafeZone.png
   width: rsz_w1
 
+- title: Supervision records
+  icon: fa-university
+  materialicon: edit_note
+  width: rsz_w1
+
 - title: Research
   icon: fa-university
   materialicon: account_balance
@@ -38,6 +43,11 @@
   icon: fa-money-bill-alt
   materialicon: money
   image: Finance_white_RGB-SafeZone.png
+  width: rsz_w1
+
+- title: Forms
+  icon: fa-list
+  materialicon: app_registration
   width: rsz_w1
 
 - title: Documents

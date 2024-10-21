@@ -1,0 +1,30 @@
+- title: PGR forms
+  icon: fa-university
+  materialicon: edit_note
+  width: rsz_w1
+
+- title: Letters
+  icon: fa-file-alt
+  materialicon: description
+  image: Referencing-White-RGB-SafeZone.png
+  width: rsz_w1
+
+- title: Finance claims
+  icon: fa-money-bill-alt
+  materialicon: money
+  image: Finance_white_RGB-SafeZone.png
+  width: rsz_w1
+
+- title: My details changes
+  icon: fa-user
+  materialicon: account_box
+  image: Study_white_RGB-SafeZone.png
+  width: rsz_w1
+
+- title: Changes to my study
+  materialicon: manage_accounts
+  width: rsz_w1
+
+- title: Changes of circumstances
+  materialicon: manage_accounts
+  width: rsz_w1
