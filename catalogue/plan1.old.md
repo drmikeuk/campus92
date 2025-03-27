@@ -26,20 +26,6 @@ Mode of delivery: **Full-time. In Person.**
 
 Duration: **3 years**
 
-<!-- Locations: **University Park (primary); City Hospital; Derby** -->
-
-Primary location: **University Park**
-{:.new}
-
-Other locations:
-{:.new}
-- City Hospital
-- Derby
-{:.new}
-
-Other fees: **Exciting field trip (£200)**
-{:.new}
-
 <span class="note">polish layout of the above ^^ </span>
 
 ----

@@ -42,17 +42,8 @@ This course considers:
 
 <!-- new -->
 ### Content note
-{:.new}
 
 As a health course, we will be covering topics (diseases, medication, health situations) which you may find personal, sensitive and/or distressing. If you have any worries and/or concerns then please come and speak to any of the teaching team about this so we can provide appropriate support and/or guidance.
-{:.new}
-
-<!-- new -->
-### Sensitivity category
-{:.new}
-- Death and dying
-- Some other one
-{:.new}
 
 
 <!-- OMIT Course Web Links: [Moodle](https://moodle/) -->
@@ -119,26 +110,11 @@ _modules that a student must not have taken or be taking before enrolling on thi
 </div>
 -->
 
-<!-- OLD
 - only available to students on some exciting plan
 - only available to students taking
   - module xyz, or
   - module abc
 - only available to level3 students
--->
-
-<!-- NEW - need the operators -->
-
-<div class="table-responsive" markdown=1>
-|Operator|Condition|
-|--------|---------|
-||Only available for UNUK/Level '02' students|
-|AND (|Only available for Computer Science students|
-|OR|Only available for students studying BSc Computer Science|
-|OR )|Only available for students studying BSc Hons Comp Science (2+2)|
-{:.table .table-sm .notFullWidth}
-</div>
-
 
 
 ## Method and frequency of class
@@ -153,50 +129,25 @@ _modules that a student must not have taken or be taking before enrolling on thi
 - Independent learning: 220 hours
 
 
-
-<!-- new 2025 -->
-### Method of delivery
-{:.new}
-
-Hybrid (In person and, in some cases, optionally, online. A student visa holder must always attend in-person.)
-{:.new}
-
 ## Assessment
 
 <div class="table-responsive" markdown=1>
-|Assessment|Weight|Type|Duration|Mandatory Pass|Requirements|
-|----------|------|----|--------|--------------|------------|
-|Assessment|30||||1,500 word critical application of the principles of law, accountability and ethics to a patient prescribing scenario from supervised practice.
-|Presentation|30||||Presentation of the evidence base, pharmacology and therapeutics and related continuing professional development of the prescription of a single drug within a specified client group.|
-|Assessment|20||||Assessment of Prescribing Competency Standards (RPS 2021) by Practice Assessor. Evidence of 78 hours recorded within a learning log and assessment of a prescribing consultation.|
-|Assessment||||Yes|Prescription (Pass/Fail)|
-|Assessment||||Yes|Clinical Management Plan (Pass/Fail)|
-|Exam||Examsys (in person)|0Hr 30Mins||Assessment of numeracy skills relating to prescribing (Pass/Fail)|
-|Exam 2|20|Examsys (in person)|1Hr 10Mins||Unseen 70 minutes pharmacology exam|
-{:.table .table-sm .notFullWidth}
-</div>
-
-### Supplementary assessment details
-{:.new}
-
-Reassessment will be in the form of:
-{:.new}
-
-<div class="table-responsive new" markdown=1>
-|Assessment|Type|Duration|Requirements|
-|----------|----|--------|------------|
-|Exam |Examsys (in person)|1Hr 10Mins|Unseen 70 minutes pharmacology exam|
+|Assessment|Weight|Type|Duration|Requirements|
+|----------|------|----|--------|------------|
+|Assessment|30|||1,500 word critical application of the principles of law, accountability and ethics to a patient prescribing scenario from supervised practice.
+|Presentation|30|||Presentation of the evidence base, pharmacology and therapeutics and related continuing professional development of the prescription of a single drug within a specified client group.|
+|Assessment|20|||Assessment of Prescribing Competency Standards (RPS 2021) by Practice Assessor. Evidence of 78 hours recorded within a learning log and assessment of a prescribing consultation.|
+|Assessment||||Prescription (Pass/Fail)|
+|Assessment||||Clinical Management Plan (Pass/Fail)|
+|Exam||Examsys (in person)|0Hr 30Mins|Assessment of numeracy skills relating to prescribing (Pass/Fail)|
+|Exam 2|20|Examsys (in person)|1Hr 10Mins|Unseen 70 minutes pharmacology exam|
 {:.table .table-sm .notFullWidth}
 </div>
 
 
+### Assessment period
 
-
-### Assessment period — remove this section
-{:.remove}
 Assessed by end of Designated Period
-{:.remove}
-
 
 ## Learning outcome
 
@@ -211,16 +162,3 @@ Assessed by end of Designated Period
 
 - some example competency
 - maybe a second competency
-
-
-
-<!-- new 2025 -->
-## Knowledge, Skills and Behaviours
-{:.new}
-
-- some example skill
-- plus a second skill
-- some example Behaviour
-- maybe a second Behaviour
-{:.new}
-
