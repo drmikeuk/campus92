@@ -208,10 +208,11 @@ Assessed by end of Designated Period
 - Critically consider the options when prescribing including; non-pharmacological and pharmacological treatments, de-prescribing, patient factors, clinical evidence, cost effectiveness and public health including antimicrobial stewardship.
 
 ### Professional competencies
+{:.new}
 
 - some example competency
 - maybe a second competency
-
+{:.new}
 
 
 <!-- new 2025 -->
