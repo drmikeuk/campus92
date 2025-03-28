@@ -102,6 +102,12 @@ Please note: In order to undertake an optional placement year, you will need to 
 **Key information**<br/>
 Please be aware that study abroad, compulsory year abroad, optional placements/internships and integrated year in industry opportunities may change at any time for a number of reasons, including curriculum developments, changes to arrangements with partner universities or placement/industry hosts, travel restrictions or other circumstances outside of the university’s control. Every effort will be made to update this information as quickly as possible should a change occur.
 
+<!-- new -->
+### Placements
+{:.new}
+
+If your course does not have a compulsory placement, integrated year in industry or compulsory year abroad where there is already an opportunity to undertake a work placement as part of that experience, you may be able to apply to undertake an optional placement year. While it is the student’s responsibility to find and secure a placement, our Careers and Employability Service will support you throughout this process. Contact placements@nottingham.ac.uk to find out more.
+{:.new}
 
 ## Teaching delivery
 
