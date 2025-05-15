@@ -4,6 +4,18 @@
   image: Information-point_large_white_RGB-SafeZone.png
   width: rsz_w1
 
+
+- title: PGR supervision records
+  icon: fa-university
+  materialicon: edit_note
+  width: rsz_w1
+
+- title: Research
+  icon: fa-university
+  materialicon: account_balance
+  width: rsz_w1
+
+
 - title: Modules (courses)
   icon: fa-user-graduate
   materialicon: school
@@ -15,6 +27,16 @@
   materialicon: people
   image: Group-WHITE-RGB-SafeZone.png
   width: rsz_w1
+
+
+- title: Academic support
+  materialicon: quiz
+  width: rsz_w1
+
+- title: Appeals and complaints
+  materialicon: quiz
+  width: rsz_w1
+
 
 - title: Disability support
   icon: fa-universal-access
@@ -29,22 +51,28 @@
   image: Finance_white_RGB-SafeZone.png
   width: rsz_w1
 
-
-- title: Exceptional expenses
-  icon: fa-money-bill-alt
-  materialicon: money
-  image: Finance_white_RGB-SafeZone.png
+- title: Finance forms
+  icon: fa-list
+  materialicon: app_registration
   width: rsz_w1
-  
-- title: Student letters
+
+- title: Official documents
   icon: fa-list
   materialicon: description
   width: rsz_w1
 
-- title: Student forms
+
+- title: Change of circumstances
+  icon: fa-list
+  materialicon: manage_accounts
+  width: rsz_w1
+
+
+- title: Postgraduate forms
   icon: fa-list
   materialicon: app_registration
   width: rsz_w1
+
 
 
 
@@ -58,6 +86,11 @@
   icon: fa-folder-open
   materialicon: folder
   image: Study_white_RGB-SafeZone.png
+  width: rsz_w1
+
+- title: Help centre / remove?
+  icon: fa-question-circle
+  materialicon: help_center
   width: rsz_w1
 
 - title: Placements
@@ -96,4 +129,4 @@
   icon: fa-question-circle
   width: rsz_w2
   class: message
-  text: Our Student Service Centres offer further help, guidance, and signposting to other specialist services to help you make the most of your time at the University of Nottingham.
+  text: The Student Registry Office offers further help, guidance and information, and signposting to other specialist services to help you make the most of your time at the University of Nottingham, Malaysia.

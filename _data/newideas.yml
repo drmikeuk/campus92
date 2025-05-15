@@ -37,6 +37,24 @@
   materialicon: shopping_cart
   width: rsz_w1
 
+
+- title: Help/support
+  materialicon: quiz
+  width: rsz_w1
+
+- title: Team/support
+  materialicon: diversity_3
+  width: rsz_w1
+
+- title: Library
+  materialicon: library_books
+  width: rsz_w1
+
+- title: Timeline
+  materialicon: timeline
+  width: rsz_w1
+
+
 - title: Receipt
   materialicon: receipt
   width: rsz_w1

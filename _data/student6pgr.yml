@@ -5,7 +5,7 @@
   width: rsz_w1
 
 
-- title: Supervision records
+- title: PGR supervision records
   icon: fa-university
   materialicon: edit_note
   width: rsz_w1
@@ -28,7 +28,7 @@
   image: Group-WHITE-RGB-SafeZone.png
   width: rsz_w1
 
-- title: Support arrangements
+- title: Disability support
   icon: fa-universal-access
   maybematerialicon: accessibility_new settings_accessibility
   materialicon: settings_accessibility
@@ -41,6 +41,12 @@
   image: Finance_white_RGB-SafeZone.png
   width: rsz_w1
 
+
+- title: Exceptional expenses
+  icon: fa-money-bill-alt
+  materialicon: money
+  image: Finance_white_RGB-SafeZone.png
+  width: rsz_w1
 
 - title: Student letters
   icon: fa-list
