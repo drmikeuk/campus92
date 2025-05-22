@@ -1,6 +1,6 @@
 ---
 layout: dashboard
-title: "Student v6 (PGR + forms)"
+title: "Student v6 (UNM PGR + forms)"
 navtitle: "Student v6 PGR UNM"
 nav: "new"
 sortTitle: “i"

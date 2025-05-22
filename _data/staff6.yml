@@ -32,18 +32,18 @@
   width: rsz_w1
 
 
-- title: Student letters too?
+- title: Student letters
   icon: fa-list
   materialicon: description
   width: rsz_w1
 
 
-- title: Student forms too?
+- title: Student forms
   icon: fa-list
   materialicon: app_registration
   width: rsz_w1
 
-- title: Postgraduate forms too?
+- title: Postgraduate forms
   icon: fa-list
   materialicon: app_registration
   width: rsz_w1
@@ -56,7 +56,7 @@
   materialicon: table_view
   width: rsz_w1
 
-- title: Plan and module specification
+- title: Curriculum catalogue
   icon: fa-file-alt
   materialicon: description
   width: rsz_w1
