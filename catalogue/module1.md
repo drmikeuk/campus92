@@ -61,48 +61,59 @@ As a health course, we will be covering topics (diseases, medication, health sit
 
 This course aims to prepare students to prescribe safely and knowledgeably from the British National Formulary and legal framework of Independent and Supplementary Prescribing for nurses and midwives.
 
-
+<!-- REMOVE AS INCORRECT -->
 ## Pre-requisites
+{:.remove}
 
 _modules that a student must have already successfully completed before they can enrol on this module_
+{:.remove}
 
+<!-- NOT table as need the and/or connectors plus need to be in right order! -->
 <div class="table-responsive" markdown=1>
 |Code|Title|
 |----|-----|
 |[MATH1006](linkToModule)|Calculus|
 |[MTHS1001](linkToModule)|Calculus and Linear Algebra|
 |[MATH1027](linkToModule)|Calculus|
-{:.table .table-sm .notFullWidth}
-</div>
+{:.table .table-sm .notFullWidth .remove}
 
 <span class="note">Make whole row clickable </span>
+</div> 
+
+
 
 
 ## Co-requisites
+{:.remove}
 
 _modules that a student must be taking in the same academic year as this module to enable them to enrol on this module_
+{:.remove}
 
+<!-- NOT table as need the and/or connectors plus need to be in right order! -->
 <div class="table-responsive" markdown=1>
 |Code|Title|
 |----|-----|
 |[MATH1006](linkToModule)|Calculus|
 |[MTHS1001](linkToModule)|Calculus and Linear Algebra|
 |[MATH1027](linkToModule)|Calculus|
-{:.table .table-sm .notFullWidth}
-</div>
+{:.table .table-sm .notFullWidth .remove}
+</div> 
 
 
 ## Anti-requisites
+{:.remove}
 
 _modules that a student must not have taken or be taking before enrolling on this module_
+{:.remove}
 
+<!-- NOT table as need the and/or connectors plus need to be in right order! -->
 <div class="table-responsive" markdown=1>
 |Code|Title|
 |----|-----|
 |[MATH1006](linkToModule)|Calculus|
 |[MTHS1001](linkToModule)|Calculus and Linear Algebra|
 |[MATH1027](linkToModule)|Calculus|
-{:.table .table-sm .notFullWidth}
+{:.table .table-sm .notFullWidth .remove}
 </div>
 
 
@@ -119,7 +130,7 @@ _modules that a student must not have taken or be taking before enrolling on thi
 </div>
 -->
 
-<!-- OLD
+<!-- OLDEST
 - only available to students on some exciting plan
 - only available to students taking
   - module xyz, or
@@ -127,7 +138,7 @@ _modules that a student must not have taken or be taking before enrolling on thi
 - only available to level3 students
 -->
 
-<!-- NEW - need the operators -->
+<!-- OLD - need the operators BUT BUG SO NOT IN RIGHT ORDER 
 
 <div class="table-responsive" markdown=1>
 |Operator|Condition|
@@ -137,8 +148,19 @@ _modules that a student must not have taken or be taking before enrolling on thi
 |OR|Only available for students studying BSc Computer Science|
 |OR )|Only available for students studying BSc Hons Comp Science (2+2)|
 {:.table .table-sm .notFullWidth}
-</div>
+</div> -->
 
+Only available for Mathematics students who have taken Core Mathematics MATH1101 OR MATH1005 Liberal Arts students who have taken MTHS1001 OR Analytical & Computational Foundations in Ningbo MATH1109 OR Core Mathematics in Malaysia MATH1105.
+ 
+
+<!-- NEW -->
+### Course attributes
+{:.new}
+
+- Apprentice module
+- Taught every year
+- Available as Additional choice
+{:.new}
 
 
 ## Method and frequency of class
@@ -207,12 +229,6 @@ Assessed by end of Designated Period
 - Take and present a systematic clinical history to include medical history and detailed medication history which includes: allergy status, prescribed and over the counter medicines, complementary and herbal remedies.
 - Critically consider the options when prescribing including; non-pharmacological and pharmacological treatments, de-prescribing, patient factors, clinical evidence, cost effectiveness and public health including antimicrobial stewardship.
 
-### Professional competencies
-{:.new}
-
-- some example competency
-- maybe a second competency
-{:.new}
 
 
 <!-- new 2025 -->
@@ -223,5 +239,23 @@ Assessed by end of Designated Period
 - plus a second skill
 - some example Behaviour
 - maybe a second Behaviour
+{:.new}
+
+
+<!-- NEW -->
+
+### Professional competencies
+{:.new}
+
+- some example competency
+- maybe a second competency
+{:.new}
+
+## Sustainable development goals
+{:.new}
+
+- No poverty
+- Zero Hunger
+- Clean Water and Sanitation
 {:.new}
 
