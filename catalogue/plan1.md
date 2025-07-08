@@ -20,6 +20,9 @@ Programme Code: **U1234**
 
 School(s) responsible for management of the academic programme: **Law (70%)**, **Philosophy (30%)**
 
+Programme Director: **Robin Hood**
+{:.new}
+
 Type of Academic Plan: **Single Subject**
 
 Mode of delivery: **Full-time. In Person.**
@@ -514,6 +517,17 @@ Graduates should be able to:
 
 <!-- new -->
 ### Professional competencies
+{:.new}
 
 - some example competency
 - maybe a second competency
+{:.new}
+
+<!-- new -->
+## Sustainable development goals
+{:.new}
+
+- No poverty
+- Zero Hunger
+- Clean Water and Sanitation
+{:.new}
