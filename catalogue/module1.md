@@ -198,6 +198,7 @@ Hybrid (In person and, in some cases, optionally, online. A student visa holder 
 {:.table .table-sm .notFullWidth}
 </div>
 
+<!-- new 2025 plus drop Requirements -->
 ### Supplementary assessment details
 {:.new}
 
@@ -205,9 +206,9 @@ Reassessment will be in the form of:
 {:.new}
 
 <div class="table-responsive new" markdown=1>
-|Assessment|Type|Duration|Requirements|
-|----------|----|--------|------------|
-|Exam |Examsys (in person)|1Hr 10Mins|Unseen 70 minutes pharmacology exam|
+|Assessment|Type|Duration|
+|----------|----|--------|
+|Exam |Examsys (in person)|1Hr 10Mins|
 {:.table .table-sm .notFullWidth}
 </div>
 
