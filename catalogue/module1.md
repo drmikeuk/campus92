@@ -255,6 +255,9 @@ Assessed by end of Designated Period
 ## Sustainable development goals
 {:.new}
 
+This module aligns with the following:
+{:.new}
+
 - No poverty
 - Zero Hunger
 - Clean Water and Sanitation

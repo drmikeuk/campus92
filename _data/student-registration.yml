@@ -10,6 +10,14 @@
   image: Information-point_large_white_RGB-SafeZone.png
   width: rsz_w1
 
+
+- title: Voter registration
+  icon: fa-exclamation-circle
+  materialicon: how_to_vote
+  width: rsz_w1
+
+
+
 - title: Modules (courses)
   icon: fa-user-graduate
   materialicon: school

@@ -527,6 +527,9 @@ Graduates should be able to:
 ## Sustainable development goals
 {:.new}
 
+This programme aligns with the following:
+{:.new}
+
 - No poverty
 - Zero Hunger
 - Clean Water and Sanitation
