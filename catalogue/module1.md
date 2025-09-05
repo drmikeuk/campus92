@@ -193,8 +193,8 @@ Hybrid (In person and, in some cases, optionally, online. A student visa holder 
 |Assessment|20||||Integral|Assessment of Prescribing Competency Standards (RPS 2021) by Practice Assessor. Evidence of 78 hours recorded within a learning log and assessment of a prescribing consultation.|
 |Assessment||||Yes|No|Prescription (Pass/Fail)|
 |Assessment||||Yes|No|Clinical Management Plan (Pass/Fail)|
-|Exam||Examsys (in person)|0Hr 30Mins||No|Assessment of numeracy skills relating to prescribing (Pass/Fail)|
-|Exam 2|20|Examsys (in person)|1Hr 10Mins||No|Unseen 70 minutes pharmacology exam|
+|Exam||Examsys (in person)|30min||No|Assessment of numeracy skills relating to prescribing (Pass/Fail)|
+|Exam 2|20|Examsys (in person)|1h 10min||No|Unseen 70 minutes pharmacology exam|
 {:.table .table-sm .notFullWidth}
 </div>
 
