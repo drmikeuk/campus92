@@ -186,15 +186,15 @@ Hybrid (In person and, in some cases, optionally, online. A student visa holder 
 ## Assessment
 
 <div class="table-responsive" markdown=1>
-|Assessment|Weight|Type|Duration|Mandatory Pass|Requirements|
-|----------|------|----|--------|--------------|------------|
-|Assessment|30||||1,500 word critical application of the principles of law, accountability and ethics to a patient prescribing scenario from supervised practice.
-|Presentation|30||||Presentation of the evidence base, pharmacology and therapeutics and related continuing professional development of the prescription of a single drug within a specified client group.|
-|Assessment|20||||Assessment of Prescribing Competency Standards (RPS 2021) by Practice Assessor. Evidence of 78 hours recorded within a learning log and assessment of a prescribing consultation.|
-|Assessment||||Yes|Prescription (Pass/Fail)|
-|Assessment||||Yes|Clinical Management Plan (Pass/Fail)|
-|Exam||Examsys (in person)|0Hr 30Mins||Assessment of numeracy skills relating to prescribing (Pass/Fail)|
-|Exam 2|20|Examsys (in person)|1Hr 10Mins||Unseen 70 minutes pharmacology exam|
+|Assessment|Weight|Type|Duration|Mandatory Pass|Use of AI|Requirements|
+|----------|------|----|--------|--------------|---------|------------|
+|Assessment|30||||Assistively|1,500 word critical application of the principles of law, accountability and ethics to a patient prescribing scenario from supervised practice.
+|Presentation|30||||No|Presentation of the evidence base, pharmacology and therapeutics and related continuing professional development of the prescription of a single drug within a specified client group.|
+|Assessment|20||||Integral|Assessment of Prescribing Competency Standards (RPS 2021) by Practice Assessor. Evidence of 78 hours recorded within a learning log and assessment of a prescribing consultation.|
+|Assessment||||Yes|No|Prescription (Pass/Fail)|
+|Assessment||||Yes|No|Clinical Management Plan (Pass/Fail)|
+|Exam||Examsys (in person)|0Hr 30Mins||No|Assessment of numeracy skills relating to prescribing (Pass/Fail)|
+|Exam 2|20|Examsys (in person)|1Hr 10Mins||No|Unseen 70 minutes pharmacology exam|
 {:.table .table-sm .notFullWidth}
 </div>
 
