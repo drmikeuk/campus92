@@ -1,0 +1,2 @@
+/* fixed width cols to emulate GT default */
+.fixedCols td {width: 12.5%}

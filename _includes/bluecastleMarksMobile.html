@@ -1,0 +1,30 @@
+is this a table or set of cards?
+
+<table class="table table-sm table-hover">
+  <thead class="thead">
+    <tr>
+      <th scope="col">Code</th>
+      <th scope="col">Title</th>
+      <th scope="col">Mark</th>
+      <th scope="col">Credits</th>
+      <th scope="col">Original</th>
+      <th scope="col">1st&nbsp;resit</th>
+      <th scope="col">Final</th>
+      <th scope="col">Outcome</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for module in marks %}
+    <tr>
+      <td>{{ module.Code }}</td>
+      <td>{{ module.Title }}</td>
+      <td>{{ module.Final }}</td>
+      <td>{{ module.Credits }}</td>   
+      <td>{{ module.Original }}</td>
+      <td>{{ module.1stResit }}</td>
+      <td>{{ module.Final }}</td>
+      <td>{{ module.Outcome }}</td>  
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
