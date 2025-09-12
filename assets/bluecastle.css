@@ -1,2 +1,16 @@
 /* fixed width cols to emulate GT default */
 .fixedCols td {width: 12.5%}
+
+/* mobile */
+.collapsing    { transition: none !important;}
+.mycard        {border-bottom: 2px solid #ccc; position: relative}
+.mycardbody    {padding: 1em 4em 0 1em; }
+.mycardmore    {padding: 0em 4em 0.25em 3em; }
+.mycard p      {margin-bottom: 0.5rem}
+.mymark        {position: absolute; top: 1em; right: 1em; font-weight: bold}
+.mycardbody i  {color: #DCDCDC; font-size: 80%; padding: 0 0.3em;}
+.mycard i.fa-chevron-down {color: blue; position: absolute; bottom: 1em; right: 1em;}
+.mycard i.fa-chevron-up   {color: blue; background: white; position: absolute; bottom: 1em; right: 1em;}
+
+
+

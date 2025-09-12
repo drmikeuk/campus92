@@ -12,7 +12,7 @@ css:
     <!-- CONTENT -->
     <div class="col">
 
-restrict width ??
+<br/>
 
 {% assign marks = site.data.bluecastlemarks  %}
 {% include bluecastleMarksMobile.html %}

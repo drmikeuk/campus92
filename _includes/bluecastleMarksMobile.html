@@ -1,4 +1,36 @@
-is this a table or set of cards?
+
+
+{% for module in marks %}
+<div class="row">
+	<div class="col-md-6 mycard">
+		<a href="#{{ module.Code }}" class="stretched-link" data-toggle="collapse" aria-expanded="false" aria-controls="{{ module.Code }}"><i class="fas fa-chevron-down"></i></a>
+		<div class="mycardbody">
+			<p>{{ module.Title }}</p>
+			<p class="mymark">{{ module.Final }}</p>
+			<p>{{ module.Code }} <i class="fas fa-circle"></i>
+			 {% if module.Credits %}{{ module.Credits }} credits <i class="fas fa-circle"></i>{% endif %}
+			 {{ module.Outcome }}</p>
+		</div>
+		<div class="collapse" id="{{ module.Code }}">
+			<div class="mycardmore">
+				<i class="fas fa-chevron-up"></i>
+				Original mark: {{ module.Original }}<br/>
+				1st&nbsp;resit mark: {{ module.1stResit }}<br/>
+				Final mark: {{ module.Final }}
+			</div>
+		</div>			
+	</div>
+</div>
+{% endfor %}
+
+
+
+
+
+<p style="padding-top: 2em">--</p>
+
+
+
 
 <table class="table table-sm table-hover">
   <thead class="thead">
