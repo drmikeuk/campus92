@@ -11,10 +11,11 @@ title: "Home"
     <li><a href="catalogue/home.html">Curriculum Catalogue</a></li>
     <li><a href="reg23/regIntro.html">Online Registration 2023</a></li>
     <li><a href="marksentry/marks1.html">Marks entry</a></li>
+    <li><a href="bluecastle/marksDesktop.html">Marks table (bluecastle replacement)</a></li>    
     <li><a href="curriculum/module-agenda.html">Module Review</a></li>
     <li><a href="pgr/dashboard1.html">PGR supervisions</a></li>
     <li><a href="tiles/">Tiles</a></li>
-
+    <li><a href="widetables/table.html">Wide tables</a></li>
     <li><a href="reg22/regIntro.html">Online Registration 2022: start</a></li>
     <li><a href="reg22/">Online Registration 2022: all screens</a></li>
   </ul>

@@ -1,0 +1,39 @@
+
+/* fix width of container (not table)*/
+.fix1stcol                {overflow-x: scroll; height:400px; max-width:100%;}
+
+/* force each row to single line = easier toscan */
+.fix1stcol td             {white-space: nowrap}
+
+
+/* fix 1st column (inc TH) of table */
+.fix1stcol th:first-child, td:first-child {position:sticky;left:0px;}
+
+/* 1st TH/TD must have background (not just TR) + change stripe to solid not transparent */
+.fix1stcol th, td:first-child {background: white; }
+
+.fix1stcol .table-striped tbody tr:nth-of-type(odd)                {background-color: #F2F2F2;}
+.fix1stcol .table-striped tbody tr:nth-of-type(odd) td:first-child {background-color: #F2F2F2;}
+
+
+
+/* fix 1st row aka TH */
+.fix1strow th             	{position: sticky; top: 0; z-index: 100; }
+.fix1strow th:first-child   {position: sticky; left: 0; z-index: 500; }
+
+
+/* was
+ .fix1stcol thead tr:nth-child(1) th{
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+ } 
+ */
+
+/* fix 1st column of table 
+.fix1stcol th:first-child, td:first-child
+{
+  position:sticky;
+  left:0px;
+}*/
