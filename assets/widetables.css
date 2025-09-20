@@ -12,28 +12,20 @@
 /* 1st TH/TD must have background (not just TR) + change stripe to solid not transparent */
 .fix1stcol th, td:first-child {background: white; }
 
-.fix1stcol .table-striped tbody tr:nth-of-type(odd)                {background-color: #F2F2F2;}
-.fix1stcol .table-striped tbody tr:nth-of-type(odd) td:first-child {background-color: #F2F2F2;}
+.fix1stcol .table-striped tr:nth-of-type(odd)                {background-color: #F2F2F2;}
+.fix1stcol .table-striped tr:nth-of-type(odd) td:first-child {background-color: #F2F2F2;}
+
+
+/* fix 2cols */
+.fix2cols th:nth-child(2)  {position:sticky; left:80px; }
+.fix2cols td:nth-child(2)  {position:sticky; left:80px; background-color: white;}
+.fix2cols .table-striped tr:nth-of-type(odd) td:nth-child(2) {background-color: #F2F2F2;}
 
 
 
 /* fix 1st row aka TH */
 .fix1strow th             	{position: sticky; top: 0; z-index: 100; }
 .fix1strow th:first-child   {position: sticky; left: 0; z-index: 500; }
+/* and if 2cols */
+.fix1strow th:first-child   {position: sticky; left: 0; z-index: 500; }
 
-
-/* was
- .fix1stcol thead tr:nth-child(1) th{
-    background: white;
-    position: sticky;
-    top: 0;
-    z-index: 10;
- } 
- */
-
-/* fix 1st column of table 
-.fix1stcol th:first-child, td:first-child
-{
-  position:sticky;
-  left:0px;
-}*/
