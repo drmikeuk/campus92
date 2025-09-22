@@ -17,8 +17,8 @@
 
 
 /* fix 2cols */
-.fix2cols th:nth-child(2)  {position:sticky; left:80px; }
-.fix2cols td:nth-child(2)  {position:sticky; left:80px; background-color: white;}
+.fix2cols th:nth-child(2)  {position:sticky; left:86px; }
+.fix2cols td:nth-child(2)  {position:sticky; left:86px; background-color: white;}
 .fix2cols .table-striped tr:nth-of-type(odd) td:nth-child(2) {background-color: #F2F2F2;}
 
 
