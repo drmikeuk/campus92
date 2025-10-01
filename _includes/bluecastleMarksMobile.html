@@ -9,13 +9,15 @@
 			<p class="mymark">{{ module.Final }}</p>
 			<p>{{ module.Code }} <i class="fas fa-circle"></i>
 			 {% if module.Credits %}{{ module.Credits }} credits <i class="fas fa-circle"></i>{% endif %}
+       {{ module.Semester }} <i class="fas fa-circle"></i>
 			 {{ module.Outcome }}</p>
 		</div>
 		<div class="collapse" id="{{ module.Code }}">
 			<div class="mycardmore">
 				<i class="fas fa-chevron-up"></i>
 				Original mark: {{ module.Original }}<br/>
-				1st&nbsp;resit mark: {{ module.1stResit }}<br/>
+				{% if module.1stResit %}1st&nbsp;resit mark: {{ module.1stResit }}<br/>{% endif %}
+        {% if module.2ndResit %}2nd&nbsp;resit mark: {{ module.2ndResit }}<br/>{% endif %}
 				Final mark: {{ module.Final }}
 			</div>
 		</div>			
