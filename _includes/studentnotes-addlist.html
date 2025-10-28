@@ -1,0 +1,36 @@
+
+<p class="notesIntro">Intro line if needed...<br/>
+Click a students name, or select multiple and click "Create note" to add the same note to all selected students:</p>
+
+<!-- DATATABLE LIST -->
+  <table id="DataTable" class="table table-sm table-hover">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Select</th>
+        <th scope="col">Name</th>
+        <th scope="col">Course</th>
+        <th scope="col">UG/PG</th>
+        <th scope="col">Year</th>
+        <th scope="col">StudentID</th>    
+      </tr>
+    </thead>
+    <tbody>
+      {% for student in students %}
+      <tr style="position: relative">
+        <td><label class="switch"><input type="checkbox"><span class="slider round"></span></label></td>
+        <td class="name" data-sort="{{ student.surname }} {{ student.forename }}"><a href="addNote.html" class="stretched-linkX primary">{{ student.name }}</a></td>
+        <td><div class="courseX text-truncateX">{{ student.course }}</div></td>
+        <td>{{ student.career }}</td>
+        <td>{{ student.year }}</td>
+        <td>{{ student.id }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+
+<a class="btn btn-outline-dark" href="#" role="button">Cancel</a> &nbsp; <a class="btn btn-dark" href="addNote.html" role="button">Add note</a>
+
+
+
+
