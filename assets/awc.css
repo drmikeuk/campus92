@@ -191,6 +191,7 @@ labelXX      {font-weight: bold; margin-top: 0.8em}
 .GTtextareabig {width:100%; min-height: 10em}
 .GTtextinput   {width:100%}
 .padRow				 {margin-bottom: 1em}
+.nowrap        {white-space: nowrap;}
 
 /* The switch - the box around the slider */
 .switch {

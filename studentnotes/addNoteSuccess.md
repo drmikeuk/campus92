@@ -3,7 +3,7 @@ layout: awcNoSide
 title: "Student notes"
 nav: "no"
 back: "Back"
-backurl: "addList.html"
+backurl: "home.html"
 page: listTutees
 
 ---
