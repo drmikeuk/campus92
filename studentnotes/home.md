@@ -17,5 +17,5 @@ page: listTutees
   - [Add a note](addList150.html)
   - [View notes](viewList150.html)
 - **School view** (~1000 students eg Senior Tutor or 'Here for you' team)
-  - Add a note
+  - [Add a note](addSearch.html)
   - View notes
