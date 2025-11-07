@@ -18,6 +18,16 @@ h2            {padding-top: 0.5rem; padding-bottom: 2rem; font-weight: 300}
 .new {background-color: #D0EAC1}
 .remove {background-color: #F0CC71}
 
+
+/* bluecastle marks */
+
+.marksDivider h2 {padding-bottom: 0.5rem; margin: 1em 0; background: lightcyan;}
+.hilightMark     {background: lightcyan;}
+.center          {text-align: center;}
+.theadMid th     {background: rgba(0,0,0,.04)}
+
+
+
 /* campus styles */
 
 /* grid */
