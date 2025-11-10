@@ -20,7 +20,7 @@
       <td>{{ module.Title }}</td>
       <td class="center">{{ module.Credits }}</td>  
       <td>{{ module.Semester }}</td>  
-      <td class="center">{{ module.Original }}</td>
+      <td class="center {% if module.Original == '33' or module.Original == '55' %} hilightMark{% endif %}">{{ module.Original }}</td>
       <td class="center">{{ module.1stResit }}</td>
       <td class="center">{{ module.2ndResit }}</td>      
       <!--<td>{{ module.Final }}</td>
