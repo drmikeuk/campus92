@@ -41,7 +41,7 @@ css:
 <div class="marksDivider">
  <h2>5: Start next session: New modules + carry module + previous modules with marks</h2>
  <h3>2025/26</h3>
- {% assign marks = site.data.bluecastlemarks-mod2  %}{% include bluecastleMarks.html %} 
+ {% assign marks = site.data.bluecastlemarks-mod2carry  %}{% include bluecastleMarks.html %} 
  <h3>2024/25</h3>
  {% assign marks = site.data.bluecastlemarks-mod1-failcarry-fail  %}{% include bluecastleMarks.html %}
 </div>
@@ -51,7 +51,7 @@ css:
 <div class="marksDivider">
  <h2>6: All marks (against original year) + progression</h2>
  <h3>2025/26</h3>
- {% assign marks = site.data.bluecastlemarks-mod2-pass  %}{% include bluecastleMarks.html %} 
+ {% assign marks = site.data.bluecastlemarks-mod2carry-pass  %}{% include bluecastleMarks.html %} 
  <h3>2024/25</h3>
  {% assign marks = site.data.bluecastlemarks-mod1-failcarry-pass  %}{% include bluecastleMarks.html %}
 </div>
