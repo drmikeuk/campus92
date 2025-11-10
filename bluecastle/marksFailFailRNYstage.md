@@ -1,8 +1,8 @@
 ---
 layout: bluecastle
-title: "RNY NOT"
+title: "RNY stage"
 bluecastlenav: "yes"
-sortTitle: "e"
+sortTitle: "f"
 css:
   - bluecastle.css
 ---
@@ -12,7 +12,7 @@ css:
     <!-- CONTENT -->
     <div class="col">
 
-<h2>Fail then resit next year NOT in attendance</h2>
+<h2>Fail then resit whole <i>stage</i> next year IN attendance</h2>
 
 <div class="marksDivider">
  <h2>1: Start session: List modules</h2>
@@ -39,9 +39,9 @@ css:
 </div>
 
 <div class="marksDivider">
- <h2>5: Start next session: No new modules + previous modules with marks</h2>
+ <h2>5: Start next session: List all repeating modules + previous modules with marks</h2>
  <h3>2025/26</h3>
- <p>hide current year if no modules?</p>
+ {% assign marks = site.data.bluecastlemarks-mod1  %}{% include bluecastleMarks.html %} 
  <h3>2024/25</h3>
  {% assign marks = site.data.bluecastlemarks-mod1-fail-fail  %}{% include bluecastleMarks.html %}
 </div>
@@ -50,7 +50,7 @@ css:
 <div class="marksDivider">
  <h2>6: All marks (against original year) + progression</h2>
  <h3>2025/26</h3>
- <p>hide current year if no modules?</p>
+ {% assign marks = site.data.bluecastlemarks-mod1  %}{% include bluecastleMarks.html %} 
  <h3>2024/25</h3>
  {% assign marks = site.data.bluecastlemarks-mod1-fail-fail-rny  %}{% include bluecastleMarks.html %}
 </div>
@@ -62,7 +62,7 @@ css:
  <h3>2026/27</h3>
  {% assign marks = site.data.bluecastlemarks-mod2  %}{% include bluecastleMarks.html %} 
  <h3>2025/26</h3>
- <p>hide year if no modules?</p>
+ {% assign marks = site.data.bluecastlemarks-mod1  %}{% include bluecastleMarks.html %} 
  <h3>2024/25</h3>
  {% assign marks = site.data.bluecastlemarks-mod1-fail-fail-rny  %}{% include bluecastleMarks.html %}
 </div>
