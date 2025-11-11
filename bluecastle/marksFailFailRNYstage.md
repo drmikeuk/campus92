@@ -2,7 +2,7 @@
 layout: bluecastle
 title: "RNY stage"
 bluecastlenav: "yes"
-sortTitle: "f"
+sortTitle: "e"
 css:
   - bluecastle.css
 ---
@@ -17,42 +17,42 @@ css:
 <div class="marksDivider">
  <h2>1: Start session: List modules</h2>
  <h3>2024/25</h3>
- {% assign marks = site.data.bluecastlemarks-mod1  %}{% include bluecastleMarks.html %}
+ {% assign marks = site.data.bluecastlemarks-mod1-stage  %}{% include bluecastleMarks.html %}
 </div>
 
 <div class="marksDivider">
  <h2>2: Assessment 1: Some marks</h2>
  <h3>2024/25</h3>
- {% assign marks = site.data.bluecastlemarks-mod1-marks  %}{% include bluecastleMarks.html %}
+ {% assign marks = site.data.bluecastlemarks-mod1-marksstage  %}{% include bluecastleMarks.html %}
 </div>
 
 <div class="marksDivider">
  <h2>3: Assessment 2: All marks + progression</h2>
  <h3>2024/25</h3>
- {% assign marks = site.data.bluecastlemarks-mod1-fail  %}{% include bluecastleMarks.html %}
+ {% assign marks = site.data.bluecastlemarks-mod1-failstage  %}{% include bluecastleMarks.html %}
 </div>
 
 <div class="marksDivider">
  <h2>4: Reassessment: All marks + progression</h2>
  <h3>2024/25</h3>
- {% assign marks = site.data.bluecastlemarks-mod1-fail-fail  %}{% include bluecastleMarks.html %}
+ {% assign marks = site.data.bluecastlemarks-mod1-failstage-fail  %}{% include bluecastleMarks.html %}
 </div>
 
 <div class="marksDivider">
  <h2>5: Start next session: List all repeating modules + previous modules with marks</h2>
  <h3>2025/26</h3>
- {% assign marks = site.data.bluecastlemarks-mod1  %}{% include bluecastleMarks.html %} 
+ {% assign marks = site.data.bluecastlemarks-mod1-stagerny  %}{% include bluecastleMarks.html %} 
  <h3>2024/25</h3>
- {% assign marks = site.data.bluecastlemarks-mod1-fail-fail  %}{% include bluecastleMarks.html %}
+ {% assign marks = site.data.bluecastlemarks-mod1-failstage-fail  %}{% include bluecastleMarks.html %}
 </div>
 
 
 <div class="marksDivider">
  <h2>6: All marks (against original year) + progression</h2>
  <h3>2025/26</h3>
- {% assign marks = site.data.bluecastlemarks-mod1  %}{% include bluecastleMarks.html %} 
+ {% assign marks = site.data.bluecastlemarks-mod1-stagerny  %}{% include bluecastleMarks.html %} 
  <h3>2024/25</h3>
- {% assign marks = site.data.bluecastlemarks-mod1-fail-fail-rny  %}{% include bluecastleMarks.html %}
+ {% assign marks = site.data.bluecastlemarks-mod1-failstage-fail-rny  %}{% include bluecastleMarks.html %}
 </div>
 
 
@@ -62,9 +62,9 @@ css:
  <h3>2026/27</h3>
  {% assign marks = site.data.bluecastlemarks-mod2  %}{% include bluecastleMarks.html %} 
  <h3>2025/26</h3>
- {% assign marks = site.data.bluecastlemarks-mod1  %}{% include bluecastleMarks.html %} 
+ {% assign marks = site.data.bluecastlemarks-mod1-stagerny  %}{% include bluecastleMarks.html %} 
  <h3>2024/25</h3>
- {% assign marks = site.data.bluecastlemarks-mod1-fail-fail-rny  %}{% include bluecastleMarks.html %}
+ {% assign marks = site.data.bluecastlemarks-mod1-failstage-fail-rny  %}{% include bluecastleMarks.html %}
 </div>
 
 

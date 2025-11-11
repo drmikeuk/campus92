@@ -12,7 +12,7 @@ css:
     <!-- CONTENT -->
     <div class="col">
 
-<h2>Pass but EC so marks initially witheld</h2>
+<h2>Pass but with EC</h2>
 
 <div class="marksDivider">
  <h2>1: Start session: List modules</h2>
