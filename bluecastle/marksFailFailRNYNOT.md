@@ -41,7 +41,7 @@ css:
 <div class="marksDivider">
  <h2>5: Start next session: No new modules + previous modules with marks</h2>
  <h3>2025/26</h3>
- <p>hide current year if no modules?</p>
+ <p>no modules so just wont see this year?</p>
  <h3>2024/25</h3>
  {% assign marks = site.data.bluecastlemarks-mod1-fail-fail  %}{% include bluecastleMarks.html %}
 </div>
@@ -50,7 +50,7 @@ css:
 <div class="marksDivider">
  <h2>6: All marks (against original year) + progression</h2>
  <h3>2025/26</h3>
- <p>hide current year if no modules?</p>
+ <p>no modules so just wont see this year?</p>
  <h3>2024/25</h3>
  {% assign marks = site.data.bluecastlemarks-mod1-fail-fail-rny  %}{% include bluecastleMarks.html %}
 </div>
@@ -62,7 +62,7 @@ css:
  <h3>2026/27</h3>
  {% assign marks = site.data.bluecastlemarks-mod2  %}{% include bluecastleMarks.html %} 
  <h3>2025/26</h3>
- <p>hide year if no modules?</p>
+ <p>no modules so just wont see this year?</p>
  <h3>2024/25</h3>
  {% assign marks = site.data.bluecastlemarks-mod1-fail-fail-rny  %}{% include bluecastleMarks.html %}
 </div>
