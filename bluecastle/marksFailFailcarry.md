@@ -39,7 +39,7 @@ css:
 </div>
 
 <div class="marksDivider">
- <h2>5: Start next session: New modules + carry module + previous modules with marks</h2>
+ <h2>5: Start next session: New modules + previous modules with marks</h2>
  <h3>2025/26</h3>
  {% assign marks = site.data.bluecastlemarks-mod2carry  %}{% include bluecastleMarks.html %} 
  <h3>2024/25</h3>
