@@ -1,6 +1,6 @@
 ---
 layout: bluecastle
-title: "V1 desktop"
+title: "d1"
 bluecastlenav: "yes"
 sortTitle: "x"
 css:
@@ -15,14 +15,14 @@ css:
 <div class="marksDivider">
  <h2>A: Flexible columns</h2>
  {% assign marks = site.data.bluecastlemarks  %}
- {% include bluecastleMarksDesktop.html %}
+ {% include bluecastleMarksDesktop1.html %}
 </div>
 
 <div class="marksDivider">
  <h2>B: Fixed width columns (aka GT default)</h2>
  <div class="fixedCols">
  {% assign marks = site.data.bluecastlemarks  %}
- {% include bluecastleMarksDesktop.html %}
+ {% include bluecastleMarksDesktop1.html %}
  </div>
 </div>
 

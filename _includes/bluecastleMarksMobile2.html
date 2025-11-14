@@ -1,0 +1,26 @@
+
+
+{% for module in marks %}
+<div class="row">
+	<div class="col-md-6 mycard">
+		<a href="#{{ module.Code }}" class="stretched-link" data-toggle="collapse" aria-expanded="false" aria-controls="{{ module.Code }}"><i class="fas fa-chevron-down"></i></a>
+		<div class="mycardbody">
+			<p>{{ module.Title }}</p>
+			<p class="mymark">{{ module.Final }}</p>
+			<p>{{ module.Code }} <i class="fas fa-circle"></i>
+			 {% if module.Credits %}{{ module.Credits }} credits <i class="fas fa-circle"></i>{% endif %}
+       {{ module.Semester }}</p>
+		</div>
+		<div class="collapse" id="{{ module.Code }}">
+			<div class="mycardmore">
+				<i class="fas fa-chevron-up"></i>
+				{% if module.1stResit %}
+        Mark: {{ module.Original }}<br/>
+        1st&nbsp;resit mark: {{ module.1stResit }}<br/>{% endif %}
+        {% if module.2ndResit %}2nd&nbsp;resit mark: {{ module.2ndResit }}<br/>{% endif %}
+			</div>
+		</div>			
+	</div>
+</div>
+{% endfor %}
+

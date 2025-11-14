@@ -1,8 +1,8 @@
 ---
 layout: bluecastle
-title: "V1 mobile"
+title: "Mobile"
 bluecastlenav: "yes"
-sortTitle: "y"
+sortTitle: "p"
 css:
   - bluecastle.css
 ---
@@ -12,10 +12,10 @@ css:
     <!-- CONTENT -->
     <div class="col">
 
-<br/>
+<h2>Mobile width</h2>
 
 {% assign marks = site.data.bluecastlemarks  %}
-{% include bluecastleMarksMobile.html %}
+{% include bluecastleMarksMobile2.html %}
 
 
     </div>
