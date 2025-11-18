@@ -1,8 +1,8 @@
 ---
 layout: bluecastle
-title: "Carry"
+title: "Carry NOT"
 bluecastlenav: "yes"
-sortTitle: "g"
+sortTitle: "h"
 css:
   - bluecastle.css
 ---
@@ -12,7 +12,7 @@ css:
     <!-- CONTENT -->
     <div class="col">
 
-<h2>Fail then carry 20 credits</h2>
+<h2>Fail then carry 20 credits NOT in attendance (most common)</h2>
 
 <div class="marksDivider">
  <h2>1: Start session: List modules</h2>
@@ -49,7 +49,7 @@ css:
 
 
 <div class="marksDivider">
- <h2>6: All marks (against original year) + progression</h2>
+ <h2>6: All marks (carried against original year) + progression</h2>
  <h3>2025/26</h3>
  {% assign marks = site.data.bluecastlemarks-mod2carry-pass  %}{% include bluecastleMarks.html %} 
  <h3>2024/25</h3>

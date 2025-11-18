@@ -1,0 +1,71 @@
+---
+layout: bluecastle
+title: "Carry IN"
+bluecastlenav: "yes"
+sortTitle: "g"
+css:
+  - bluecastle.css
+---
+
+<div class="container">
+  <div class="row">
+    <!-- CONTENT -->
+    <div class="col">
+
+<h2>Fail then carry 20 credits IN attendance (not common)</h2>
+
+<div class="marksDivider">
+ <h2>1: Start session: List modules</h2>
+ <h3>2024/25</h3>
+ {% assign marks = site.data.bluecastlemarks-mod1  %}{% include bluecastleMarks.html %}
+</div>
+
+<div class="marksDivider">
+ <h2>2: Assessment 1: Some marks</h2>
+ <h3>2024/25</h3>
+ {% assign marks = site.data.bluecastlemarks-mod1-marks  %}{% include bluecastleMarks.html %}
+</div>
+
+<div class="marksDivider">
+ <h2>3: Assessment 2: All marks + progression</h2>
+ <h3>2024/25</h3>
+ {% assign marks = site.data.bluecastlemarks-mod1-failcarry  %}{% include bluecastleMarks.html %}
+</div>
+
+<div class="marksDivider">
+ <h2>4: Reassessment: All marks + progression</h2>
+ <h3>2024/25</h3>
+ {% assign marks = site.data.bluecastlemarks-mod1-failcarry-fail  %}{% include bluecastleMarks.html %}
+</div>
+
+<div class="marksDivider">
+ <h2>5: Start next session: New modules (inc carry) + previous modules with marks</h2>
+ <h3>2025/26</h3>
+ {% assign marks = site.data.bluecastlemarks-mod2carryIN  %}{% include bluecastleMarks.html %} 
+ <h3>2024/25</h3>
+ {% assign marks = site.data.bluecastlemarks-mod1-failcarry-fail  %}{% include bluecastleMarks.html %}
+</div>
+
+
+
+<div class="marksDivider">
+ <h2>6: All marks (carried against original year) + progression</h2>
+ <h3>2025/26</h3>
+ {% assign marks = site.data.bluecastlemarks-mod2carry-passIN  %}{% include bluecastleMarks.html %} 
+ <h3>2024/25</h3>
+ {% assign marks = site.data.bluecastlemarks-mod1-failcarry-pass  %}{% include bluecastleMarks.html %}
+</div>
+
+
+<div class="marksDivider">
+ <h2>7: Start next session: List new modules + previous modules with marks</h2>
+ <p>Y3 modules...</p>
+
+</div>
+
+
+
+
+    </div>
+  </div>
+</div>
