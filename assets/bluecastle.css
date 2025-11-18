@@ -12,5 +12,5 @@
 .mycard i.fa-chevron-down {color: blue; position: absolute; bottom: 1em; right: 1em;}
 .mycard i.fa-chevron-up   {color: blue; background: white; position: absolute; bottom: 1em; right: 1em;}
 
-
+.table .elements th {font-weight: normal; background: rgba(0, 0, 0, .02);}
 

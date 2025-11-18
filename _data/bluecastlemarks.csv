@@ -1,10 +1,10 @@
-﻿id,Code,Title,Credits,Semester,Original,1stResit,2ndResit,Final,Outcome
-1,CHEM1009,An Introduction to Organic Molecules and their Reactivity,20,Full Year UK,56,,,56,Pass
-2,CHEM1011,"An Introduction to Spectroscopy, Energy and Bonding in Chemistry",20,Full Year UK,39,45,,45,Pass
-3,CHEM1010,"An Introduction to Structure, Periodicity and Coordination Chemistry",20,Full Year UK,52,,,52,Pass
-4,CHEM1016,Calculations in Chemistry,10,Full Year UK,62,,,62,Pass
-5,CHEM1004,Chemistry Study Skills,,Autumn UK,60,,,60,Pass
-6,CHEM1002,Foundation Laboratory Work,20,Full Year UK,35,36,42,42,Pass
-7,CHEM1001,Sustainable Chemistry,10,Full Year UK,45,,,45,Pass
-8,CHEM1008,Frontiers in Chemistry,10,Full Year UK,53,,,53,Pass
-9,CHEM1019,Molecules of Life,10,Spring UK,59,,,59,Pass
+﻿id,elements,Code,Title,Credits,Semester,Original,1stResit,2ndResit,Final,Outcome
+1,1,CHEM1009,An Introduction to Organic Molecules and their Reactivity,20,Full Year UK,56,,,56,Pass
+2,2,CHEM1011,"An Introduction to Spectroscopy, Energy and Bonding in Chemistry",20,Full Year UK,39,45,,45,Pass
+3,3,CHEM1010,"An Introduction to Structure, Periodicity and Coordination Chemistry",20,Full Year UK,52,,,52,Pass
+4,1,CHEM1016,Calculations in Chemistry,10,Full Year UK,62,,,62,Pass
+5,2,CHEM1004,Chemistry Study Skills,,Autumn UK,60,,,60,Pass
+6,3,CHEM1002,Foundation Laboratory Work,20,Full Year UK,35,36,42,42,Pass
+7,1,CHEM1001,Sustainable Chemistry,10,Full Year UK,45,,,45,Pass
+8,2,CHEM1008,Frontiers in Chemistry,10,Full Year UK,53,,,53,Pass
+9,3,CHEM1019,Molecules of Life,10,Spring UK,59,,,59,Pass

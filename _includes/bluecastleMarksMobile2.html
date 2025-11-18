@@ -1,6 +1,9 @@
 
 
 {% for module in marks %}
+{% if module.elements == '1'%}{% assign elements = site.data.bluecastleelements-1 %}
+{% elsif module.elements == '2'%}{% assign elements = site.data.bluecastleelements-2 %}
+{% else %}{% assign elements = site.data.bluecastleelements-3 %}{% endif %}
 <div class="row">
 	<div class="col-md-6 mycard">
 		<a href="#{{ module.Code }}" class="stretched-link" data-toggle="collapse" aria-expanded="false" aria-controls="{{ module.Code }}"><i class="fas fa-chevron-down"></i></a>
@@ -9,7 +12,7 @@
 			<p class="mymark">{{ module.Final }}</p>
 			<p>{{ module.Code }} <i class="fas fa-circle"></i>
 			 {% if module.Credits %}{{ module.Credits }} credits <i class="fas fa-circle"></i>{% endif %}
-       {{ module.Semester }}</p>
+       {{ module.Semester }}</p>   
 		</div>
 		<div class="collapse" id="{{ module.Code }}">
 			<div class="mycardmore">
@@ -17,7 +20,32 @@
 				{% if module.1stResit %}
         Mark: {{ module.Original }}<br/>
         1st&nbsp;resit mark: {{ module.1stResit }}<br/>{% endif %}
-        {% if module.2ndResit %}2nd&nbsp;resit mark: {{ module.2ndResit }}<br/>{% endif %}
+        {% if module.2ndResit %}2nd&nbsp;resit mark: {{ module.2ndResit }}{% endif %}
+
+        <table class="table table-sm" style="margin-top: 1em;">
+        <thead class="thead elements">
+          <tr>
+            <th scope="col">Element</th>
+            <th scope="col">Weight</th>
+            <th scope="col">Mark</th>    
+            <th scope="col">1st resit</th> 
+            <th scope="col">2nd resit</th> 
+          </tr>
+        </thead>
+        <tbody>
+{% for element in elements %}          
+          <tr>
+            <td>{{element.Element}}</td>
+            <td>{{element.Weight}}</td>
+            <td>{{element.Mark}}</td>                        
+            <td>{{element.1stResit}}</td>
+            <td>{{element.2ndResit}}</td>
+          </tr>  
+{% endfor %}          
+        </tbody>
+        </table>      
+
+
 			</div>
 		</div>			
 	</div>
