@@ -9,7 +9,7 @@ customcss:
   - /vendor/datatables.min.css
 customjs:
   - /vendor/datatables.min.js
-  - /assets/studentnotesview.js
+  - /assets/studentnotesnote.js
 ---
 
 <p class="notesIntro">Intro re sharing? ....</p>
