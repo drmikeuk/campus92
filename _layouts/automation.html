@@ -12,7 +12,8 @@
     <div class="col">
 
 <h2>{{ page.blurb }}</h2>
-<p>Highlight: <span id="highlight">{{ page.highlight }}</span></p>
+<label for="highlight">Highlight: </label>
+<input type="text" name="highlight" id="highlight" value="{{ page.highlight }}">
 
 <div class="content">
 {{ content }}
