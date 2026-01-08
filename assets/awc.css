@@ -193,6 +193,10 @@ labelXX      {font-weight: bold; margin-top: 0.8em}
 .padRow				 {margin-bottom: 1em}
 .nowrap        {white-space: nowrap;}
 
+.actions {font-style: italic; margin-top: -0.5rem}
+.actions i {padding: 0 0.5em; color: #ccc}
+.action a {color: blue}
+
 /* The switch - the box around the slider */
 .switch {
   position: relative;

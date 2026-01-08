@@ -17,6 +17,11 @@ page: listTutees
 </div>
 
 <div class="row padRow">
+  <div class="col-md-2 right bold">Met</div>
+  <div class="col-md-10"><label class="switch"><input type="checkbox"><span class="slider round"></span></label></div>
+</div>
+
+<div class="row padRow">
   <div class="col-md-2 right bold">Subject</div>
   <div class="col-md-10"><input type="text" class="GTtextinput"/></div>
 </div>
