@@ -9,7 +9,7 @@ customcss:
   - /vendor/datatables.min.css
 customjs:
   - /vendor/datatables.min.js
-  - /assets/studentnotes.js
+  - /assets/studentnotesview.js
 ---
 
 {% assign students = site.data.awc35 %}
