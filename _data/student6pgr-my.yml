@@ -56,6 +56,12 @@
   materialicon: app_registration
   width: rsz_w1
 
+- title: Sponsorship / scholarship support
+  icon: fa-money-bill-alt
+  materialicon: money
+  image: Finance_white_RGB-SafeZone.png
+  width: rsz_w1
+
 - title: Official documents
   icon: fa-list
   materialicon: description
