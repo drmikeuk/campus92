@@ -86,6 +86,13 @@
   materialicon: assignment
   width: rsz_w1
 
+
+- title: Admissions automation
+  icon: fa-clipboard-list
+  materialicon: settings_suggest
+  width: rsz_w1
+
+
 - title: Help using Campus Solutions
   icon: fa-question-circle
   width: rsz_w2
