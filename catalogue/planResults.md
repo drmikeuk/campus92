@@ -1,6 +1,6 @@
 ---
 layout: cat
-title: "Programmes: Search"
+title: "Courses: Search"
 nav: "no"
 customcss:
   - /vendor/datatables.min.css
@@ -9,7 +9,7 @@ customjs:
   - /assets/plan.js
 ---
 
-# Programmes: UK
+# Courses: UK
 <!-- <p class="strapline">ACADEMIC YEAR <b>2022-23</b></p> -->
 
 <form style="padding-bottom: 18px">

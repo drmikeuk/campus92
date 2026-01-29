@@ -1,10 +1,10 @@
 ---
 layout: cat
-title: "Programmes: Search"
+title: "Courses: Search"
 nav: "no"
 ---
 
-<h1 class="padTitle">Programmes: UK</h1>
+<h1 class="padTitle">Courses: UK</h1>
 
 <form action="planResults.html">
 
@@ -32,7 +32,7 @@ nav: "no"
 <div><i>or</i></div>
 
   <div class="form-group row noPadxxx">
-    <label for="Programme code" class="col-sm-2 col-form-labelXX">Programme code</label>
+    <label for="Programme code" class="col-sm-2 col-form-labelXX">Course code</label>
     <div class="col-sm-10">
       <input type="text" class="form-control" id="Programme code" >
     </div>

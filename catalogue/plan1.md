@@ -8,26 +8,30 @@ nav: "no"
 
 <p class="strapline">ACADEMIC YEAR <b>2022</b></p>
 
-<!-- Title: **BA Hons Law** -->
+Campus: **United Kingdom**
 
-Academic Plan Code: **U6ULAWBA**
+Course code: **U6ULAWBA** -- rename Course
+{:.new}
 
-UCAS Code: **M100**
+UCAS code: **M100**
 
-Programme Code: **U1234**
+<!-- Programme Code: **U1234** -- remove -->
 
 ----
 
-School(s) responsible for management of the academic programme: **Law (70%)**, **Philosophy (30%)**
-
-Programme Director: **Robin Hood**
+School(s) responsible for management of the course: **Law (70%)**, **Philosophy (30%)** -- rename Course
 {:.new}
 
-Type of Academic Plan: **Single Subject**
+Course Director: **Robin Hood** -- rename Course
+{:.new}
+
+Type of course: **Single Subject**
 
 Mode of delivery: **Full-time. In Person.**
 
 Duration: **3 years**
+
+Relevant QAA subject benchmark(s): **Law**
 
 <!-- Locations: **University Park (primary); City Hospital; Derby** -->
 
@@ -60,11 +64,8 @@ SRA: For students who began their studies before 31st December 2021 the qualifyi
 Bar Standards Board: Accredited by the Bar Standards Board for the purpose of a Qualifying Law Degree.
 
 
-Relevant QAA subject benchmark(s): **Law**
-
-
-
-## Educational aims
+## Applicant course overview (WAS Educational aims) -- remove
+{:.remove}
 
 - prepare for further training in law (academic or practical), and employment in the legal profession or for employment in the wide variety of other occupations where the intellectual and practical skills acquired during the course of study may prove useful.
 - find, analyse and criticise legal materials and resolve legal problems in both familiar and unfamiliar areas of the law, within the general development of students' knowledge and understanding
@@ -72,9 +73,10 @@ Relevant QAA subject benchmark(s): **Law**
 - develop transferable skills such as the ability to communicate effectively and to work independently and co-operatively
 - become reflective life-long learners with an appreciation of the role and value of law in society
 - acquire a knowledge and understanding of the traditional foundation subjects of English law which include the core subjects specified by the Bar Standards Board and Solicitors Regulation Authority for the academic stage of legal training
+{:.remove}
 
-
-## Programme description
+## Course overview (WAS Programme description / Student Course overview) -- rename
+{:.new}
 
 BA Law thoroughly covers the foundations of English law. Core modules examine areas including tort, contract, trusts, criminal law and public law. Our optional modules allow you to specialise in the areas of law that interest you. If you don't want to practise law as a career, you can choose optional modules from subjects outside of the school, which will expand your knowledge and career opportunities in a wide variety of sectors. We also offer the opportunity to apply in your second year to transfer to one of our four-year programmes, which include a year abroad at a partner law school in locations including Australia, Europe or the USA. Students who have participated have proved to be very attractive to employers. You will graduate with specialist knowledge and the transferable skills and confidence you need to stand out to employers as you start your career.
 
@@ -168,7 +170,10 @@ General Information
 
 ## Admission requirements
 
-|Programme requirements|AAA|
+NB. Rename Plan requirements to Course requirements
+{:.new}
+
+|Course requirements|AAA|
 |Including|Five GCSEs at grade 4 (C) or above, which must include English|
 |Excluding|General studies, critical thinking, citizenship, global perspectives and research, and thinking skills|
 |IB requirements|with 3 subjects at higher level including higher level 5 in a science subject<span class="note">don't display if empty</span>|
@@ -182,7 +187,8 @@ General Information
 
 ## Programme structure
 
-### U6ULAWBA - Qualifying Year
+### Qualifying Year -- remove plan code from all these headings
+{:.new}
 
 #### Compulsory
 
@@ -225,7 +231,7 @@ Credit Total: **80**
 Additional course choice should be minimum of 40 and a maximum of 40 credits from this group. Additional course choice - 40 credits of non-law courses to be taken.A candidate who has completed the first year of the BA Law may switch to the LLB. Such a candidate must take Foundations of Tort and all law options in their second and final years.
 
 
-### U6ULAWBA - Part I
+### Part I
 
 #### Compulsory
 
@@ -242,7 +248,7 @@ _Students must take all modules in this group_
 
 Credit Total: **90**
 
-#### U6ULAWBA - PI - Restricted - Group 1
+#### PI - Restricted - Group 1
 
 _Students must take a minimum of 0 and a maximum of 20 credits from this group_
 
@@ -287,7 +293,7 @@ To complete the necessary 120 credits students may take a Legal Research Project
 It shall be at the discretion of the Head of the School of Law to determine whether an optional course shall be provided in any yearStudents following the Q-Step pathway must take Intermediate Quantitative Methods for Social Sciences and Legal Research Project (Q-Step Pathway)
 
 
-### U6ULAWBA - Part II
+### Part II
 
 #### Compulsory
 
@@ -303,7 +309,7 @@ _Students must take all modules in this group._
 
 Credit Total: **40**
 
-#### U6ULAWBA - PII - Restricted - Group 1
+#### PII - Restricted - Group 1
 
 _Students must take a minimum of 20 and a maximum of 80 credits from this group_
 
@@ -345,7 +351,7 @@ _Students must take a minimum of 20 and a maximum of 80 credits from this group_
 {:.table .table-sm .notFullWidth}
 </div>
 
-#### U6ULAWBA - PII - Restricted - Group 3
+#### PII - Restricted - Group 3
 
 _Students may take a minimum of 0 and a maximum of 20 credits from this group_
 
@@ -356,9 +362,10 @@ _Students may take a minimum of 0 and a maximum of 20 credits from this group_
 {:.table .table-sm .notFullWidth}
 </div>
 
-#### Additional course choice
+#### Additional module choice -- rename (was course)
+{:.new}
 
-Additional course choice should be minimum of 0 and a maximum of 40 credits from this group. Students must take, in addition to the core courses, at least 70 credits of other law courses in total over the second and final years in order to complete the 280 credits of law courses which are required under the University of Nottingham Qualifications Framework.
+Additional module choice should be minimum of 0 and a maximum of 40 credits from this group. Students must take, in addition to the core courses, at least 70 credits of other law courses in total over the second and final years in order to complete the 280 credits of law courses which are required under the University of Nottingham Qualifications Framework.
 
 Up to 40 credits may be taken outside the School during the final year. Credits taken outside the school during final year must be at Level 2 or above.
 
