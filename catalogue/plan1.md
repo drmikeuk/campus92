@@ -185,7 +185,8 @@ NB. Rename Plan requirements to Course requirements
 
 
 
-## Programme structure
+## Course structure -- rename course
+{:.new}
 
 ### Qualifying Year -- remove plan code from all these headings
 {:.new}
@@ -362,7 +363,7 @@ _Students may take a minimum of 0 and a maximum of 20 credits from this group_
 {:.table .table-sm .notFullWidth}
 </div>
 
-#### Additional module choice -- rename (was course)
+#### Additional (free) module choice -- rename (was course)
 {:.new}
 
 Additional module choice should be minimum of 0 and a maximum of 40 credits from this group. Students must take, in addition to the core courses, at least 70 credits of other law courses in total over the second and final years in order to complete the 280 credits of law courses which are required under the University of Nottingham Qualifications Framework.
