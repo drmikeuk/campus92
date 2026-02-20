@@ -1,8 +1,8 @@
 ﻿id,Code,Title,Credits,Semester,Original,1stResit,2ndResit,Final,Outcome
-2,CHEM2006,Principles in Analytical Chemistry,10,Autumn UK,60,,,,
-3,CHEM2003,Core Laboratory Work A,30,Full Year UK,52,,,,
-4,CHEM2007,General Inorganic Chemistry,20,Full Year UK,57,,,,
-5,CHEM2010,Synthesis and Spectroscopy,20,Full Year UK,53,,,,
-6,CHEM2017,"Energy, Spectroscopy, and Solid State Chemistry",20,Full Year UK,61,,,,
-7,CHEM2011,Medicinal Chemistry and Molecular Biology,10,Spring UK,49,,,,
-8,PHAR2062,Intro to Python for Chemical and Pharmaceutical Sciences,10,Spring UK,74,,,,
+2,CHEM2006,Principles in Analytical Chemistry,10,Autumn UK,60,,,,Pass
+3,CHEM2003,Core Laboratory Work A,30,Full Year UK,52,,,,Pass
+4,CHEM2007,General Inorganic Chemistry,20,Full Year UK,57,,,,Pass
+5,CHEM2010,Synthesis and Spectroscopy,20,Full Year UK,53,,,,Pass
+6,CHEM2017,"Energy, Spectroscopy, and Solid State Chemistry",20,Full Year UK,61,,,,Pass
+7,CHEM2011,Medicinal Chemistry and Molecular Biology,10,Spring UK,49,,,,Pass
+8,PHAR2062,Intro to Python for Chemical and Pharmaceutical Sciences,10,Spring UK,74,,,,Pass
