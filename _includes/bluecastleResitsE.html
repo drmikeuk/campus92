@@ -1,0 +1,25 @@
+
+<table class="table table-sm table-hover">
+  <thead class="thead theadMid">
+    <tr>
+      <!--<th scope="col">Code</th>
+      <th scope="col">Title</th>-->
+      <th scope="col">Module</th>
+      <th scope="col">Reassessment opportunity</th>
+      <th scope="col">Reassessment attempt</th>      
+      <th scope="col">Element</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for module in marks %}
+    <tr>
+      <!--<td>{{ module.Code }}</td>
+      <td>{{ module.Title }}</td>-->
+      <td>{{ module.Module }}</td>
+      <td>{{ module.Resit }} {% if module.Supp %} <i class="fas fa-star"></i>{% endif %}</td> 
+      <td>{{ module.Attempt }}</td>  
+      <td>{{ module.Element }}</td>  
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
