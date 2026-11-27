@@ -1,4 +1,4 @@
-﻿id,Code,Title,Module,Element,Resit,Attempt,Supp
-1,PHAR2018,Cardiovascular System,PHAR2018 - Cardiovascular System,Exam 1,Exam during summer,1st resit,
-2,PHAR2018,Cardiovascular System,PHAR2018 - Cardiovascular System,Coursework 1,Coursework during autumn,2nd resit,
-3,PHAR2019,Renal and Endocrine Diseases,PHAR2019 - Renal and Endocrine Diseases,Exam 1;<br>Coursework 1,Exam during summer,1st resit,Y
+﻿id,Code,Title,Module,Element,Resit,Attempt,Supp,Notes
+1,PHAR2018,Cardiovascular System,PHAR2018 - Cardiovascular System,Exam 1,Exam 1 during summer 2018,1st resit,,Not in attendance
+2,PHAR2018,Cardiovascular System,PHAR2018 - Cardiovascular System,Coursework 1,Coursework 1 &mdash; check submission requirements,2nd resit,,Not in attendance
+3,PHAR2019,Renal and Endocrine Diseases,PHAR2019 - Renal and Endocrine Diseases,Exam 1;<br>Coursework 1,Exam 1 during summer 2017,1st resit,Y,
